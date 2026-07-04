@@ -7,3 +7,4 @@
 | 2026-07-04 | anomalyco/models.dev | issue | https://github.com/anomalyco/models.dev/issues/3025 | open |
 | 2026-07-04 | Portkey-AI/gateway | discussion | https://github.com/Portkey-AI/gateway/discussions/1720 | open |
 | 2026-07-04 | langfuse/langfuse | discussion | https://github.com/orgs/langfuse/discussions/14784 | open |
+| 2026-07-04 | Helicone/helicone | PR | https://github.com/Helicone/helicone/pull/5709 | open |
