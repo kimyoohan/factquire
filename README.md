@@ -1,6 +1,28 @@
-# ModelWire
+# FactQuire
 
-ModelWire is a machine-readable, source-verified facts feed for commercial LLM APIs. The MVP tracks model identifiers, pricing, lifecycle status, token limits, modalities, and primary-source evidence.
+FactQuire (factquire.com) is a machine-readable, source-verified facts feed for commercial LLM APIs. It tracks model identifiers, pricing, lifecycle status, token limits, modalities, and primary-source evidence.
+
+## Publish (the everyday command)
+
+```bash
+py scripts/publish.py                 # build → detect changes → commit+push → wait deploy → ping only changed URLs
+py scripts/publish.py -m "메시지"      # custom commit message
+py scripts/publish.py --dry-run       # preview what would be published
+py scripts/publish.py --full-ping     # ping entire sitemap after deploy
+```
+
+After editing `data/facts.json` (adding models, price changes, etc.), run `py scripts/publish.py` once. It regenerates the site, publishes only what changed, verifies the deploy landed, and notifies search engines (IndexNow) of just the changed URLs.
+
+## IndexNow (search engine ping, standalone)
+
+```bash
+py scripts/indexnow.py                # submit all sitemap URLs
+py scripts/indexnow.py --new          # submit only never-submitted URLs
+py scripts/indexnow.py --provider groq  # submit one provider's model pages
+py scripts/indexnow.py <url> [url...] # submit specific URLs
+py scripts/indexnow.py --dry-run      # preview without sending
+py scripts/indexnow.py --log          # show submission history (ops/indexnow-log.jsonl)
+```
 
 ## Files
 
@@ -51,6 +73,6 @@ Before editing `data/facts.json` during a weekly refresh, archive the previous f
 
 ## Sourcing Policy
 
-ModelWire uses primary sources only: official provider docs, official pricing pages, official changelogs, and official blogs. Every source record includes the source URL, access timestamp, covered fields, and a verbatim quote supporting the values. Values that could not be confirmed from a collected primary source remain `null` and are recorded in `gaps.md`.
+FactQuire uses primary sources only: official provider docs, official pricing pages, official changelogs, and official blogs. Every source record includes the source URL, access timestamp, covered fields, and a verbatim quote supporting the values. Values that could not be confirmed from a collected primary source remain `null` and are recorded in `gaps.md`.
 
 Prices are normalized to USD per 1M tokens. When providers publish multiple tiers for the same model, notes identify which cited tier was recorded.

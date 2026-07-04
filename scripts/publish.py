@@ -105,7 +105,11 @@ def wait_deploy(probe_url: str, expect_local: Path, timeout_s: int = 300) -> boo
     while time.time() < deadline:
         attempt += 1
         try:
-            req = urllib.request.Request(probe_url, headers={"Cache-Control": "no-cache"})
+            # Cloudflare 403s the default Python-urllib User-Agent
+            req = urllib.request.Request(
+                probe_url,
+                headers={"Cache-Control": "no-cache", "User-Agent": "FactQuire-publish/1.0"},
+            )
             with urllib.request.urlopen(req, timeout=20) as resp:
                 live = resp.read()
             if live == expected:
