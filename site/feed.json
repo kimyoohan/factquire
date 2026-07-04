@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T06:03:46Z",
+  "generated_at": "2026-07-04T06:10:49Z",
   "count": 40,
   "version": "0.1",
   "models": [
@@ -1306,14 +1306,14 @@
       "sources": [
         {
           "url": "https://docs.x.ai/developers/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok",
             "pricing.cached_input_per_mtok",
             "context_window_tokens"
           ],
-          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k $1.00 $0.20 $2.00 grok-4.3 1M $1.25 $0.20 $2.50 grok-4.20-multi-agent-0309 1M $1.25 $0.20 $2.50 grok-4.20-0309-reasoning 1M $1.25 $0.20 $2.50 grok-4.20-0309-non-reasoning 1M $1.25 $0.20 $2.50"
+          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k$1.00$0.20$2.00 grok-4.3 1M$1.25$0.20$2.50 grok-4.20-multi-agent-0309 1M$1.25$0.20$2.50 grok-4.20-0309-reasoning 1M$1.25$0.20$2.50 grok-4.20-0309-non-reasoning 1M$1.25$0.20$2.50"
         },
         {
           "url": "https://docs.x.ai/developers/models",
@@ -1324,7 +1324,7 @@
           "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1355,14 +1355,14 @@
       "sources": [
         {
           "url": "https://docs.x.ai/developers/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok",
             "pricing.cached_input_per_mtok",
             "context_window_tokens"
           ],
-          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k $1.00 $0.20 $2.00 grok-4.3 1M $1.25 $0.20 $2.50 grok-4.20-multi-agent-0309 1M $1.25 $0.20 $2.50 grok-4.20-0309-reasoning 1M $1.25 $0.20 $2.50 grok-4.20-0309-non-reasoning 1M $1.25 $0.20 $2.50"
+          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k$1.00$0.20$2.00 grok-4.3 1M$1.25$0.20$2.50 grok-4.20-multi-agent-0309 1M$1.25$0.20$2.50 grok-4.20-0309-reasoning 1M$1.25$0.20$2.50 grok-4.20-0309-non-reasoning 1M$1.25$0.20$2.50"
         },
         {
           "url": "https://docs.x.ai/developers/models",
@@ -1373,7 +1373,7 @@
           "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1404,14 +1404,14 @@
       "sources": [
         {
           "url": "https://docs.x.ai/developers/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok",
             "pricing.cached_input_per_mtok",
             "context_window_tokens"
           ],
-          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k $1.00 $0.20 $2.00 grok-4.3 1M $1.25 $0.20 $2.50 grok-4.20-multi-agent-0309 1M $1.25 $0.20 $2.50 grok-4.20-0309-reasoning 1M $1.25 $0.20 $2.50 grok-4.20-0309-non-reasoning 1M $1.25 $0.20 $2.50"
+          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k$1.00$0.20$2.00 grok-4.3 1M$1.25$0.20$2.50 grok-4.20-multi-agent-0309 1M$1.25$0.20$2.50 grok-4.20-0309-reasoning 1M$1.25$0.20$2.50 grok-4.20-0309-non-reasoning 1M$1.25$0.20$2.50"
         },
         {
           "url": "https://docs.x.ai/developers/models",
@@ -1422,7 +1422,7 @@
           "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1453,14 +1453,14 @@
       "sources": [
         {
           "url": "https://docs.x.ai/developers/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok",
             "pricing.cached_input_per_mtok",
             "context_window_tokens"
           ],
-          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k $1.00 $0.20 $2.00 grok-4.3 1M $1.25 $0.20 $2.50 grok-4.20-multi-agent-0309 1M $1.25 $0.20 $2.50 grok-4.20-0309-reasoning 1M $1.25 $0.20 $2.50 grok-4.20-0309-non-reasoning 1M $1.25 $0.20 $2.50"
+          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k$1.00$0.20$2.00 grok-4.3 1M$1.25$0.20$2.50 grok-4.20-multi-agent-0309 1M$1.25$0.20$2.50 grok-4.20-0309-reasoning 1M$1.25$0.20$2.50 grok-4.20-0309-non-reasoning 1M$1.25$0.20$2.50"
         },
         {
           "url": "https://docs.x.ai/developers/models",
@@ -1471,7 +1471,7 @@
           "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1502,14 +1502,14 @@
       "sources": [
         {
           "url": "https://docs.x.ai/developers/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok",
             "pricing.cached_input_per_mtok",
             "context_window_tokens"
           ],
-          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k $1.00 $0.20 $2.00 grok-4.3 1M $1.25 $0.20 $2.50 grok-4.20-multi-agent-0309 1M $1.25 $0.20 $2.50 grok-4.20-0309-reasoning 1M $1.25 $0.20 $2.50 grok-4.20-0309-non-reasoning 1M $1.25 $0.20 $2.50"
+          "quote": "Chat API Prices per 1M tokens Model Context Input Cached input Output grok-build-0.1 256k$1.00$0.20$2.00 grok-4.3 1M$1.25$0.20$2.50 grok-4.20-multi-agent-0309 1M$1.25$0.20$2.50 grok-4.20-0309-reasoning 1M$1.25$0.20$2.50 grok-4.20-0309-non-reasoning 1M$1.25$0.20$2.50"
         },
         {
           "url": "https://docs.x.ai/developers/models",
@@ -1520,7 +1520,7 @@
           "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1653,7 +1653,7 @@
       "sources": [
         {
           "url": "https://cohere.com/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok"
@@ -1662,7 +1662,7 @@
         },
         {
           "url": "https://docs.cohere.com/docs/models",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "model_id",
             "status",
@@ -1670,11 +1670,11 @@
             "context_window_tokens",
             "max_output_tokens"
           ],
-          "quote": "`command-r-plus-08-2024 `Live `command-r-plus-08-2024` is an update of the Command R+ model, delivered in August 2024. Text 128k 4k"
+          "quote": "`command-r-plus-08-2024 `Live `command-r-plus-08-2024` is an update of the Command R+ model, delivered in August 2024. Find more information here Text 128k 4k"
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
-      "notes": null
+      "verified_at": "2026-07-04T06:08:18Z",
+      "notes": "Listed as legacy on Cohere pricing page"
     },
     {
       "provider": "cohere",
@@ -1682,7 +1682,7 @@
       "display_name": "Command R 03-2024",
       "status": "deprecated",
       "release_date": null,
-      "deprecation_date": null,
+      "deprecation_date": "2025-09-15",
       "retirement_date": null,
       "pricing": {
         "input_per_mtok": 0.5,
@@ -1704,7 +1704,7 @@
       "sources": [
         {
           "url": "https://cohere.com/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok"
@@ -1713,18 +1713,19 @@
         },
         {
           "url": "https://docs.cohere.com/docs/models",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "model_id",
             "status",
             "modalities",
             "context_window_tokens",
-            "max_output_tokens"
+            "max_output_tokens",
+            "deprecation_date"
           ],
-          "quote": "`command-r-03-2024 `Deprecated Sept 15, 2025 Command R is an instruction-following conversational model ... Text 128k 4k"
+          "quote": "`command-r-03-2024 `Deprecated Sept 15, 2025 Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.Text 128k 4k"
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1733,7 +1734,7 @@
       "display_name": "Command R+ 04-2024",
       "status": "deprecated",
       "release_date": null,
-      "deprecation_date": null,
+      "deprecation_date": "2025-09-15",
       "retirement_date": null,
       "pricing": {
         "input_per_mtok": 3.0,
@@ -1755,7 +1756,7 @@
       "sources": [
         {
           "url": "https://cohere.com/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok"
@@ -1764,18 +1765,19 @@
         },
         {
           "url": "https://docs.cohere.com/docs/models",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "model_id",
             "status",
             "modalities",
             "context_window_tokens",
-            "max_output_tokens"
+            "max_output_tokens",
+            "deprecation_date"
           ],
-          "quote": "`command-r-plus-04-2024 `Deprecated Sept 15, 2025 Command R+ is an instruction-following conversational model ... Text 128k 4k"
+          "quote": "`command-r-plus-04-2024 `Deprecated Sept 15, 2025 Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It is best suited for complex RAG workflows and multi-step tool use.Text 128k 4k"
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1784,7 +1786,7 @@
       "display_name": "Command",
       "status": "deprecated",
       "release_date": null,
-      "deprecation_date": null,
+      "deprecation_date": "2025-09-15",
       "retirement_date": null,
       "pricing": {
         "input_per_mtok": 1.0,
@@ -1806,7 +1808,7 @@
       "sources": [
         {
           "url": "https://cohere.com/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok"
@@ -1815,18 +1817,19 @@
         },
         {
           "url": "https://docs.cohere.com/docs/models",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "model_id",
             "status",
             "modalities",
             "context_window_tokens",
-            "max_output_tokens"
+            "max_output_tokens",
+            "deprecation_date"
           ],
-          "quote": "`command `Deprecated Sept 15, 2025 An instruction-following conversational model ... Text 4k 4k"
+          "quote": "`command `Deprecated Sept 15, 2025 An instruction-following conversational model that performs language tasks with high quality, more reliably and with a longer context than our base generative models.Text 4k 4k"
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
@@ -1835,7 +1838,7 @@
       "display_name": "Command Light",
       "status": "deprecated",
       "release_date": null,
-      "deprecation_date": null,
+      "deprecation_date": "2025-09-15",
       "retirement_date": null,
       "pricing": {
         "input_per_mtok": 0.3,
@@ -1857,7 +1860,7 @@
       "sources": [
         {
           "url": "https://cohere.com/pricing",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "pricing.input_per_mtok",
             "pricing.output_per_mtok"
@@ -1866,18 +1869,19 @@
         },
         {
           "url": "https://docs.cohere.com/docs/models",
-          "accessed_at": "2026-07-04T05:55:32Z",
+          "accessed_at": "2026-07-04T06:08:18Z",
           "fields": [
             "model_id",
             "status",
             "modalities",
             "context_window_tokens",
-            "max_output_tokens"
+            "max_output_tokens",
+            "deprecation_date"
           ],
           "quote": "`command-light `Deprecated Sept 15, 2025 A smaller, faster version of `command`. Almost as capable, but a lot faster.Text 4k 4k"
         }
       ],
-      "verified_at": "2026-07-04T05:55:32Z",
+      "verified_at": "2026-07-04T06:08:18Z",
       "notes": null
     },
     {
