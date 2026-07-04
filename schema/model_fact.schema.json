@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://modelwire.local/schema/model_fact.schema.json",
+  "title": "ModelWire model fact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "provider",
+    "model_id",
+    "display_name",
+    "status",
+    "release_date",
+    "deprecation_date",
+    "retirement_date",
+    "pricing",
+    "context_window_tokens",
+    "max_output_tokens",
+    "modalities",
+    "knowledge_cutoff",
+    "sources",
+    "verified_at",
+    "notes"
+  ],
+  "properties": {
+    "provider": {
+      "type": "string",
+      "minLength": 1,
+      "examples": [
+        "openai",
+        "anthropic",
+        "google",
+        "mistral",
+        "cohere",
+        "xai",
+        "deepseek",
+        "amazon",
+        "meta"
+      ]
+    },
+    "model_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "display_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "ga",
+        "preview",
+        "deprecated",
+        "retired"
+      ]
+    },
+    "release_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "deprecation_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "retirement_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "pricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "input_per_mtok",
+        "output_per_mtok",
+        "cached_input_per_mtok",
+        "batch_discount_pct"
+      ],
+      "properties": {
+        "input_per_mtok": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "output_per_mtok": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "cached_input_per_mtok": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "batch_discount_pct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "context_window_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "max_output_tokens": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "modalities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "input",
+        "output"
+      ],
+      "properties": {
+        "input": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "output": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ]
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "knowledge_cutoff": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "url",
+          "accessed_at",
+          "fields",
+          "quote"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "minLength": 1
+          },
+          "accessed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fields": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "verified_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
