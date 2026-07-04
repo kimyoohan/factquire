@@ -4970,5 +4970,45 @@
     ],
     "verified_at": "2026-07-04T08:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
+  },
+  {
+    "provider": "perplexity",
+    "model_id": "perplexity/sonar",
+    "display_name": "Sonar",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": 0.25,
+      "output_per_mtok": 2.5,
+      "cached_input_per_mtok": 0.0625,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": null,
+    "max_output_tokens": null,
+    "modalities": {
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.perplexity.ai/docs/agent-api/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "pricing.input_per_mtok",
+          "pricing.output_per_mtok",
+          "pricing.cached_input_per_mtok"
+        ],
+        "quote": "Perplexity Sonar \u2014 Perplexity\u2019s grounded search model. Model Input ($/1M)Output ($/1M)Cache ($/1M) `perplexity/sonar` 0.25 2.50 0.0625"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Perplexity Agent API model table; context window not stated on collected page."
   }
 ]

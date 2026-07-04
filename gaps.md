@@ -768,3 +768,10 @@ Null fields below were left unset because the collected primary source snippets 
 - together/qwen3.6-plus: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
 - together/qwen3.6-plus: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
 - together/qwen3.6-plus: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
+- perplexity/perplexity/sonar: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/agent-api/models
+- perplexity/perplexity/sonar: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/agent-api/models
+- perplexity/perplexity/sonar: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/agent-api/models
+- perplexity/perplexity/sonar: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/agent-api/models
+- perplexity/perplexity/sonar: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/agent-api/models
+- perplexity/perplexity/sonar: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/agent-api/models
+- perplexity/perplexity/sonar: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/agent-api/models

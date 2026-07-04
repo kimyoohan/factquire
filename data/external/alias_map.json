@@ -3258,6 +3258,32 @@
           "model": "qwen3.6-plus"
         }
       ]
+    },
+    {
+      "provider": "perplexity",
+      "model_id": "perplexity/sonar",
+      "litellm": [
+        "perplexity/sonar",
+        "perplexity/perplexity/sonar"
+      ],
+      "modelsdev": [
+        {
+          "provider": "vercel",
+          "model": "perplexity/sonar"
+        },
+        {
+          "provider": "perplexity-agent",
+          "model": "perplexity/sonar"
+        },
+        {
+          "provider": "kilo",
+          "model": "perplexity/sonar"
+        },
+        {
+          "provider": "openrouter",
+          "model": "perplexity/sonar"
+        }
+      ]
     }
   ]
 }
