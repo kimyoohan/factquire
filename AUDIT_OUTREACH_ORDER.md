@@ -49,6 +49,19 @@ in the reviewer's hands.
   correction (https://factquire.com/corrections.html) — credibility through symmetry.
 - Mention FactQuire once with feed.json or the relevant model permalink. Never more.
 
+### 3b. Second-opinion audit before send (calibrated)
+After drafting a PR/issue but BEFORE sending, run a Codex second-opinion pass over the
+draft + diff with these calibration rules baked into the prompt (user directive
+2026-07-04 — forced audits invent findings):
+- "No findings" is a fully successful outcome; do not reward finding things.
+- Every finding must carry a reproducible check (command/URL/arithmetic). No check → drop.
+- Speculation and style are out of scope; UNCERTAIN must be labeled, not reported as fact.
+Only act on CONFIRMED findings. Template: see E:\0.세계1등기업\review\REVIEW_ORDER.md.
+**Positive confirmation is mandatory (fail-closed):** the audit must produce a written
+report even when clean ("verified clean"). A missing report means the audit FAILED —
+rerun it; never treat silence as a pass. Do not send until the report file exists and
+you have read its verdict.
+
 ### 4. Record
 - Append every send to ops/outreach/log.md: date | repo | type(issue/PR) | url | status.
 - Update the 완료 section of E:\0.세계1등기업\USER_ACTIONS.md with the URLs.
