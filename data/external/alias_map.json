@@ -2431,6 +2431,833 @@
           "model": "openai-gpt-oss-20b"
         }
       ]
+    },
+    {
+      "provider": "together",
+      "model_id": "deepseek-v4-pro",
+      "litellm": [
+        "deepseek-v4-pro"
+      ],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "cortecs",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "auriko",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "vivgrid",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "digitalocean",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "venice",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "kenari",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "azure",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "opencode",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "frogbot",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "crof",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "deepseek",
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "provider": "wafer.ai",
+          "model": "deepseek-v4-pro"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "minimax-m3",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "cortecs",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "kenari",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "opencode",
+          "model": "minimax-m3"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "kimi-k2.7-code",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "moonshotai",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "cortecs",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "moonshotai-cn",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "opencode",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "crof",
+          "model": "kimi-k2.7-code"
+        },
+        {
+          "provider": "github-copilot",
+          "model": "kimi-k2.7-code"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "glm-5.2",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "zhipuai",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "cortecs",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "neuralwatt",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "zai",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "zai-coding-plan",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "opencode",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "scaleway",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "crof",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "glm-5.2"
+        },
+        {
+          "provider": "zhipuai-coding-plan",
+          "model": "glm-5.2"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "lfm2-24b-a2b",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "together",
+      "model_id": "gemma-4-31b",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "cerebras",
+          "model": "gemma-4-31b"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "nvidia-nemotron-3-ultra",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "together",
+      "model_id": "qwen3.7-plus",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "alibaba-coding-plan-cn",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "alibaba-coding-plan",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "alibaba",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "qwen3.7-plus"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "qwen3.7-plus"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "kimi-k2.6",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "moonshotai",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "cortecs",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "auriko",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "digitalocean",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "moonshotai-cn",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "azure",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "opencode",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "crof",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "azure-cognitive-services",
+          "model": "kimi-k2.6"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "kimi-k2.6"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "qwen3.7-max",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-coding-plan-cn",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-coding-plan",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "wafer.ai",
+          "model": "qwen3.7-max"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "gpt-oss-120b",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "qiniu-ai",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "regolo-ai",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "privatemode-ai",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "cortecs",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "tinfoil",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "kenari",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "helicone",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "cerebras",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "dinference",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "scaleway",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "ovhcloud",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "frogbot",
+          "model": "gpt-oss-120b"
+        },
+        {
+          "provider": "neon",
+          "model": "gpt-oss-120b"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "qwen3.5-397b-a17b",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "qiniu-ai",
+          "model": "qwen3.5-397b-a17b"
+        },
+        {
+          "provider": "alibaba-cn",
+          "model": "qwen3.5-397b-a17b"
+        },
+        {
+          "provider": "cortecs",
+          "model": "qwen3.5-397b-a17b"
+        },
+        {
+          "provider": "digitalocean",
+          "model": "qwen3.5-397b-a17b"
+        },
+        {
+          "provider": "scaleway",
+          "model": "qwen3.5-397b-a17b"
+        },
+        {
+          "provider": "ovhcloud",
+          "model": "qwen3.5-397b-a17b"
+        },
+        {
+          "provider": "alibaba",
+          "model": "qwen3.5-397b-a17b"
+        },
+        {
+          "provider": "crof",
+          "model": "qwen3.5-397b-a17b"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "qwen3.5-9b",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "regolo-ai",
+          "model": "qwen3.5-9b"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "qwen3.5-9b"
+        },
+        {
+          "provider": "ovhcloud",
+          "model": "qwen3.5-9b"
+        },
+        {
+          "provider": "crof",
+          "model": "qwen3.5-9b"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "gemma-4-31b-it-pearl",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "together",
+      "model_id": "cogito-v2.1-671b",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "together",
+      "model_id": "rnj-1-instruct",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "together",
+      "model_id": "llama-3.3-70b",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "venice",
+          "model": "llama-3.3-70b"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "gemma-3n-e4b-instruct",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "together",
+      "model_id": "gpt-oss-20b",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "qiniu-ai",
+          "model": "gpt-oss-20b"
+        },
+        {
+          "provider": "regolo-ai",
+          "model": "gpt-oss-20b"
+        },
+        {
+          "provider": "kenari",
+          "model": "gpt-oss-20b"
+        },
+        {
+          "provider": "helicone",
+          "model": "gpt-oss-20b"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "gpt-oss-20b"
+        },
+        {
+          "provider": "ovhcloud",
+          "model": "gpt-oss-20b"
+        },
+        {
+          "provider": "frogbot",
+          "model": "gpt-oss-20b"
+        },
+        {
+          "provider": "neon",
+          "model": "gpt-oss-20b"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "qwen3-235b-a22b-fp8-throughput",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "together",
+      "model_id": "minimax-m2.5",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "regolo-ai",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "cortecs",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "digitalocean",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "tencent-coding-plan",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "opencode",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "dinference",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "crof",
+          "model": "minimax-m2.5"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "glm-5.1",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "302ai",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "zhipuai",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "cortecs",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "auriko",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "zai",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "zai-coding-plan",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "opencode",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "dinference",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "crof",
+          "model": "glm-5.1"
+        },
+        {
+          "provider": "zhipuai-coding-plan",
+          "model": "glm-5.1"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "minimax-m2.7",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "cortecs",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "opencode",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "minimax-m2.7"
+        }
+      ]
+    },
+    {
+      "provider": "together",
+      "model_id": "qwen3.6-plus",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "alibaba-coding-plan-cn",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "opencode",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "alibaba-coding-plan",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "alibaba",
+          "model": "qwen3.6-plus"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "qwen3.6-plus"
+        }
+      ]
     }
   ]
 }
