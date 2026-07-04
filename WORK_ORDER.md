@@ -1,80 +1,43 @@
-# WORK_ORDER — ModelWire MVP (verified facts feed for commercial LLM APIs)
+# WORK_ORDER — Phase 2: changelog infrastructure (2026-07-04)
 
-You are building the MVP of ModelWire: a machine-readable, source-verified facts feed
-about commercial LLM APIs. Trust is the entire product. Never guess a value.
+Phase 1 (schema/data/validator/site) is DONE and live at https://kimyoohan.github.io/modelwire/.
+This phase builds the change-tracking machinery. The changelog IS the future product
+("what changed this week") — treat it with the same rigor as facts.json.
+Do NOT re-collect data from the web in this phase. No changes to values in data/facts.json.
 
-## Deliverables (all inside this directory)
+## Deliverables
 
-### 1. `schema/model_fact.schema.json`
-JSON Schema (draft 2020-12) for one model entry. Required structure:
+### 1. `scripts/diff_facts.py`
+`py scripts/diff_facts.py <old_facts.json> <new_facts.json>` → prints a JSON array of entries:
+- `{"type":"added","provider":...,"model_id":...}` — model present only in new
+- `{"type":"removed","provider":...,"model_id":...}` — present only in old (should be rare; refresh policy is to mark retired, not delete)
+- `{"type":"changed","provider":...,"model_id":...,"field":"pricing.input_per_mtok","old":...,"new":...}`
+  — one entry per changed leaf field. Ignore fields: `sources`, `verified_at`, `notes` (evidence
+  refreshes are not news). Everything else (pricing.*, status, dates, context/output limits,
+  modalities, knowledge_cutoff, display_name) IS news.
 
-- `provider` (string, e.g. "openai", "anthropic", "google", "mistral", "cohere", "xai", "deepseek", "amazon", "meta")
-- `model_id` (string, the exact API identifier, e.g. "claude-sonnet-5")
-- `display_name` (string)
-- `status` (enum: "ga" | "preview" | "deprecated" | "retired")
-- `release_date` (ISO date or null)
-- `deprecation_date`, `retirement_date` (ISO date or null)
-- `pricing` (object, USD per 1M tokens):
-  - `input_per_mtok`, `output_per_mtok` (number or null)
-  - `cached_input_per_mtok` (number or null)
-  - `batch_discount_pct` (number or null)
-- `context_window_tokens` (integer or null)
-- `max_output_tokens` (integer or null)
-- `modalities` (object: `input` array, `output` array; values from "text","image","audio","video")
-- `knowledge_cutoff` (string or null)
-- `sources` (array, min 1): each `{ "url": string, "accessed_at": ISO datetime, "fields": [names covered by this source], "quote": string — VERBATIM text copied from the page that supports the values }`
-- `verified_at` (ISO datetime)
-- `notes` (string or null)
+### 2. `data/changelog.json`
+`{"releases":[{"date":"YYYY-MM-DD","version":"0.1","summary":"...","entries":[...]}]}`
+Seed with one release: date 2026-07-04, version 0.1, summary "Initial dataset: 40 models across
+7 providers", entries = one "added" entry per current model in data/facts.json (generate, don't hand-write).
 
-### 2. `data/facts.json`
-Array of entries validating against the schema.
+### 3. `site/changelog.html`
+Renders changelog.json (fetched relatively, same pattern as app.js): newest release first,
+human-readable lines like "openai/gpt-5.5 — input price $5.00 → $4.50". Add nav links between
+index.html / changelog.html / about.html (all three pages).
+`scripts/build_site.py` must now also copy data/changelog.json → site/changelog.json.
 
-- **≥ 40 models across ≥ 6 providers.** Include at minimum: OpenAI, Anthropic, Google (Gemini API), Mistral, DeepSeek, xAI. Add Cohere and Amazon Bedrock (Nova) if time permits.
-- Current-generation and still-purchasable previous-generation models. Skip fine-tune-only SKUs.
-- **PRIMARY SOURCES ONLY**: official provider docs, pricing pages, changelogs, official blogs.
-  Forbidden: Wikipedia, artificialanalysis.ai, openrouter, news articles, any third-party aggregator.
-- A field you cannot confirm from a primary source stays `null` and gets a line in `gaps.md`
-  (model, field, where you looked). Guessing = automatic FAIL.
-- Every numeric fact must be covered by at least one source whose `quote` contains that number
-  (or the number in another unit, e.g. per-1K pricing — convert and note the conversion in `notes`).
+### 4. `tests/test_diff_facts.py`
+Synthetic fixtures (two small facts arrays inline or in tests/fixtures/): cover added, removed,
+one pricing change, one status change, and confirms `sources`/`verified_at` churn produces NO entry.
+Runnable with `py -m pytest tests/` or plain `py tests/test_diff_facts.py` (your choice, document it).
 
-### 3. `scripts/validate.py`
-Python 3, stdlib + `jsonschema` only (pip install allowed). Checks:
-- facts.json validates against the schema
-- ≥ 40 entries, ≥ 6 distinct providers
-- every entry has ≥ 1 source; every source has non-empty url, accessed_at, quote
-- no duplicate (provider, model_id)
-- every non-null pricing/context field is listed in some source's `fields`
-Exit 0 on pass, non-zero with a readable report on fail.
+### 5. `data/archive/` + docs
+Create `data/archive/.gitkeep`. Document in README: weekly refresh archives the previous
+facts.json as `data/archive/facts-<date>.json` before editing (UPDATE_ORDER.md relies on this).
 
-### 4. `site/`
-Static site, no framework, no build step (plain HTML + one JS file + one CSS file):
-- `site/index.html` — sortable/filterable table of all models (filter by provider and status,
-  sort by price). Load data from `site/feed.json`.
-- `site/feed.json` — copy of data/facts.json plus `{ "generated_at": ..., "count": ..., "version": "0.1" }` wrapper.
-- `site/about.html` — one page: what this is, sourcing policy (primary sources only, verbatim
-  quotes, corrections published), how to consume the feed programmatically.
-- `netlify.toml` at repo root publishing `site/`.
-- `scripts/build_site.py` — regenerates site/feed.json from data/facts.json.
-- Design: clean, dense, readable. No AI chat features. English only.
-
-### 5. `gaps.md` and `README.md`
-README: what ModelWire is, how to run validate/build, sourcing policy.
-
-## Definition of done (ALL must hold)
-1. `python scripts/validate.py` exits 0.
-2. `data/facts.json` has ≥ 40 models, ≥ 6 providers, zero schema violations.
-3. Opening `site/index.html` in a browser shows the full table; provider filter and price sort work.
-4. Spot-check contract — these will be independently re-verified by a reviewer against the live
-   official pages, so they must match reality at your collection time:
-   - Every OpenAI and Anthropic entry's `input_per_mtok`/`output_per_mtok` matches the official
-     pricing page exactly.
-   - Every `deprecation_date`/`retirement_date` you set appears verbatim in the cited source quote.
-   - At least 3 providers have ≥ 5 models each.
-5. `git log` shows incremental commits (init → schema → data → validator → site).
-
-## Rules
-- Work autonomously until the Definition of done is met. Do not stop to ask questions.
-- Commit as you go with meaningful messages.
-- USD only. Token prices normalized to per-1M tokens.
-- Record accessed_at honestly (actual fetch time, UTC).
+## Definition of done
+1. Tests pass; `py scripts/validate.py` still exits 0; `py scripts/build_site.py` regenerates site/ including changelog.json.
+2. site/changelog.html shows the v0.1 release with 40 "added" lines; nav links work from all three pages.
+3. data/facts.json byte-identical except nothing (no edits allowed).
+4. Incremental commits. Do not push.
