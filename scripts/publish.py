@@ -96,14 +96,32 @@ def git_publish(message: str) -> bool:
     return True
 
 
-def wait_deploy(probe_url: str, expect_local: Path, timeout_s: int = 300) -> bool:
+def rerun_failed_pages_run():
+    """GitHub Pages deploys fail transiently; rerun the latest run if it failed."""
+    r = run(["gh", "run", "list", "--limit", "1", "--json", "databaseId,conclusion"])
+    try:
+        runs = json.loads(r.stdout)
+        if runs and runs[0].get("conclusion") == "failure":
+            run_id = str(runs[0]["databaseId"])
+            print(f"  Pages run {run_id} failed (transient) — rerunning...")
+            run(["gh", "run", "rerun", run_id])
+            return True
+    except (json.JSONDecodeError, KeyError, IndexError):
+        pass
+    return False
+
+
+def wait_deploy(probe_url: str, expect_local: Path, timeout_s: int = 420) -> bool:
     """Poll live URL until it matches the local file (deploy landed)."""
     step("4/5 Wait for GitHub Pages deploy")
     expected = expect_local.read_bytes()
     deadline = time.time() + timeout_s
     attempt = 0
+    rerun_done = False
     while time.time() < deadline:
         attempt += 1
+        if attempt > 4 and not rerun_done:
+            rerun_done = rerun_failed_pages_run()
         try:
             # Cloudflare 403s the default Python-urllib User-Agent
             req = urllib.request.Request(
@@ -126,16 +144,20 @@ def wait_deploy(probe_url: str, expect_local: Path, timeout_s: int = 300) -> boo
 def ping_indexnow(urls: list[str] | None):
     """urls=None → full sitemap ping via indexnow.py; else ping the given list."""
     step("5/5 IndexNow ping")
-    cmd = [sys.executable, str(ROOT / "scripts" / "indexnow.py")]
-    if urls is not None:
-        if not urls:
-            print("No page URLs changed — skipping ping.")
-            return
-        cmd += urls
-    r = run(cmd)
-    print((r.stdout + r.stderr).strip())
-    if r.returncode != 0:
-        print("WARNING: IndexNow ping failed. Retry:  py scripts/indexnow.py --new")
+    script = str(ROOT / "scripts" / "indexnow.py")
+    if urls is not None and urls:
+        r = run([sys.executable, script] + urls)
+        print((r.stdout + r.stderr).strip())
+        if r.returncode != 0:
+            print("WARNING: IndexNow ping failed. Retry:  py scripts/indexnow.py --new")
+    elif urls is None:
+        r = run([sys.executable, script])
+        print((r.stdout + r.stderr).strip())
+    # Catch pages committed before this run (e.g. by a Codex task): never-submitted URLs
+    r = run([sys.executable, script, "--new"])
+    out = (r.stdout + r.stderr).strip()
+    if "Nothing new" not in out:
+        print(out)
 
 
 def main():
