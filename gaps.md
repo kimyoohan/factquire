@@ -320,3 +320,21 @@ Null fields below were left unset because the collected primary source snippets 
 - alibaba/qwen3-max-2026-01-23: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3-max-2026-01-23: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3-max-2026-01-23: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- moonshot/kimi-k2.7-code: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
+- moonshot/kimi-k2.7-code: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
+- moonshot/kimi-k2.7-code: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
+- moonshot/kimi-k2.7-code: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
+- moonshot/kimi-k2.7-code: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
+- moonshot/kimi-k2.7-code: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
+- moonshot/kimi-k2.6: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k26
+- moonshot/kimi-k2.6: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k26
+- moonshot/kimi-k2.6: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k26
+- moonshot/kimi-k2.6: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k26
+- moonshot/kimi-k2.6: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k26
+- moonshot/kimi-k2.6: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k26
+- moonshot/kimi-k2.5: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k25
+- moonshot/kimi-k2.5: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k25
+- moonshot/kimi-k2.5: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k25
+- moonshot/kimi-k2.5: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k25
+- moonshot/kimi-k2.5: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k25
+- moonshot/kimi-k2.5: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k25

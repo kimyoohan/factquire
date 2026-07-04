@@ -2427,5 +2427,158 @@
     ],
     "verified_at": "2026-07-04T08:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=32K tier recorded; higher tiers noted in quote."
+  },
+  {
+    "provider": "moonshot",
+    "model_id": "kimi-k2.7-code",
+    "display_name": "Kimi K2.7 Code",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": 0.95,
+      "output_per_mtok": 4.0,
+      "cached_input_per_mtok": 0.19,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 256000,
+    "max_output_tokens": null,
+    "modalities": {
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://platform.kimi.ai/",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "pricing.input_per_mtok",
+          "pricing.output_per_mtok",
+          "pricing.cached_input_per_mtok"
+        ],
+        "quote": "K2.7 Code Kimi K2.7 Code ... Cache Hit $0.19 / MTok Input $0.95 / MTok Output $4.00 / MTok"
+      },
+      {
+        "url": "https://platform.kimi.ai/docs/pricing/chat-k27-code",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "modalities",
+          "context_window_tokens"
+        ],
+        "quote": "Kimi K2.7 Code ... supports text, image, video input ... Context length 256k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": null
+  },
+  {
+    "provider": "moonshot",
+    "model_id": "kimi-k2.6",
+    "display_name": "Kimi K2.6",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": 0.95,
+      "output_per_mtok": 4.0,
+      "cached_input_per_mtok": 0.16,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 256000,
+    "max_output_tokens": null,
+    "modalities": {
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://platform.kimi.ai/",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "pricing.input_per_mtok",
+          "pricing.output_per_mtok",
+          "pricing.cached_input_per_mtok"
+        ],
+        "quote": "K2.6 kimi-k2.6 ... Cache Hit $0.16 / MTok Input $0.95 / MTok Output $4.00 / MTok"
+      },
+      {
+        "url": "https://platform.kimi.ai/docs/pricing/chat-k26",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "modalities",
+          "context_window_tokens"
+        ],
+        "quote": "Kimi K2.6 ... supports text, image, and video input ... Context length 256k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": null
+  },
+  {
+    "provider": "moonshot",
+    "model_id": "kimi-k2.5",
+    "display_name": "Kimi K2.5",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": 0.6,
+      "output_per_mtok": 3.0,
+      "cached_input_per_mtok": 0.1,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 256000,
+    "max_output_tokens": null,
+    "modalities": {
+      "input": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://platform.kimi.ai/",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "pricing.input_per_mtok",
+          "pricing.output_per_mtok",
+          "pricing.cached_input_per_mtok"
+        ],
+        "quote": "K2.5 kimi-k2.5 ... Cache Hit $0.10 / MTok Input $0.60 / MTok Output $3.00 / MTok"
+      },
+      {
+        "url": "https://platform.kimi.ai/docs/pricing/chat-k25",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "modalities",
+          "context_window_tokens"
+        ],
+        "quote": "Kimi K2.5 supports text, image, and video input ... Context length 256k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": null
   }
 ]
