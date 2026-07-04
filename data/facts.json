@@ -5010,5 +5010,346 @@
     ],
     "verified_at": "2026-07-04T08:00:00Z",
     "notes": "Perplexity Agent API model table; context window not stated on collected page."
+  },
+  {
+    "provider": "cohere",
+    "model_id": "command-a-plus-05-2026",
+    "display_name": "Command A+ 05-2026",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": null,
+      "output_per_mtok": null,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 128000,
+    "max_output_tokens": 64000,
+    "modalities": {
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "model_id",
+          "status",
+          "modalities",
+          "context_window_tokens",
+          "max_output_tokens"
+        ],
+        "quote": "The Command family of models includes Command A+, Command A, Command R7B, Command A Translate, Command A Reasoning, Command A Vision, Command R+, Command R, and Command ... Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints `command-a-plus-05-2026` Live ... Text, Images 128k 64k ... `command-a-03-2025` Live ... Text 256k 8k ... `command-r7b-12-2024` Live ... Text 128k 4k ... `command-a-translate-08-2025` Live ... Text 8K 8k ... `command-a-reasoning-08-2025` Live ... Text 256k 32k ... `command-a-vision-07-2025` Live ... Text, Images 128K 8K ... `command-r-08-2024` Live ... Text 128k 4k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
+  },
+  {
+    "provider": "cohere",
+    "model_id": "command-a-03-2025",
+    "display_name": "Command A 03-2025",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": null,
+      "output_per_mtok": null,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 256000,
+    "max_output_tokens": 8000,
+    "modalities": {
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "model_id",
+          "status",
+          "modalities",
+          "context_window_tokens",
+          "max_output_tokens"
+        ],
+        "quote": "The Command family of models includes Command A+, Command A, Command R7B, Command A Translate, Command A Reasoning, Command A Vision, Command R+, Command R, and Command ... Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints `command-a-plus-05-2026` Live ... Text, Images 128k 64k ... `command-a-03-2025` Live ... Text 256k 8k ... `command-r7b-12-2024` Live ... Text 128k 4k ... `command-a-translate-08-2025` Live ... Text 8K 8k ... `command-a-reasoning-08-2025` Live ... Text 256k 32k ... `command-a-vision-07-2025` Live ... Text, Images 128K 8K ... `command-r-08-2024` Live ... Text 128k 4k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
+  },
+  {
+    "provider": "cohere",
+    "model_id": "command-a-translate-08-2025",
+    "display_name": "Command A Translate 08-2025",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": null,
+      "output_per_mtok": null,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 8000,
+    "max_output_tokens": 8000,
+    "modalities": {
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "model_id",
+          "status",
+          "modalities",
+          "context_window_tokens",
+          "max_output_tokens"
+        ],
+        "quote": "The Command family of models includes Command A+, Command A, Command R7B, Command A Translate, Command A Reasoning, Command A Vision, Command R+, Command R, and Command ... Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints `command-a-plus-05-2026` Live ... Text, Images 128k 64k ... `command-a-03-2025` Live ... Text 256k 8k ... `command-r7b-12-2024` Live ... Text 128k 4k ... `command-a-translate-08-2025` Live ... Text 8K 8k ... `command-a-reasoning-08-2025` Live ... Text 256k 32k ... `command-a-vision-07-2025` Live ... Text, Images 128K 8K ... `command-r-08-2024` Live ... Text 128k 4k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
+  },
+  {
+    "provider": "cohere",
+    "model_id": "command-a-reasoning-08-2025",
+    "display_name": "Command A Reasoning 08-2025",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": null,
+      "output_per_mtok": null,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 256000,
+    "max_output_tokens": 32000,
+    "modalities": {
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "model_id",
+          "status",
+          "modalities",
+          "context_window_tokens",
+          "max_output_tokens"
+        ],
+        "quote": "The Command family of models includes Command A+, Command A, Command R7B, Command A Translate, Command A Reasoning, Command A Vision, Command R+, Command R, and Command ... Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints `command-a-plus-05-2026` Live ... Text, Images 128k 64k ... `command-a-03-2025` Live ... Text 256k 8k ... `command-r7b-12-2024` Live ... Text 128k 4k ... `command-a-translate-08-2025` Live ... Text 8K 8k ... `command-a-reasoning-08-2025` Live ... Text 256k 32k ... `command-a-vision-07-2025` Live ... Text, Images 128K 8K ... `command-r-08-2024` Live ... Text 128k 4k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
+  },
+  {
+    "provider": "cohere",
+    "model_id": "command-a-vision-07-2025",
+    "display_name": "Command A Vision 07-2025",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": null,
+      "output_per_mtok": null,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 128000,
+    "max_output_tokens": 8000,
+    "modalities": {
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "model_id",
+          "status",
+          "modalities",
+          "context_window_tokens",
+          "max_output_tokens"
+        ],
+        "quote": "The Command family of models includes Command A+, Command A, Command R7B, Command A Translate, Command A Reasoning, Command A Vision, Command R+, Command R, and Command ... Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints `command-a-plus-05-2026` Live ... Text, Images 128k 64k ... `command-a-03-2025` Live ... Text 256k 8k ... `command-r7b-12-2024` Live ... Text 128k 4k ... `command-a-translate-08-2025` Live ... Text 8K 8k ... `command-a-reasoning-08-2025` Live ... Text 256k 32k ... `command-a-vision-07-2025` Live ... Text, Images 128K 8K ... `command-r-08-2024` Live ... Text 128k 4k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
+  },
+  {
+    "provider": "cohere",
+    "model_id": "command-r-08-2024",
+    "display_name": "Command R 08-2024",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": null,
+      "output_per_mtok": null,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 128000,
+    "max_output_tokens": 4000,
+    "modalities": {
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "model_id",
+          "status",
+          "modalities",
+          "context_window_tokens",
+          "max_output_tokens"
+        ],
+        "quote": "The Command family of models includes Command A+, Command A, Command R7B, Command A Translate, Command A Reasoning, Command A Vision, Command R+, Command R, and Command ... Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints `command-a-plus-05-2026` Live ... Text, Images 128k 64k ... `command-a-03-2025` Live ... Text 256k 8k ... `command-r7b-12-2024` Live ... Text 128k 4k ... `command-a-translate-08-2025` Live ... Text 8K 8k ... `command-a-reasoning-08-2025` Live ... Text 256k 32k ... `command-a-vision-07-2025` Live ... Text, Images 128K 8K ... `command-r-08-2024` Live ... Text 128k 4k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
+  },
+  {
+    "provider": "cohere",
+    "model_id": "command-r7b-12-2024",
+    "display_name": "Command R7B 12-2024",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": 0.0375,
+      "output_per_mtok": 0.15,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 128000,
+    "max_output_tokens": 4000,
+    "modalities": {
+      "input": [
+        "text",
+        "image"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": "June 1, 2024",
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/command-r7b",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "pricing.input_per_mtok",
+          "pricing.output_per_mtok",
+          "context_window_tokens",
+          "max_output_tokens",
+          "knowledge_cutoff",
+          "model_id",
+          "modalities"
+        ],
+        "quote": "Command R7B model details and specifications Capabilities Multilingual Safety Modes Citations Tool Use Structured Outputs Reasoning Image Inputs Pricing Input $0.0375 / 1M tokens Output $0.15 / 1M tokens Specifications Context Window: 128,000 tokens Max Output Tokens: 4,000 tokens Knowledge Cutoff: June 1, 2024 Model ID command-r7b-12-2024"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": null
+  },
+  {
+    "provider": "cohere",
+    "model_id": "tiny-aya-global",
+    "display_name": "Tiny Aya Global",
+    "status": "ga",
+    "release_date": null,
+    "deprecation_date": null,
+    "retirement_date": null,
+    "pricing": {
+      "input_per_mtok": null,
+      "output_per_mtok": null,
+      "cached_input_per_mtok": null,
+      "batch_discount_pct": null
+    },
+    "context_window_tokens": 8000,
+    "max_output_tokens": 8000,
+    "modalities": {
+      "input": [
+        "text"
+      ],
+      "output": [
+        "text"
+      ]
+    },
+    "knowledge_cutoff": null,
+    "sources": [
+      {
+        "url": "https://docs.cohere.com/docs/models",
+        "accessed_at": "2026-07-04T08:00:00Z",
+        "fields": [
+          "model_id",
+          "status",
+          "modalities",
+          "context_window_tokens",
+          "max_output_tokens"
+        ],
+        "quote": "Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints `tiny-aya-global` Live Tiny Aya Global is a 3.35B instruction-tuned multilingual model with the best balance across languages and regions. Supports 70 languages.Text 8k 8k"
+      }
+    ],
+    "verified_at": "2026-07-04T08:00:00Z",
+    "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   }
 ]

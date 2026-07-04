@@ -3284,6 +3284,131 @@
           "model": "perplexity/sonar"
         }
       ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "command-a-plus-05-2026",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "cohere",
+          "model": "command-a-plus-05-2026"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "command-a-plus-05-2026"
+        }
+      ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "command-a-03-2025",
+      "litellm": [
+        "command-a-03-2025"
+      ],
+      "modelsdev": [
+        {
+          "provider": "merge-gateway",
+          "model": "cohere/command-a-03-2025"
+        },
+        {
+          "provider": "cohere",
+          "model": "command-a-03-2025"
+        }
+      ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "command-a-translate-08-2025",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "cohere",
+          "model": "command-a-translate-08-2025"
+        }
+      ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "command-a-reasoning-08-2025",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "cohere",
+          "model": "command-a-reasoning-08-2025"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "command-a-reasoning-08-2025"
+        }
+      ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "command-a-vision-07-2025",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "cohere",
+          "model": "command-a-vision-07-2025"
+        }
+      ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "command-r-08-2024",
+      "litellm": [
+        "command-r-08-2024"
+      ],
+      "modelsdev": [
+        {
+          "provider": "merge-gateway",
+          "model": "cohere/command-r-08-2024"
+        },
+        {
+          "provider": "cohere",
+          "model": "command-r-08-2024"
+        },
+        {
+          "provider": "kilo",
+          "model": "cohere/command-r-08-2024"
+        },
+        {
+          "provider": "openrouter",
+          "model": "cohere/command-r-08-2024"
+        }
+      ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "command-r7b-12-2024",
+      "litellm": [
+        "command-r7b-12-2024"
+      ],
+      "modelsdev": [
+        {
+          "provider": "merge-gateway",
+          "model": "cohere/command-r7b-12-2024"
+        },
+        {
+          "provider": "cohere",
+          "model": "command-r7b-12-2024"
+        },
+        {
+          "provider": "kilo",
+          "model": "cohere/command-r7b-12-2024"
+        },
+        {
+          "provider": "openrouter",
+          "model": "cohere/command-r7b-12-2024"
+        }
+      ]
+    },
+    {
+      "provider": "cohere",
+      "model_id": "tiny-aya-global",
+      "litellm": [],
+      "modelsdev": []
     }
   ]
 }
