@@ -505,6 +505,172 @@
           "model": "amazon.nova-micro-v1:0"
         }
       ]
+    },
+    {
+      "provider": "alibaba",
+      "model_id": "qwen3.7-max",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "vercel",
+          "model": "alibaba/qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-token-plan-cn",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "merge-gateway",
+          "model": "alibaba/qwen3.7-max"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-coding-plan-cn",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-coding-plan",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba-token-plan",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "alibaba",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "qwen3.7-max"
+        },
+        {
+          "provider": "wafer.ai",
+          "model": "qwen3.7-max"
+        }
+      ]
+    },
+    {
+      "provider": "alibaba",
+      "model_id": "qwen3.7-max-2026-05-20",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "alibaba",
+      "model_id": "qwen3.7-max-preview",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "alibaba",
+      "model_id": "qwen3.7-max-2026-05-17",
+      "litellm": [],
+      "modelsdev": []
+    },
+    {
+      "provider": "alibaba",
+      "model_id": "qwen3.6-max-preview",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "alibaba-cn",
+          "model": "qwen3.6-max-preview"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "qwen3.6-max-preview"
+        },
+        {
+          "provider": "alibaba",
+          "model": "qwen3.6-max-preview"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "qwen3.6-max-preview"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "qwen3.6-max-preview"
+        }
+      ]
+    },
+    {
+      "provider": "alibaba",
+      "model_id": "qwen3-max",
+      "litellm": [
+        "dashscope/qwen3-max"
+      ],
+      "modelsdev": [
+        {
+          "provider": "qiniu-ai",
+          "model": "qwen3-max"
+        },
+        {
+          "provider": "alibaba-cn",
+          "model": "qwen3-max"
+        },
+        {
+          "provider": "vercel",
+          "model": "alibaba/qwen3-max"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "qwen3-max"
+        },
+        {
+          "provider": "abacus",
+          "model": "qwen3-max"
+        },
+        {
+          "provider": "alibaba",
+          "model": "qwen3-max"
+        },
+        {
+          "provider": "iflowcn",
+          "model": "qwen3-max"
+        }
+      ]
+    },
+    {
+      "provider": "alibaba",
+      "model_id": "qwen3-max-2026-01-23",
+      "litellm": [
+        "dashscope/qwen3-max-2026-01-23"
+      ],
+      "modelsdev": [
+        {
+          "provider": "llmgateway",
+          "model": "qwen3-max-2026-01-23"
+        },
+        {
+          "provider": "alibaba-coding-plan-cn",
+          "model": "qwen3-max-2026-01-23"
+        },
+        {
+          "provider": "alibaba-coding-plan",
+          "model": "qwen3-max-2026-01-23"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "qwen3-max-2026-01-23"
+        }
+      ]
     }
   ]
 }
