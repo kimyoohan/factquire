@@ -25,6 +25,10 @@ import time
 import urllib.request
 from pathlib import Path
 
+# Korean Windows console is cp949; force UTF-8 so arrows/dashes never crash prints
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://factquire.com"
 SITE_DIR = ROOT / "site"
@@ -103,7 +107,7 @@ def rerun_failed_pages_run():
         runs = json.loads(r.stdout)
         if runs and runs[0].get("conclusion") == "failure":
             run_id = str(runs[0]["databaseId"])
-            print(f"  Pages run {run_id} failed (transient) — rerunning...")
+            print(f"  Pages run {run_id} failed (transient) - rerunning...")
             run(["gh", "run", "rerun", run_id])
             return True
     except (json.JSONDecodeError, KeyError, IndexError):
