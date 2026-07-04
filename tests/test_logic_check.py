@@ -64,6 +64,8 @@ class LogicCheckTests(unittest.TestCase):
         self.assertTrue(exact_candidate_matches(1.0, price_candidates("Input $0.000001 per token")))
         self.assertTrue(exact_candidate_matches(5.0, price_candidates("Input $0.005 per 1K tokens")))
         self.assertTrue(exact_candidate_matches(0.9, price_candidates("Price per 1M tokens $0.90")))
+        self.assertTrue(exact_candidate_matches(0.75, price_candidates("Input $0.75 (text) $0.005/min (audio)")))
+        self.assertFalse(exact_candidate_matches(0.005, price_candidates("Input $0.75 (text) $0.005/min (audio)")))
 
     def test_token_suffix_conversions_are_ambiguous(self):
         decimal_match = exact_candidate_matches(128000, token_candidates("Context length 128K"))

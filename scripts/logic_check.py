@@ -23,6 +23,19 @@ NUMERIC_FIELDS = (
     "max_output_tokens",
 )
 ENUM_FIELDS = ("status", "modalities")
+REPORT_CLASS_ORDER = (
+    "CRITICAL",
+    "UNSUPPORTED",
+    "AMBIGUOUS",
+    "RULE-1",
+    "RULE-2",
+    "RULE-3",
+    "RULE-4",
+    "RULE-5",
+    "RULE-6",
+    "RULE-7",
+    "RULE-8",
+)
 ACTIVE_STATUSES = {"ga", "preview"}
 INACTIVE_LANGUAGE_RE = re.compile(
     r"\b(deprecated|deprecation|retired|retirement|legacy|eol|end[- ]of[- ]life|sunset)\b",
@@ -109,7 +122,8 @@ def price_candidates(quote):
     for match in re.finditer(r"\$\s*([0-9]+(?:,[0-9]{3})*(?:\.[0-9]+)?)", quote):
         start, end = match.span()
         window = quote[max(0, start - 60): min(len(quote), end + 60)]
-        if re.search(r"(/ ?min|per minute|per min)", window, re.IGNORECASE):
+        unit_tail = quote[end: min(len(quote), end + 20)]
+        if re.match(r"\s*(/ ?min|per minute|per min)", unit_tail, re.IGNORECASE):
             continue
         value = decimal_from_text(match.group(1))
         if value is None:
@@ -259,7 +273,10 @@ def tiered_pricing_without_note(entry, field):
     if any(term in notes for term in TIER_NOTE_TERMS):
         return None
 
-    tier_markers = re.compile(r"(<=|>=|<|>|tier|prompt|context|duration|resolution|regional|global|international)", re.IGNORECASE)
+    tier_markers = re.compile(
+        r"(<=|>=|<|>|tier|prompt|long[- ]context|search context|duration|resolution|regional|global|international)",
+        re.IGNORECASE,
+    )
     for source in entry.get("sources", []):
         if field not in source.get("fields", []):
             continue
@@ -324,7 +341,7 @@ def status_quote_statuses(quote):
     statuses = set()
     if re.search(r"\b(preview|beta|experimental)\b", lowered):
         statuses.add("preview")
-    if re.search(r"\b(ga|generally available|live|available|active)\b", lowered):
+    if re.search(r"\b(ga|generally available|live)\b", lowered):
         statuses.add("ga")
     if re.search(r"\b(deprecated|deprecation|legacy)\b", lowered):
         statuses.add("deprecated")
@@ -357,7 +374,11 @@ def modality_word(modality):
 
 def negated_modality(quote, modality):
     pattern = modality_word(modality)
-    return re.search(pattern + r".{0,30}\b(not supported|unsupported|not available)\b", quote, re.IGNORECASE) is not None
+    checks = [
+        rf"{pattern}.{{0,40}}\b(input|output)\b.{{0,40}}\b(not supported|unsupported)\b",
+        rf"\b(input|output|support)\b.{{0,40}}{pattern}.{{0,40}}\b(not supported|unsupported)\b",
+    ]
+    return any(re.search(check, quote, re.IGNORECASE) for check in checks)
 
 
 def has_modality_context(quote, modality, direction):
@@ -686,12 +707,15 @@ def judgment_for(finding):
 
 def write_markdown_report(path, facts, findings, today):
     counts = Counter(finding.class_name for finding in findings)
+    zero_rule_classes = [class_name for class_name in REPORT_CLASS_ORDER if class_name.startswith("RULE-") and counts[class_name] == 0]
     lines = [
-        "# Logic Audit - 2026-07-04",
+        f"# Logic Audit - {today.isoformat()}",
         "",
         f"Audit date: {today.isoformat()}",
         f"Entries audited: {len(facts)}",
         f"Non-null Part A fields judged: {audited_field_count(facts)}",
+        "Part B rules executed: RULE-1 through RULE-8",
+        f"Part B rules with zero findings: {', '.join(zero_rule_classes) if zero_rule_classes else 'none'}",
         f"Findings: {len(findings)}",
         "",
         "## Counts by class",
@@ -699,10 +723,11 @@ def write_markdown_report(path, facts, findings, today):
         "| Class | Count |",
         "| --- | ---: |",
     ]
+    for class_name in REPORT_CLASS_ORDER:
+        lines.append(f"| {class_name} | {counts[class_name]} |")
     for class_name, count in sorted(counts.items()):
-        lines.append(f"| {class_name} | {count} |")
-    if not counts:
-        lines.append("| CLEAN | 0 |")
+        if class_name not in REPORT_CLASS_ORDER:
+            lines.append(f"| {class_name} | {count} |")
 
     lines.extend(
         [

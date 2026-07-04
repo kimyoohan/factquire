@@ -3,17 +3,25 @@
 Audit date: 2026-07-04
 Entries audited: 135
 Non-null Part A fields judged: 697
-Findings: 321
+Part B rules executed: RULE-1 through RULE-8
+Part B rules with zero findings: RULE-1, RULE-2, RULE-3, RULE-6, RULE-7, RULE-8
+Findings: 295
 
 ## Counts by class
 
 | Class | Count |
 | --- | ---: |
+| CRITICAL | 41 |
+| UNSUPPORTED | 162 |
 | AMBIGUOUS | 71 |
-| CRITICAL | 48 |
+| RULE-1 | 0 |
+| RULE-2 | 0 |
+| RULE-3 | 0 |
 | RULE-4 | 15 |
 | RULE-5 | 6 |
-| UNSUPPORTED | 181 |
+| RULE-6 | 0 |
+| RULE-7 | 0 |
+| RULE-8 | 0 |
 
 ## Findings
 
@@ -125,18 +133,11 @@ Findings: 321
 | fireworks/openai-gpt-oss-120b | status | CRITICAL | quote status language implies preview, not stored status ga |
 | fireworks/openai-gpt-oss-20b | status | CRITICAL | quote status language implies preview, not stored status ga |
 | fireworks/qwen-3.7-plus | status | CRITICAL | quote status language implies preview, not stored status ga |
-| google/gemini-2.5-flash | modalities | CRITICAL | text input marked unsupported |
-| google/gemini-2.5-flash-lite | modalities | CRITICAL | text input marked unsupported |
-| google/gemini-2.5-flash-lite-preview-09-2025 | modalities | CRITICAL | text input marked unsupported |
-| google/gemini-2.5-pro | modalities | CRITICAL | text input marked unsupported |
-| google/gemini-3.1-flash-lite | modalities | CRITICAL | text input marked unsupported |
-| google/gemini-3.1-pro-preview | modalities | CRITICAL | text input marked unsupported |
 | minimax/minimax-m2 | status | CRITICAL | quote status language implies deprecated, not stored status ga |
 | minimax/minimax-m2.1 | status | CRITICAL | quote status language implies deprecated, not stored status ga |
 | minimax/minimax-m2.5 | status | CRITICAL | quote status language implies deprecated, not stored status ga |
 | minimax/minimax-m2.7 | status | CRITICAL | quote status language implies deprecated, not stored status ga |
 | minimax/minimax-m3 | status | CRITICAL | quote status language implies deprecated, not stored status ga |
-| mistral/voxtral-small-latest | pricing.output_per_mtok | CRITICAL | field-labeled quote value(s) $0.4 do not match stored value 0.4 |
 | perplexity/sonar-reasoning-pro | status | CRITICAL | quote status language implies deprecated, not stored status ga |
 | alibaba/qwen3.7-max <> together/qwen3.7-max | pricing.input_per_mtok | RULE-4 | same canonical model prices are exact 2x/10x ratio: 2.5 vs 1.25 |
 | alibaba/qwen3.7-max <> together/qwen3.7-max | pricing.output_per_mtok | RULE-4 | same canonical model prices are exact 2x/10x ratio: 7.5 vs 3.75 |
@@ -185,21 +186,17 @@ Findings: 321
 | anthropic/claude-sonnet-5 | status | UNSUPPORTED | no stored quote entails status ga |
 | cohere/command-a-plus-05-2026 | modalities | UNSUPPORTED | no stored quote entails input=['image', 'text'] and output=['text'] |
 | cohere/command-a-vision-07-2025 | modalities | UNSUPPORTED | no stored quote entails input=['image', 'text'] and output=['text'] |
-| cohere/command-r7b-12-2024 | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0375, 0.15) but notes do not document the chosen tier |
-| cohere/command-r7b-12-2024 | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0375, 0.15) but notes do not document the chosen tier |
 | cohere/command-r7b-12-2024 | status | UNSUPPORTED | no stored quote entails status ga |
-| deepseek/deepseek-v4-flash | pricing.cached_input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0028, 0.003625, 0.14, 0.28, 0.435, 0.87) but notes do not document the chosen tier |
-| deepseek/deepseek-v4-flash | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0028, 0.003625, 0.14, 0.28, 0.435, 0.87) but notes do not document the chosen tier |
-| deepseek/deepseek-v4-flash | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0028, 0.003625, 0.14, 0.28, 0.435, 0.87) but notes do not document the chosen tier |
 | deepseek/deepseek-v4-flash | status | UNSUPPORTED | no stored quote entails status ga |
-| deepseek/deepseek-v4-pro | pricing.cached_input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0028, 0.003625, 0.14, 0.28, 0.435, 0.87) but notes do not document the chosen tier |
-| deepseek/deepseek-v4-pro | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0028, 0.003625, 0.14, 0.28, 0.435, 0.87) but notes do not document the chosen tier |
-| deepseek/deepseek-v4-pro | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.0028, 0.003625, 0.14, 0.28, 0.435, 0.87) but notes do not document the chosen tier |
 | deepseek/deepseek-v4-pro | status | UNSUPPORTED | no stored quote entails status ga |
+| fireworks/llama-v3p3-70b-instruct | status | UNSUPPORTED | no stored quote entails status ga |
 | fireworks/qwen2p5-vl-32b-instruct | modalities | UNSUPPORTED | no stored quote entails input=['image', 'text'] and output=['text'] |
 | fireworks/qwen2p5-vl-32b-instruct | status | UNSUPPORTED | no stored quote entails status ga |
-| google/gemini-3.1-flash-live-preview | pricing.input_per_mtok | UNSUPPORTED | no stored quote contains numeric evidence for stored value 0.75 |
-| google/gemini-3.1-flash-live-preview | pricing.output_per_mtok | UNSUPPORTED | no stored quote contains numeric evidence for stored value 4.5 |
+| google/gemini-2.5-flash | status | UNSUPPORTED | no stored quote entails status ga |
+| google/gemini-2.5-flash-lite | status | UNSUPPORTED | no stored quote entails status ga |
+| google/gemini-2.5-pro | status | UNSUPPORTED | no stored quote entails status ga |
+| google/gemini-3.1-flash-lite | status | UNSUPPORTED | no stored quote entails status ga |
+| google/gemini-3.1-pro-preview | modalities | UNSUPPORTED | no stored quote entails input=['audio', 'image', 'text', 'video'] and output=['text'] |
 | groq/llama-3.1-8b-instant | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
 | groq/llama-3.1-8b-instant | status | UNSUPPORTED | no stored quote entails status ga |
 | groq/llama-3.3-70b-versatile | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
@@ -225,7 +222,7 @@ Findings: 321
 | mistral/mistral-medium-latest | status | UNSUPPORTED | no stored quote entails status ga |
 | mistral/mistral-small-latest | modalities | UNSUPPORTED | no stored quote entails input=['image', 'text'] and output=['text'] |
 | mistral/mistral-small-latest | status | UNSUPPORTED | no stored quote entails status ga |
-| mistral/voxtral-small-latest | pricing.input_per_mtok | UNSUPPORTED | no stored quote contains numeric evidence for stored value 0.1 |
+| mistral/voxtral-small-latest | status | UNSUPPORTED | no stored quote entails status ga |
 | moonshot/kimi-k2.5 | status | UNSUPPORTED | no stored quote entails status ga |
 | moonshot/kimi-k2.6 | status | UNSUPPORTED | no stored quote entails status ga |
 | moonshot/kimi-k2.7-code | status | UNSUPPORTED | no stored quote entails status ga |
@@ -292,29 +289,14 @@ Findings: 321
 | together/rnj-1-instruct | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
 | together/rnj-1-instruct | status | UNSUPPORTED | no stored quote entails status ga |
 | xai/grok-4.20-0309-non-reasoning | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
-| xai/grok-4.20-0309-non-reasoning | pricing.cached_input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.20-0309-non-reasoning | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.20-0309-non-reasoning | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
 | xai/grok-4.20-0309-non-reasoning | status | UNSUPPORTED | no stored quote entails status ga |
 | xai/grok-4.20-0309-reasoning | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
-| xai/grok-4.20-0309-reasoning | pricing.cached_input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.20-0309-reasoning | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.20-0309-reasoning | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
 | xai/grok-4.20-0309-reasoning | status | UNSUPPORTED | no stored quote entails status ga |
 | xai/grok-4.20-multi-agent-0309 | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
-| xai/grok-4.20-multi-agent-0309 | pricing.cached_input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.20-multi-agent-0309 | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.20-multi-agent-0309 | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
 | xai/grok-4.20-multi-agent-0309 | status | UNSUPPORTED | no stored quote entails status ga |
 | xai/grok-4.3 | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
-| xai/grok-4.3 | pricing.cached_input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.3 | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-4.3 | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
 | xai/grok-4.3 | status | UNSUPPORTED | no stored quote entails status ga |
 | xai/grok-build-0.1 | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
-| xai/grok-build-0.1 | pricing.cached_input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-build-0.1 | pricing.input_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
-| xai/grok-build-0.1 | pricing.output_per_mtok | UNSUPPORTED | tiered pricing quote has multiple values (0.20, 1.00, 1.25, 2.00, 2.50) but notes do not document the chosen tier |
 | xai/grok-build-0.1 | status | UNSUPPORTED | no stored quote entails status ga |
 | zhipu/glm-4-32b-0414-128k | modalities | UNSUPPORTED | no stored quote entails input=['text'] and output=['text'] |
 | zhipu/glm-4-32b-0414-128k | status | UNSUPPORTED | no stored quote entails status ga |
@@ -343,8 +325,8 @@ Findings: 321
 
 ## Judgment
 
-- Re-collection from live sources: 54 findings. This includes CRITICAL conflicts, stale/future timestamps, and high-signal invariant failures.
-- Documentation or quote/note fixes: 252 findings. This includes unsupported or ambiguous quote entailment where the stored value may still be correct but the stored evidence is inadequate.
+- Re-collection from live sources: 47 findings. This includes CRITICAL conflicts, stale/future timestamps, and high-signal invariant failures.
+- Documentation or quote/note fixes: 233 findings. This includes unsupported or ambiguous quote entailment where the stored value may still be correct but the stored evidence is inadequate.
 - Manual review before deciding: 15 findings. This mainly covers cross-provider same-model comparisons and exact-ratio price checks.
 
 | Entry | Field | Class | Judgment |
@@ -455,18 +437,11 @@ Findings: 321
 | fireworks/openai-gpt-oss-120b | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | fireworks/openai-gpt-oss-20b | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | fireworks/qwen-3.7-plus | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
-| google/gemini-2.5-flash | modalities | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
-| google/gemini-2.5-flash-lite | modalities | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
-| google/gemini-2.5-flash-lite-preview-09-2025 | modalities | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
-| google/gemini-2.5-pro | modalities | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
-| google/gemini-3.1-flash-lite | modalities | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
-| google/gemini-3.1-pro-preview | modalities | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | minimax/minimax-m2 | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | minimax/minimax-m2.1 | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | minimax/minimax-m2.5 | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | minimax/minimax-m2.7 | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | minimax/minimax-m3 | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
-| mistral/voxtral-small-latest | pricing.output_per_mtok | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | perplexity/sonar-reasoning-pro | status | CRITICAL | Re-collect from live source; stored value and cited evidence conflict. |
 | alibaba/qwen3.7-max <> together/qwen3.7-max | pricing.input_per_mtok | RULE-4 | Manual review; likely re-collect or document provider-specific serving/pricing differences. |
 | alibaba/qwen3.7-max <> together/qwen3.7-max | pricing.output_per_mtok | RULE-4 | Manual review; likely re-collect or document provider-specific serving/pricing differences. |
@@ -515,21 +490,17 @@ Findings: 321
 | anthropic/claude-sonnet-5 | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | cohere/command-a-plus-05-2026 | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | cohere/command-a-vision-07-2025 | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| cohere/command-r7b-12-2024 | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| cohere/command-r7b-12-2024 | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | cohere/command-r7b-12-2024 | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| deepseek/deepseek-v4-flash | pricing.cached_input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| deepseek/deepseek-v4-flash | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| deepseek/deepseek-v4-flash | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | deepseek/deepseek-v4-flash | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| deepseek/deepseek-v4-pro | pricing.cached_input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| deepseek/deepseek-v4-pro | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| deepseek/deepseek-v4-pro | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | deepseek/deepseek-v4-pro | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
+| fireworks/llama-v3p3-70b-instruct | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | fireworks/qwen2p5-vl-32b-instruct | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | fireworks/qwen2p5-vl-32b-instruct | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| google/gemini-3.1-flash-live-preview | pricing.input_per_mtok | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| google/gemini-3.1-flash-live-preview | pricing.output_per_mtok | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
+| google/gemini-2.5-flash | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
+| google/gemini-2.5-flash-lite | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
+| google/gemini-2.5-pro | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
+| google/gemini-3.1-flash-lite | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
+| google/gemini-3.1-pro-preview | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | groq/llama-3.1-8b-instant | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | groq/llama-3.1-8b-instant | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | groq/llama-3.3-70b-versatile | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
@@ -555,7 +526,7 @@ Findings: 321
 | mistral/mistral-medium-latest | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | mistral/mistral-small-latest | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | mistral/mistral-small-latest | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| mistral/voxtral-small-latest | pricing.input_per_mtok | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
+| mistral/voxtral-small-latest | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | moonshot/kimi-k2.5 | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | moonshot/kimi-k2.6 | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | moonshot/kimi-k2.7-code | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
@@ -622,29 +593,14 @@ Findings: 321
 | together/rnj-1-instruct | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | together/rnj-1-instruct | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | xai/grok-4.20-0309-non-reasoning | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| xai/grok-4.20-0309-non-reasoning | pricing.cached_input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.20-0309-non-reasoning | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.20-0309-non-reasoning | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | xai/grok-4.20-0309-non-reasoning | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | xai/grok-4.20-0309-reasoning | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| xai/grok-4.20-0309-reasoning | pricing.cached_input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.20-0309-reasoning | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.20-0309-reasoning | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | xai/grok-4.20-0309-reasoning | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | xai/grok-4.20-multi-agent-0309 | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| xai/grok-4.20-multi-agent-0309 | pricing.cached_input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.20-multi-agent-0309 | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.20-multi-agent-0309 | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | xai/grok-4.20-multi-agent-0309 | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | xai/grok-4.3 | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| xai/grok-4.3 | pricing.cached_input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.3 | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-4.3 | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | xai/grok-4.3 | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | xai/grok-build-0.1 | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
-| xai/grok-build-0.1 | pricing.cached_input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-build-0.1 | pricing.input_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
-| xai/grok-build-0.1 | pricing.output_per_mtok | UNSUPPORTED | Documentation fix: note the selected pricing tier, or re-collect if the tier choice is uncertain. |
 | xai/grok-build-0.1 | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | zhipu/glm-4-32b-0414-128k | modalities | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
 | zhipu/glm-4-32b-0414-128k | status | UNSUPPORTED | Documentation fix if the stored value is correct; otherwise re-collect the missing evidence. |
