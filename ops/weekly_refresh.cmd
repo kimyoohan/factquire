@@ -6,4 +6,6 @@ echo ===== %date% %time% UPDATE (codex) =====
 call "C:\Users\USER\AppData\Roaming\npm\codex.cmd" exec --sandbox danger-full-access -c model_reasoning_effort="medium" "Read UPDATE_ORDER.md in this directory and execute it fully. Work autonomously until the Definition of done is met." < NUL
 echo ===== %date% %time% VERIFY (claude) =====
 call "C:\Users\USER\AppData\Roaming\npm\claude.cmd" -p --dangerously-skip-permissions "Read VERIFY_ORDER.md in this directory and execute it fully. Work autonomously until the protocol is complete."
+echo ===== %date% %time% AUDIT OUTREACH (claude) =====
+call "C:\Users\USER\AppData\Roaming\npm\claude.cmd" -p --dangerously-skip-permissions "Read AUDIT_OUTREACH_ORDER.md in this directory and execute it fully. Work autonomously until the protocol is complete."
 echo ===== %date% %time% DONE =====

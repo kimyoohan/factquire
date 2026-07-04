@@ -15,11 +15,11 @@ The collector's evidence is NOT proof — the live page is.
    trust them for tables (proven 2026-07-04). JS-rendered pages: grep the embedded JSON payload too.
    A fact passes only if the number is present in the raw response (or its documented unit conversion).
 4. **Verdict**:
-   - ALL PASS → `git push origin main` (this publishes via GitHub Pages), then CONFIRM the
-     deploy: `gh run list --limit 1` must show success; on failure rerun with
-     `gh run rerun <id>` (transient "Deployment failed, try again later" happens — observed
-     twice on 2026-07-04; one rerun fixed it both times). Verify the live site updated
-     (`curl` the feed's generated_at). Then write `ops/reports/<date>.md`: sample list,
+   - ALL PASS → run `py scripts/publish.py -m "Weekly refresh <date>"` — it builds, pushes,
+     confirms the live deploy (auto-reruns one transient Pages failure), and pings IndexNow
+     for changed + new URLs. If it reports "deploy not confirmed", check `gh run list`,
+     rerun the failed run (`gh run rerun <id>`), verify live generated_at via curl, then
+     `py scripts/indexnow.py --new`. Then write `ops/reports/<date>.md`: sample list,
      evidence snippets, PASS.
    - ANY FAIL → write `FIX_ORDER-<date>.md` with exact reproduction (url, what the page shows,
      what facts.json claims), run
