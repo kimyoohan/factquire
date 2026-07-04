@@ -1374,6 +1374,317 @@
           "model": "glm-4-32b-0414-128k"
         }
       ]
+    },
+    {
+      "provider": "minimax",
+      "model_id": "minimax-m3",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "vercel",
+          "model": "minimax/minimax-m3"
+        },
+        {
+          "provider": "cortecs",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "zenmux",
+          "model": "minimax/minimax-m3"
+        },
+        {
+          "provider": "kenari",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "merge-gateway",
+          "model": "minimax/minimax-m3"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "opencode",
+          "model": "minimax-m3"
+        },
+        {
+          "provider": "openrouter",
+          "model": "minimax/minimax-m3"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "minimax/minimax-m3"
+        }
+      ]
+    },
+    {
+      "provider": "minimax",
+      "model_id": "minimax-m2.7",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "vercel",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "novita-ai",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "cortecs",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "zenmux",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "merge-gateway",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "orcarouter",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "opencode",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "kilo",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "openrouter",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "fastrouter",
+          "model": "minimax/minimax-m2.7"
+        },
+        {
+          "provider": "aihubmix",
+          "model": "minimax-m2.7"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "minimax/minimax-m2.7"
+        }
+      ]
+    },
+    {
+      "provider": "minimax",
+      "model_id": "minimax-m2.5",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "qiniu-ai",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "regolo-ai",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "vercel",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "novita-ai",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "cortecs",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "opencode-go",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "digitalocean",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "zenmux",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "merge-gateway",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "orcarouter",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "tencent-coding-plan",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "opencode",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "hpc-ai",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "dinference",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "kilo",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "openrouter",
+          "model": "minimax/minimax-m2.5"
+        },
+        {
+          "provider": "crof",
+          "model": "minimax-m2.5"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "minimax/minimax-m2.5"
+        }
+      ]
+    },
+    {
+      "provider": "minimax",
+      "model_id": "minimax-m2.1",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "qiniu-ai",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "vercel",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "novita-ai",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "cortecs",
+          "model": "minimax-m2.1"
+        },
+        {
+          "provider": "zenmux",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "merge-gateway",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m2.1"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m2.1"
+        },
+        {
+          "provider": "opencode",
+          "model": "minimax-m2.1"
+        },
+        {
+          "provider": "kilo",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "openrouter",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "jiekou",
+          "model": "minimax/minimax-m2.1"
+        },
+        {
+          "provider": "nano-gpt",
+          "model": "minimax/minimax-m2.1"
+        }
+      ]
+    },
+    {
+      "provider": "minimax",
+      "model_id": "minimax-m2",
+      "litellm": [],
+      "modelsdev": [
+        {
+          "provider": "qiniu-ai",
+          "model": "minimax/minimax-m2"
+        },
+        {
+          "provider": "vercel",
+          "model": "minimax/minimax-m2"
+        },
+        {
+          "provider": "novita-ai",
+          "model": "minimax/minimax-m2"
+        },
+        {
+          "provider": "cortecs",
+          "model": "minimax-m2"
+        },
+        {
+          "provider": "zenmux",
+          "model": "minimax/minimax-m2"
+        },
+        {
+          "provider": "merge-gateway",
+          "model": "minimax/minimax-m2"
+        },
+        {
+          "provider": "llmgateway",
+          "model": "minimax-m2"
+        },
+        {
+          "provider": "ollama-cloud",
+          "model": "minimax-m2"
+        },
+        {
+          "provider": "kilo",
+          "model": "minimax/minimax-m2"
+        },
+        {
+          "provider": "openrouter",
+          "model": "minimax/minimax-m2"
+        }
+      ]
     }
   ]
 }
