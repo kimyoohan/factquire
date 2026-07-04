@@ -6,6 +6,8 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator, FormatChecker
 
+from logic_check import CHANGELOG_PATH, audited_field_count, run_logic_checks
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "schema" / "model_fact.schema.json"
@@ -59,6 +61,7 @@ def main():
     try:
         schema = load_json(SCHEMA_PATH)
         facts = load_json(FACTS_PATH)
+        changelog = load_json(CHANGELOG_PATH)
     except RuntimeError as exc:
         print(exc, file=sys.stderr)
         return 1
@@ -106,6 +109,10 @@ def main():
         for field in sorted(populated_checked_fields(entry) - covered):
             errors.append(f"{model}: non-null {field} not listed in any source fields")
 
+    logic_findings = run_logic_checks(facts, changelog)
+    for finding in logic_findings:
+        errors.append(f"{finding.entry}: {finding.field}: {finding.class_name}: {finding.detail}")
+
     if errors:
         print("Validation failed:")
         for error in errors:
@@ -114,7 +121,8 @@ def main():
 
     print(
         f"Validation passed: {len(facts)} entries, "
-        f"{len(providers)} providers, {len(keys)} unique provider/model pairs."
+        f"{len(providers)} providers, {len(keys)} unique provider/model pairs, "
+        f"{audited_field_count(facts)} logic-audited fields."
     )
     return 0
 

@@ -62,10 +62,12 @@ def changed_site_files() -> list[str]:
     for line in r.stdout.splitlines():
         if not line.strip():
             continue
-        status, path = line[:2], line[3:].strip().strip('"')
+        status, path = line[:2], line[3:].strip()
         if status.strip() in {"D"}:  # deletions have no URL to ping
             continue
-        files.append(path)
+        if " -> " in path:  # rename/copy: "R old -> new" — the live URL is the new path
+            path = path.split(" -> ", 1)[1]
+        files.append(path.strip().strip('"'))
     return files
 
 
@@ -204,9 +206,17 @@ def main():
         print("\nNothing published. Done.")
         return
 
-    # Probe with a small always-regenerated file; fall back to homepage
-    probe_rel = "feed.json" if feed.exists() else "index.html"
-    ok = wait_deploy(f"{BASE_URL}/{probe_rel}", SITE_DIR / probe_rel)
+    # Probe with a file that CHANGED in this publish — probing an unchanged file can
+    # match the pre-deploy version and confirm too early (second-opinion audit finding)
+    probe = "site/feed.json" if "site/feed.json" in changed else None
+    if probe is None:
+        probe = next((f for f in changed if file_to_url(f)), None)
+    if probe is None:
+        step("4/5 Wait for GitHub Pages deploy (skipped: no site content changed)")
+        ping_indexnow(None if args.full_ping else [])  # still catches --new URLs
+        print("\nPublish complete.")
+        return
+    ok = wait_deploy(file_to_url(probe), ROOT / Path(probe))
     if ok:
         ping_indexnow(None if args.full_ping else urls)
 

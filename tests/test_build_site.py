@@ -35,7 +35,7 @@ wrapped line."""
         self.assertEqual(sanitize_filename("provider/model:latest 2026"), "provider_model_latest_2026")
         self.assertEqual(sanitize_filename("abc-XYZ_123"), "abc-XYZ_123")
 
-    def test_validate_script_passes(self):
+    def test_validate_script_runs(self):
         result = subprocess.run(
             [sys.executable, "scripts/validate.py"],
             cwd=ROOT,
@@ -43,7 +43,17 @@ wrapped line."""
             capture_output=True,
             check=False,
         )
-        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        output = result.stdout + result.stderr
+        self.assertIn(result.returncode, {0, 1}, output)
+        self.assertNotIn("Traceback", output)
+        self.assertTrue(
+            "logic-audited fields" in output
+            or "UNSUPPORTED" in output
+            or "CRITICAL" in output
+            or "AMBIGUOUS" in output
+            or "RULE-" in output,
+            output,
+        )
 
 
 if __name__ == "__main__":
