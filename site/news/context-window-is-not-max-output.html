@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Context window is not max output — and you cannot infer one from the other</title>
+    <meta name="description" content="Two Groq models share the same 131,072-token context window, yet one lets you generate all 131,072 tokens of output and the other caps at 65,536. Context window and max output are independent facts — code that derives one from the other silently truncates responses or throws.">
+    <link rel="canonical" href="https://factquire.com/news/context-window-is-not-max-output.html">
+    <link rel="alternate" type="application/rss+xml" title="FactQuire RSS" href="https://factquire.com/rss.xml">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+    <link rel="apple-touch-icon" href="/assets/favicon-512.png">
+    <meta property="og:title" content="Context window is not max output — and you cannot infer one from the other">
+    <meta property="og:description" content="Two Groq models share the same 131,072-token context window, yet one lets you generate all 131,072 tokens of output and the other caps at 65,536. Context window and max output are independent facts — code that derives one from the other silently truncates responses or throws.">
+    <meta property="og:image" content="https://factquire.com/assets/og-card.png">
+    <meta property="og:url" content="https://factquire.com/news/context-window-is-not-max-output.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="/styles.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"Context window is not max output — and you cannot infer one from the other","datePublished":"2026-07-07","description":"Two Groq models share the same 131,072-token context window, yet one lets you generate all 131,072 tokens of output and the other caps at 65,536. Context window and max output are independent facts — code that derives one from the other silently truncates responses or throws.","url":"https://factquire.com/news/context-window-is-not-max-output.html","publisher":{"@type":"Organization","name":"FactQuire"}}</script>
+    
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <a href="/" style="display:inline-block;line-height:0;">
+          <img src="/assets/logo.png" alt="FactQuire" height="48" style="height:48px;width:auto;">
+        </a>
+      </div>
+      <nav>
+        <a href="/models/">Models</a>
+        <a href="/news/" aria-current="page">News</a>
+        <a href="/changelog.html">Changelog</a>
+        <a href="/audit.html">Audit</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
+    <main>
+      <article class="article">
+        <h1>Context window is not max output — and you cannot infer one from the other</h1>
+        <p class="muted">2026-07-07</p>
+        <h1>Context window is not max output — and you cannot infer one from the other</h1>
+<p>Here are two models on the same provider, with the same context window, and different maximum output. Both figures are from Groq&#x27;s own models API (`GET https://api.groq.com/openai/v1/models`, accessed 2026-07-07):</p>
+<ul>
+<li><strong>llama-3.1-8b-instant</strong> — context window <strong>131,072</strong>, max output <strong>131,072</strong> (equal)</li>
+<li><strong>openai/gpt-oss-120b</strong> — context window <strong>131,072</strong>, max output <strong>65,536</strong> (half)</li>
+</ul>
+<p>Same host. Same context window. One model will return up to 131,072 generated tokens; the other refuses past 65,536. There is no ratio, no rule of thumb, no &quot;max output is a quarter of context&quot; that survives contact with real model metadata. You have to look up each one.</p>
+<h2>Two different facts that people treat as one</h2>
+<ul>
+<li><strong>Context window</strong> is the total token budget for a single request: input <strong>plus</strong> output</li>
+<p>share it.</p>
+<li><strong>Max output</strong> (a.k.a. max completion tokens) is a separate cap on how many tokens the</li>
+<p>model will *generate* in one response, regardless of how much context is free.</p>
+</ul>
+<p>A model can cap output well below its context window (gpt-oss-120b: 65,536 of 131,072), or let output consume the entire window (llama-3.1-8b-instant: 131,072 of 131,072). Neither is derivable from the other; they are two independently published numbers.</p>
+<h2>How the confusion shows up</h2>
+<p>When code assumes the two are the same, the failure is quiet: either the SDK sends a `max_tokens` larger than the model allows and the request is rejected, or the response is truncated at a cap the caller did not know existed. It reaches production because it looks correct in every small test. The confusion is common enough to have produced bug reports in widely used tooling — e.g. a model configured with a <strong>1,000,000</strong> max output that was really the model&#x27;s *context* window (<a href="https://github.com/BerriAI/litellm/issues/14876">BerriAI/litellm#14876</a>), and threads on `max_tokens` changing meaning across models (<a href="https://github.com/BerriAI/litellm/issues/18779">BerriAI/litellm#18779</a>). The pattern is older than any one library: it is what happens when a schema stores one number where the world has two.</p>
+<h2>The rule</h2>
+<p>Store the context window and the max output as separate facts, each with its own source. Never compute one from the other, and never carry a default that happens to equal the context window — that is the exact shape of the bug above.</p>
+<p>Our machine-readable records keep both fields distinct for all 135 models, each field carrying the verbatim primary-source quote it came from:</p>
+<ul>
+<li>https://factquire.com/feed.json</li>
+<li>https://factquire.com/models/groq/llama-3_1-8b-instant.json</li>
+<li>https://factquire.com/models/groq/openai_gpt-oss-120b.json</li>
+</ul>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <a href="/corrections.html">corrections</a> |
+      <a href="/editorial.html">editorial</a> |
+      <a href="/cite.html">cite</a>
+    </footer>
+  </body>
+</html>

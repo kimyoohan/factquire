@@ -5,6 +5,13 @@
     <link>https://factquire.com/</link>
     <description>Source-verified LLM API fact changes and news.</description>
     <item>
+      <title>Context window is not max output — and you cannot infer one from the other</title>
+      <link>https://factquire.com/news/context-window-is-not-max-output.html</link>
+      <guid>https://factquire.com/news/context-window-is-not-max-output.html</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Two Groq models share the same 131,072-token context window, yet one lets you generate all 131,072 tokens of output and the other caps at 65,536. Context window and max output are independent facts — code that derives one from the other silently truncates responses or throws.</description>
+    </item>
+    <item>
       <title>The same DeepSeek V4 Pro costs 4x more on Together and Fireworks than on DeepSeek&#x27;s own API</title>
       <link>https://factquire.com/news/deepseek-v4-pro-host-pricing-4x.html</link>
       <guid>https://factquire.com/news/deepseek-v4-pro-host-pricing-4x.html</guid>
