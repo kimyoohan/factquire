@@ -27,3 +27,10 @@ The collector's evidence is NOT proof — the live page is.
      then re-verify the failed items once. Still failing → DO NOT PUSH, write `ops/ALERT-<date>.md`
      with details. Either way write `ops/reports/<date>.md`.
 5. Report file is mandatory every run — it is the audit trail and next week's rotation memory.
+
+6. **Story drafts** (growth flywheel): after the data verdict, review any `content/drafts/story-*.md`
+   emitted this cycle by detect_stories.py. For each: re-verify the quote against the LIVE
+   primary source (raw HTML rule), confirm the effective date, and check whether external
+   datasets still carry the old value (PR opportunity). Only then may Claude polish it into a
+   real article under content/articles/ and publish. Drafts are unverified until this step —
+   never publish a raw draft. A cycle with zero drafts is normal; note "no stories" in the report.

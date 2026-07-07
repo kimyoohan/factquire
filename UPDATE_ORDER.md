@@ -24,6 +24,12 @@ unconfirmed, never guess. Never reconstruct a table from memory.
 4b. **External audit**: run `py scripts/fetch_external.py` and `py scripts/audit_external.py`,
    adjudicate new mismatches against primary sources, and append a new audit entry to
    `data/audit.json`.
+4c. **Story flywheel** (drafts only, never published): run `py scripts/detect_stories.py`.
+   It emits `content/drafts/story-*.md` scaffolds for every REAL value change this cycle,
+   each pre-filled with the before/after and the stored primary-source quote, plus
+   `ops/stories/summary-<date>.md`. These are DRAFTS — do NOT publish them, do NOT move them
+   to content/articles/. VERIFY_ORDER hands them to Claude for verification. Zero changes
+   this cycle -> zero drafts (do not manufacture stories).
 5. **Gaps**: update gaps.md (remove resolved lines, add new ones).
 5b. **Evidence-debt paydown**: run `py scripts/logic_check.py`. Pick ~25 UNSUPPORTED
    warnings (rotate providers week to week) and re-capture quotes from the live cited

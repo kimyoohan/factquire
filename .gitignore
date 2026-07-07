@@ -3,3 +3,8 @@
 ops/refresh.log
 ops/outreach/candidates-2026-07-05.json
 ops/outreach/candidates-2026-07-05-summary.md
+
+# Story flywheel: unverified drafts stay local until Claude verifies & publishes
+.tmp/
+content/drafts/*.md
+ops/stories/*.md
