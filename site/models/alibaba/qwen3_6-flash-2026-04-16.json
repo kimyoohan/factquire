@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok"
@@ -36,7 +36,7 @@
     },
     {
       "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "context_window_tokens",
@@ -45,7 +45,7 @@
       "quote": "All models > Qwen3.6: Model ID qwen3.6-flash-2026-04-16; Input Text, images, video; Output Text; Context 1M; Max output 64k."
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "International Model Studio price; 0<Token<=256K tier recorded.",
   "permalink": "/models/alibaba/qwen3_6-flash-2026-04-16.html"
 }

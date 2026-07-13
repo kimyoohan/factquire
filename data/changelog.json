@@ -1,6 +1,12 @@
 {
   "releases": [
     {
+      "date": "2026-07-13",
+      "version": "0.7",
+      "summary": "No changes; all facts re-verified",
+      "entries": []
+    },
+    {
       "date": "2026-07-07",
       "version": "0.6",
       "summary": "No changes; all facts re-verified",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-07T11:44:33Z",
+  "generated_at": "2026-07-13T01:21:34Z",
   "field_tolerance": "relative difference > 0.5% for prices; any integer token-limit difference",
   "stats": {
-    "match": 1028,
-    "mismatch": 972,
-    "not_present": 115,
-    "they_lack": 225,
-    "we_lack": 1135
+    "match": 1080,
+    "mismatch": 998,
+    "not_present": 121,
+    "they_lack": 226,
+    "we_lack": 1026
   },
   "comparisons": [
     {
@@ -14,7 +14,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5",
       "field": "pricing.input_per_mtok",
-      "ours": 5.0,
+      "ours": 5,
       "theirs": 5.0,
       "status": "match",
       "alias": "gpt-5.5"
@@ -24,7 +24,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5",
       "field": "pricing.output_per_mtok",
-      "ours": 30.0,
+      "ours": 30,
       "theirs": 30.0,
       "status": "match",
       "alias": "gpt-5.5"
@@ -64,7 +64,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5",
       "field": "pricing.input_per_mtok",
-      "ours": 5.0,
+      "ours": 5,
       "theirs": 5,
       "status": "match",
       "alias": "openai/gpt-5.5"
@@ -74,7 +74,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5",
       "field": "pricing.output_per_mtok",
-      "ours": 30.0,
+      "ours": 30,
       "theirs": 30,
       "status": "match",
       "alias": "openai/gpt-5.5"
@@ -114,7 +114,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5-pro",
       "field": "pricing.input_per_mtok",
-      "ours": 30.0,
+      "ours": 30,
       "theirs": 30.0,
       "status": "match",
       "alias": "gpt-5.5-pro"
@@ -124,7 +124,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5-pro",
       "field": "pricing.output_per_mtok",
-      "ours": 180.0,
+      "ours": 180,
       "theirs": 180.0,
       "status": "match",
       "alias": "gpt-5.5-pro"
@@ -164,7 +164,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5-pro",
       "field": "pricing.input_per_mtok",
-      "ours": 30.0,
+      "ours": 30,
       "theirs": 30,
       "status": "match",
       "alias": "openai/gpt-5.5-pro"
@@ -174,7 +174,7 @@
       "provider": "openai",
       "model_id": "gpt-5.5-pro",
       "field": "pricing.output_per_mtok",
-      "ours": 180.0,
+      "ours": 180,
       "theirs": 180,
       "status": "match",
       "alias": "openai/gpt-5.5-pro"
@@ -224,7 +224,7 @@
       "provider": "openai",
       "model_id": "gpt-5.4",
       "field": "pricing.output_per_mtok",
-      "ours": 15.0,
+      "ours": 15,
       "theirs": 15.0,
       "status": "match",
       "alias": "gpt-5.4"
@@ -274,7 +274,7 @@
       "provider": "openai",
       "model_id": "gpt-5.4",
       "field": "pricing.output_per_mtok",
-      "ours": 15.0,
+      "ours": 15,
       "theirs": 15,
       "status": "match",
       "alias": "openai/gpt-5.4"
@@ -944,9 +944,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-flash-lite",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-3.1-flash-lite"
     },
     {
@@ -954,9 +954,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-flash-lite",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-3.1-flash-lite"
     },
     {
@@ -994,9 +994,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-flash-lite",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-3.1-flash-lite"
     },
     {
@@ -1004,9 +1004,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-flash-lite",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-3.1-flash-lite"
     },
     {
@@ -1014,7 +1014,7 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "pricing.input_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2.0,
       "status": "match",
       "alias": "gemini/gemini-3.1-pro-preview"
@@ -1024,7 +1024,7 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "pricing.output_per_mtok",
-      "ours": 12.0,
+      "ours": 12,
       "theirs": 12.0,
       "status": "match",
       "alias": "gemini/gemini-3.1-pro-preview"
@@ -1044,9 +1044,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-3.1-pro-preview"
     },
     {
@@ -1054,9 +1054,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-3.1-pro-preview"
     },
     {
@@ -1064,7 +1064,7 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "pricing.input_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2,
       "status": "match",
       "alias": "google/gemini-3.1-pro-preview"
@@ -1074,7 +1074,7 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "pricing.output_per_mtok",
-      "ours": 12.0,
+      "ours": 12,
       "theirs": 12,
       "status": "match",
       "alias": "google/gemini-3.1-pro-preview"
@@ -1094,9 +1094,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-3.1-pro-preview"
     },
     {
@@ -1104,9 +1104,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-pro-preview",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-3.1-pro-preview"
     },
     {
@@ -1144,9 +1144,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-flash-live-preview",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 131072,
       "theirs": 131072,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-3.1-flash-live-preview"
     },
     {
@@ -1154,9 +1154,9 @@
       "provider": "google",
       "model_id": "gemini-3.1-flash-live-preview",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-3.1-flash-live-preview"
     },
     {
@@ -1181,7 +1181,7 @@
       "provider": "google",
       "model_id": "gemini-3-flash-preview",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3.0,
       "status": "match",
       "alias": "gemini/gemini-3-flash-preview"
@@ -1201,9 +1201,9 @@
       "provider": "google",
       "model_id": "gemini-3-flash-preview",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-3-flash-preview"
     },
     {
@@ -1211,9 +1211,9 @@
       "provider": "google",
       "model_id": "gemini-3-flash-preview",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65535,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "gemini/gemini-3-flash-preview"
     },
     {
@@ -1231,7 +1231,7 @@
       "provider": "google",
       "model_id": "gemini-3-flash-preview",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "google/gemini-3-flash-preview"
@@ -1251,9 +1251,9 @@
       "provider": "google",
       "model_id": "gemini-3-flash-preview",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-3-flash-preview"
     },
     {
@@ -1261,9 +1261,9 @@
       "provider": "google",
       "model_id": "gemini-3-flash-preview",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-3-flash-preview"
     },
     {
@@ -1281,7 +1281,7 @@
       "provider": "google",
       "model_id": "gemini-2.5-pro",
       "field": "pricing.output_per_mtok",
-      "ours": 10.0,
+      "ours": 10,
       "theirs": 10.0,
       "status": "match",
       "alias": "gemini/gemini-2.5-pro"
@@ -1301,9 +1301,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-pro",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-2.5-pro"
     },
     {
@@ -1311,9 +1311,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-pro",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65535,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "gemini/gemini-2.5-pro"
     },
     {
@@ -1331,7 +1331,7 @@
       "provider": "google",
       "model_id": "gemini-2.5-pro",
       "field": "pricing.output_per_mtok",
-      "ours": 10.0,
+      "ours": 10,
       "theirs": 10,
       "status": "match",
       "alias": "google/gemini-2.5-pro"
@@ -1351,9 +1351,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-pro",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-2.5-pro"
     },
     {
@@ -1361,9 +1361,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-pro",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-2.5-pro"
     },
     {
@@ -1411,9 +1411,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65535,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "gemini/gemini-2.5-flash"
     },
     {
@@ -1461,9 +1461,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-2.5-flash"
     },
     {
@@ -1501,9 +1501,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-lite",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-2.5-flash-lite"
     },
     {
@@ -1511,9 +1511,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-lite",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65535,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "gemini/gemini-2.5-flash-lite"
     },
     {
@@ -1551,9 +1551,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-lite",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-2.5-flash-lite"
     },
     {
@@ -1561,9 +1561,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-lite",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65536,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-2.5-flash-lite"
     },
     {
@@ -1601,9 +1601,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-lite-preview-09-2025",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1048576,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-2.5-flash-lite-preview-09-2025"
     },
     {
@@ -1611,9 +1611,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-lite-preview-09-2025",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 65536,
       "theirs": 65535,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "gemini/gemini-2.5-flash-lite-preview-09-2025"
     },
     {
@@ -1638,7 +1638,7 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
       "field": "pricing.output_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2.5,
       "status": "mismatch",
       "alias": "gemini/gemini-2.5-flash-native-audio-preview-12-2025"
@@ -1658,9 +1658,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 131072,
       "theirs": 1048576,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "gemini/gemini-2.5-flash-native-audio-preview-12-2025"
     },
     {
@@ -1668,9 +1668,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 8192,
       "theirs": 8192,
-      "status": "we_lack",
+      "status": "match",
       "alias": "gemini/gemini-2.5-flash-native-audio-preview-12-2025"
     },
     {
@@ -1695,7 +1695,7 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-preview-tts",
       "field": "pricing.output_per_mtok",
-      "ours": 10.0,
+      "ours": 10,
       "theirs": 2.5,
       "status": "mismatch",
       "alias": "gemini/gemini-2.5-flash-preview-tts"
@@ -1715,9 +1715,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-preview-tts",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 8192,
       "theirs": null,
-      "status": "match",
+      "status": "they_lack",
       "alias": "gemini/gemini-2.5-flash-preview-tts"
     },
     {
@@ -1725,9 +1725,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-preview-tts",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 16384,
       "theirs": null,
-      "status": "match",
+      "status": "they_lack",
       "alias": "gemini/gemini-2.5-flash-preview-tts"
     },
     {
@@ -1745,7 +1745,7 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-preview-tts",
       "field": "pricing.output_per_mtok",
-      "ours": 10.0,
+      "ours": 10,
       "theirs": 10,
       "status": "match",
       "alias": "google/gemini-2.5-flash-preview-tts"
@@ -1765,9 +1765,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-preview-tts",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 8192,
       "theirs": 8192,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-2.5-flash-preview-tts"
     },
     {
@@ -1775,9 +1775,9 @@
       "provider": "google",
       "model_id": "gemini-2.5-flash-preview-tts",
       "field": "max_output_tokens",
-      "ours": null,
+      "ours": 16384,
       "theirs": 16384,
-      "status": "we_lack",
+      "status": "match",
       "alias": "google/gemini-2.5-flash-preview-tts"
     },
     {
@@ -2109,7 +2109,7 @@
       "provider": "mistral",
       "model_id": "devstral-medium-latest",
       "field": "pricing.output_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2.0,
       "status": "match",
       "alias": "mistral/devstral-medium-latest"
@@ -2159,7 +2159,7 @@
       "provider": "mistral",
       "model_id": "devstral-medium-latest",
       "field": "pricing.output_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2,
       "status": "match",
       "alias": "mistral/devstral-medium-latest"
@@ -2356,7 +2356,7 @@
       "provider": "mistral",
       "model_id": "magistral-medium-latest",
       "field": "pricing.input_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2.0,
       "status": "match",
       "alias": "mistral/magistral-medium-latest"
@@ -2366,7 +2366,7 @@
       "provider": "mistral",
       "model_id": "magistral-medium-latest",
       "field": "pricing.output_per_mtok",
-      "ours": 5.0,
+      "ours": 5,
       "theirs": 5.0,
       "status": "match",
       "alias": "mistral/magistral-medium-latest"
@@ -2406,7 +2406,7 @@
       "provider": "mistral",
       "model_id": "magistral-medium-latest",
       "field": "pricing.input_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2,
       "status": "match",
       "alias": "mistral/magistral-medium-latest"
@@ -2416,7 +2416,7 @@
       "provider": "mistral",
       "model_id": "magistral-medium-latest",
       "field": "pricing.output_per_mtok",
-      "ours": 5.0,
+      "ours": 5,
       "theirs": 5,
       "status": "match",
       "alias": "mistral/magistral-medium-latest"
@@ -2463,7 +2463,7 @@
       "provider": "xai",
       "model_id": "grok-build-0.1",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1,
       "status": "match",
       "alias": "xai/grok-build-0.1"
@@ -2473,7 +2473,7 @@
       "provider": "xai",
       "model_id": "grok-build-0.1",
       "field": "pricing.output_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2,
       "status": "match",
       "alias": "xai/grok-build-0.1"
@@ -3037,7 +3037,7 @@
       "provider": "cohere",
       "model_id": "command-r-plus-08-2024",
       "field": "pricing.output_per_mtok",
-      "ours": 10.0,
+      "ours": 10,
       "theirs": 10.0,
       "status": "match",
       "alias": "command-r-plus-08-2024"
@@ -3087,7 +3087,7 @@
       "provider": "cohere",
       "model_id": "command-r-plus-08-2024",
       "field": "pricing.output_per_mtok",
-      "ours": 10.0,
+      "ours": 10,
       "theirs": 10,
       "status": "match",
       "alias": "cohere/command-r-plus-08-2024"
@@ -3155,7 +3155,7 @@
       "provider": "cohere",
       "model_id": "command",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1.0,
       "status": "match",
       "alias": "command"
@@ -3165,7 +3165,7 @@
       "provider": "cohere",
       "model_id": "command",
       "field": "pricing.output_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 2.0,
       "status": "match",
       "alias": "command"
@@ -4246,50 +4246,7 @@
       "external": "modelsdev",
       "provider": "alibaba",
       "model_id": "qwen3.7-max",
-      "field": "pricing.input_per_mtok",
-      "ours": 2.5,
-      "theirs": 5,
-      "status": "mismatch",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3.7-max",
-      "field": "pricing.output_per_mtok",
-      "ours": 7.5,
-      "theirs": 15,
-      "status": "mismatch",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3.7-max",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": null,
-      "theirs": 0.5,
-      "status": "we_lack",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3.7-max",
-      "field": "context_window_tokens",
-      "ours": 1000000,
-      "theirs": 256000,
-      "status": "mismatch",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3.7-max",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 65536,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "wafer.ai/qwen3.7-max"
     },
     {
@@ -4606,7 +4563,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": null,
       "status": "they_lack",
       "alias": "dashscope/qwen3-max"
@@ -4656,7 +4613,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": null,
       "status": "they_lack",
       "alias": "qiniu-ai/qwen3-max"
@@ -4706,7 +4663,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 3.441,
       "status": "mismatch",
       "alias": "alibaba-cn/qwen3-max"
@@ -4756,7 +4713,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 6,
       "status": "match",
       "alias": "vercel/alibaba/qwen3-max"
@@ -4806,7 +4763,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 3.38,
       "status": "mismatch",
       "alias": "llmgateway/qwen3-max"
@@ -4856,7 +4813,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 6,
       "status": "match",
       "alias": "abacus/qwen3-max"
@@ -4906,7 +4863,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 6,
       "status": "match",
       "alias": "alibaba/qwen3-max"
@@ -4956,7 +4913,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 0,
       "status": "mismatch",
       "alias": "iflowcn/qwen3-max"
@@ -5006,7 +4963,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max-2026-01-23",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": null,
       "status": "they_lack",
       "alias": "dashscope/qwen3-max-2026-01-23"
@@ -5045,50 +5002,7 @@
       "external": "modelsdev",
       "provider": "alibaba",
       "model_id": "qwen3-max-2026-01-23",
-      "field": "pricing.input_per_mtok",
-      "ours": 1.2,
-      "theirs": 1.2,
-      "status": "match",
-      "alias": "llmgateway/qwen3-max-2026-01-23"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3-max-2026-01-23",
-      "field": "pricing.output_per_mtok",
-      "ours": 6.0,
-      "theirs": 6,
-      "status": "match",
-      "alias": "llmgateway/qwen3-max-2026-01-23"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3-max-2026-01-23",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": null,
-      "theirs": 0.24,
-      "status": "we_lack",
-      "alias": "llmgateway/qwen3-max-2026-01-23"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3-max-2026-01-23",
-      "field": "context_window_tokens",
-      "ours": 256000,
-      "theirs": 262144,
-      "status": "mismatch",
-      "alias": "llmgateway/qwen3-max-2026-01-23"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "alibaba",
-      "model_id": "qwen3-max-2026-01-23",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 32800,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "llmgateway/qwen3-max-2026-01-23"
     },
     {
@@ -5106,7 +5020,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max-2026-01-23",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan-cn/qwen3-max-2026-01-23"
@@ -5156,7 +5070,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max-2026-01-23",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan/qwen3-max-2026-01-23"
@@ -5206,7 +5120,7 @@
       "provider": "alibaba",
       "model_id": "qwen3-max-2026-01-23",
       "field": "pricing.output_per_mtok",
-      "ours": 6.0,
+      "ours": 6,
       "theirs": 6.001,
       "status": "match",
       "alias": "nano-gpt/qwen3-max-2026-01-23"
@@ -5263,7 +5177,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/kimi-k2.7-code"
@@ -5313,7 +5227,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai/kimi-k2.7-code"
@@ -5363,7 +5277,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4.63,
       "status": "mismatch",
       "alias": "cortecs/kimi-k2.7-code"
@@ -5413,7 +5327,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode-go/kimi-k2.7-code"
@@ -5463,7 +5377,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "llmgateway/kimi-k2.7-code"
@@ -5513,7 +5427,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": null,
       "status": "they_lack",
       "alias": "ollama-cloud/kimi-k2.7-code"
@@ -5563,7 +5477,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai-cn/kimi-k2.7-code"
@@ -5613,7 +5527,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode/kimi-k2.7-code"
@@ -5663,7 +5577,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/kimi-k2.7-code"
@@ -5713,7 +5627,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 2.25,
       "status": "mismatch",
       "alias": "crof/kimi-k2.7-code"
@@ -5763,7 +5677,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "github-copilot/kimi-k2.7-code"
@@ -5813,7 +5727,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4.0,
       "status": "match",
       "alias": "moonshot/kimi-k2.6"
@@ -5863,7 +5777,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 3.858,
       "status": "mismatch",
       "alias": "alibaba-cn/kimi-k2.6"
@@ -5913,7 +5827,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/kimi-k2.6"
@@ -5963,7 +5877,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai/kimi-k2.6"
@@ -6013,7 +5927,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 3.54,
       "status": "mismatch",
       "alias": "cortecs/kimi-k2.6"
@@ -6063,7 +5977,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "auriko/kimi-k2.6"
@@ -6113,7 +6027,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode-go/kimi-k2.6"
@@ -6163,7 +6077,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "digitalocean/kimi-k2.6"
@@ -6213,7 +6127,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 2.2,
       "status": "mismatch",
       "alias": "llmgateway/kimi-k2.6"
@@ -6263,7 +6177,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": null,
       "status": "they_lack",
       "alias": "ollama-cloud/kimi-k2.6"
@@ -6313,7 +6227,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai-cn/kimi-k2.6"
@@ -6363,7 +6277,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "azure/kimi-k2.6"
@@ -6413,7 +6327,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode/kimi-k2.6"
@@ -6463,7 +6377,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/kimi-k2.6"
@@ -6513,7 +6427,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 1.99,
       "status": "mismatch",
       "alias": "crof/kimi-k2.6"
@@ -6563,7 +6477,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "azure-cognitive-services/kimi-k2.6"
@@ -6613,7 +6527,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "aihubmix/kimi-k2.6"
@@ -6663,7 +6577,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3.0,
       "status": "match",
       "alias": "moonshot/kimi-k2.5"
@@ -6713,7 +6627,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 2.411,
       "status": "mismatch",
       "alias": "alibaba-cn/kimi-k2.5"
@@ -6763,7 +6677,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/kimi-k2.5"
@@ -6813,7 +6727,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "moonshotai/kimi-k2.5"
@@ -6863,7 +6777,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 2.76,
       "status": "mismatch",
       "alias": "cortecs/kimi-k2.5"
@@ -6913,7 +6827,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 2.8,
       "status": "mismatch",
       "alias": "auriko/kimi-k2.5"
@@ -6963,7 +6877,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "opencode-go/kimi-k2.5"
@@ -7013,7 +6927,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 2.7,
       "status": "mismatch",
       "alias": "digitalocean/kimi-k2.5"
@@ -7063,7 +6977,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 1.98,
       "status": "mismatch",
       "alias": "llmgateway/kimi-k2.5"
@@ -7113,7 +7027,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan-cn/kimi-k2.5"
@@ -7163,7 +7077,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "abacus/kimi-k2.5"
@@ -7213,7 +7127,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": null,
       "status": "they_lack",
       "alias": "ollama-cloud/kimi-k2.5"
@@ -7263,7 +7177,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "moonshotai-cn/kimi-k2.5"
@@ -7313,7 +7227,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "azure/kimi-k2.5"
@@ -7363,7 +7277,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "tencent-coding-plan/kimi-k2.5"
@@ -7413,7 +7327,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "opencode/kimi-k2.5"
@@ -7463,7 +7377,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan/kimi-k2.5"
@@ -7513,7 +7427,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "frogbot/kimi-k2.5"
@@ -7563,7 +7477,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/kimi-k2.5"
@@ -7613,7 +7527,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 1.7,
       "status": "mismatch",
       "alias": "crof/kimi-k2.5"
@@ -7663,7 +7577,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "azure-cognitive-services/kimi-k2.5"
@@ -7713,7 +7627,7 @@
       "provider": "moonshot",
       "model_id": "kimi-k2.5",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "aihubmix/kimi-k2.5"
@@ -8141,7 +8055,7 @@
       "model_id": "glm-5.2",
       "field": "context_window_tokens",
       "ours": null,
-      "theirs": 1000000,
+      "theirs": 1024000,
       "status": "we_lack",
       "alias": "llmgateway/glm-5.2"
     },
@@ -9417,7 +9331,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0.86,
       "status": "mismatch",
       "alias": "alibaba-cn/glm-5"
@@ -9467,7 +9381,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/glm-5"
@@ -9517,7 +9431,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0.6,
       "status": "mismatch",
       "alias": "302ai/glm-5"
@@ -9567,7 +9481,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1,
       "status": "match",
       "alias": "zhipuai/glm-5"
@@ -9617,7 +9531,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1.08,
       "status": "mismatch",
       "alias": "cortecs/glm-5"
@@ -9667,7 +9581,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1,
       "status": "match",
       "alias": "opencode-go/glm-5"
@@ -9717,7 +9631,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1,
       "status": "match",
       "alias": "digitalocean/glm-5"
@@ -9767,7 +9681,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1,
       "status": "match",
       "alias": "zai/glm-5"
@@ -9817,7 +9731,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0.72,
       "status": "mismatch",
       "alias": "llmgateway/glm-5"
@@ -9867,7 +9781,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan-cn/glm-5"
@@ -9917,7 +9831,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": null,
       "status": "they_lack",
       "alias": "ollama-cloud/glm-5"
@@ -9967,7 +9881,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0,
       "status": "mismatch",
       "alias": "tencent-coding-plan/glm-5"
@@ -10017,7 +9931,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 1,
       "status": "match",
       "alias": "opencode/glm-5"
@@ -10067,7 +9981,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan/glm-5"
@@ -10117,7 +10031,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0.75,
       "status": "mismatch",
       "alias": "dinference/glm-5"
@@ -10167,7 +10081,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/glm-5"
@@ -10217,7 +10131,7 @@
       "provider": "zhipu",
       "model_id": "glm-5",
       "field": "pricing.input_per_mtok",
-      "ours": 1.0,
+      "ours": 1,
       "theirs": 0.48,
       "status": "mismatch",
       "alias": "crof/glm-5"
@@ -10284,7 +10198,7 @@
       "provider": "zhipu",
       "model_id": "glm-5-turbo",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 3.2,
       "status": "mismatch",
       "alias": "302ai/glm-5-turbo"
@@ -10334,7 +10248,7 @@
       "provider": "zhipu",
       "model_id": "glm-5-turbo",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4.118,
       "status": "mismatch",
       "alias": "cortecs/glm-5-turbo"
@@ -10384,7 +10298,7 @@
       "provider": "zhipu",
       "model_id": "glm-5-turbo",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "zai/glm-5-turbo"
@@ -10434,7 +10348,7 @@
       "provider": "zhipu",
       "model_id": "glm-5-turbo",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "zai-coding-plan/glm-5-turbo"
@@ -10484,7 +10398,7 @@
       "provider": "zhipu",
       "model_id": "glm-5-turbo",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "zhipuai-coding-plan/glm-5-turbo"
@@ -11682,7 +11596,7 @@
       "model_id": "glm-4.6",
       "field": "pricing.input_per_mtok",
       "ours": 0.6,
-      "theirs": 0.431,
+      "theirs": 0.55,
       "status": "mismatch",
       "alias": "llmgateway/glm-4.6"
     },
@@ -11692,8 +11606,8 @@
       "model_id": "glm-4.6",
       "field": "pricing.output_per_mtok",
       "ours": 2.2,
-      "theirs": 2.007,
-      "status": "mismatch",
+      "theirs": 2.2,
+      "status": "match",
       "alias": "llmgateway/glm-4.6"
     },
     {
@@ -12989,9 +12903,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 1000000,
-      "status": "we_lack",
+      "status": "match",
       "alias": "vercel/minimax/minimax-m3"
     },
     {
@@ -13039,9 +12953,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "cortecs/minimax-m3"
     },
     {
@@ -13089,9 +13003,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 1000000,
-      "status": "we_lack",
+      "status": "match",
       "alias": "opencode-go/minimax-m3"
     },
     {
@@ -13139,9 +13053,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "zenmux/minimax/minimax-m3"
     },
     {
@@ -13189,9 +13103,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "kenari/minimax-m3"
     },
     {
@@ -13239,9 +13153,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "merge-gateway/minimax/minimax-m3"
     },
     {
@@ -13289,9 +13203,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -13339,9 +13253,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "ollama-cloud/minimax-m3"
     },
     {
@@ -13389,9 +13303,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "opencode/minimax-m3"
     },
     {
@@ -13439,9 +13353,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 524288,
-      "status": "we_lack",
+      "ours": 1000000,
+      "theirs": 1048576,
+      "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m3"
     },
     {
@@ -13450,7 +13364,7 @@
       "model_id": "minimax-m3",
       "field": "max_output_tokens",
       "ours": null,
-      "theirs": 512000,
+      "theirs": 131072,
       "status": "we_lack",
       "alias": "openrouter/minimax/minimax-m3"
     },
@@ -13489,9 +13403,9 @@
       "provider": "minimax",
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 1000000,
       "theirs": 512000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "nano-gpt/minimax/minimax-m3"
     },
     {
@@ -13546,9 +13460,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "vercel/minimax/minimax-m2.7"
     },
     {
@@ -13596,9 +13510,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "novita-ai/minimax/minimax-m2.7"
     },
     {
@@ -13646,9 +13560,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 202752,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "cortecs/minimax-m2.7"
     },
     {
@@ -13696,9 +13610,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "opencode-go/minimax-m2.7"
     },
     {
@@ -13746,9 +13660,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "zenmux/minimax/minimax-m2.7"
     },
     {
@@ -13796,9 +13710,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "merge-gateway/minimax/minimax-m2.7"
     },
     {
@@ -13846,9 +13760,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "orcarouter/minimax/minimax-m2.7"
     },
     {
@@ -13896,9 +13810,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "llmgateway/minimax-m2.7"
     },
     {
@@ -13946,9 +13860,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196608,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "ollama-cloud/minimax-m2.7"
     },
     {
@@ -13996,9 +13910,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "opencode/minimax-m2.7"
     },
     {
@@ -14046,9 +13960,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "kilo/minimax/minimax-m2.7"
     },
     {
@@ -14067,7 +13981,7 @@
       "model_id": "minimax-m2.7",
       "field": "pricing.input_per_mtok",
       "ours": 0.3,
-      "theirs": 0.18,
+      "theirs": 0.24,
       "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.7"
     },
@@ -14077,7 +13991,7 @@
       "model_id": "minimax-m2.7",
       "field": "pricing.output_per_mtok",
       "ours": 1.2,
-      "theirs": 0.72,
+      "theirs": 0.96,
       "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.7"
     },
@@ -14096,9 +14010,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 196608,
-      "status": "we_lack",
+      "ours": 204800,
+      "theirs": 204800,
+      "status": "match",
       "alias": "openrouter/minimax/minimax-m2.7"
     },
     {
@@ -14146,9 +14060,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "fastrouter/minimax/minimax-m2.7"
     },
     {
@@ -14196,9 +14110,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "aihubmix/minimax-m2.7"
     },
     {
@@ -14246,9 +14160,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.7",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "nano-gpt/minimax/minimax-m2.7"
     },
     {
@@ -14303,9 +14217,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "qiniu-ai/minimax/minimax-m2.5"
     },
     {
@@ -14353,9 +14267,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 190000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "regolo-ai/minimax-m2.5"
     },
     {
@@ -14403,9 +14317,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "vercel/minimax/minimax-m2.5"
     },
     {
@@ -14453,9 +14367,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "novita-ai/minimax/minimax-m2.5"
     },
     {
@@ -14503,9 +14417,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196608,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "cortecs/minimax-m2.5"
     },
     {
@@ -14553,9 +14467,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "opencode-go/minimax-m2.5"
     },
     {
@@ -14603,9 +14517,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "digitalocean/minimax-m2.5"
     },
     {
@@ -14653,9 +14567,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "zenmux/minimax/minimax-m2.5"
     },
     {
@@ -14703,9 +14617,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "merge-gateway/minimax/minimax-m2.5"
     },
     {
@@ -14753,9 +14667,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "orcarouter/minimax/minimax-m2.5"
     },
     {
@@ -14803,9 +14717,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 228700,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "llmgateway/minimax-m2.5"
     },
     {
@@ -14853,9 +14767,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "ollama-cloud/minimax-m2.5"
     },
     {
@@ -14903,9 +14817,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "tencent-coding-plan/minimax-m2.5"
     },
     {
@@ -14953,9 +14867,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "opencode/minimax-m2.5"
     },
     {
@@ -15003,9 +14917,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 1000000,
-      "status": "we_lack",
+      "ours": 204800,
+      "theirs": 196000,
+      "status": "mismatch",
       "alias": "hpc-ai/minimax/minimax-m2.5"
     },
     {
@@ -15014,7 +14928,7 @@
       "model_id": "minimax-m2.5",
       "field": "max_output_tokens",
       "ours": null,
-      "theirs": 131072,
+      "theirs": 195000,
       "status": "we_lack",
       "alias": "hpc-ai/minimax/minimax-m2.5"
     },
@@ -15053,9 +14967,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 200000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "dinference/minimax-m2.5"
     },
     {
@@ -15103,9 +15017,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196608,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "kilo/minimax/minimax-m2.5"
     },
     {
@@ -15124,7 +15038,7 @@
       "model_id": "minimax-m2.5",
       "field": "pricing.input_per_mtok",
       "ours": 0.3,
-      "theirs": 0.12,
+      "theirs": 0.15,
       "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.5"
     },
@@ -15134,7 +15048,7 @@
       "model_id": "minimax-m2.5",
       "field": "pricing.output_per_mtok",
       "ours": 1.2,
-      "theirs": 0.48,
+      "theirs": 0.9,
       "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.5"
     },
@@ -15144,8 +15058,8 @@
       "model_id": "minimax-m2.5",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.03,
-      "theirs": null,
-      "status": "they_lack",
+      "theirs": 0.05,
+      "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.5"
     },
     {
@@ -15153,9 +15067,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 196608,
-      "status": "we_lack",
+      "ours": 204800,
+      "theirs": 204800,
+      "status": "match",
       "alias": "openrouter/minimax/minimax-m2.5"
     },
     {
@@ -15203,9 +15117,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "crof/minimax-m2.5"
     },
     {
@@ -15253,9 +15167,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.5",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "nano-gpt/minimax/minimax-m2.5"
     },
     {
@@ -15310,9 +15224,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "qiniu-ai/minimax/minimax-m2.1"
     },
     {
@@ -15360,9 +15274,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "vercel/minimax/minimax-m2.1"
     },
     {
@@ -15410,9 +15324,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "novita-ai/minimax/minimax-m2.1"
     },
     {
@@ -15460,9 +15374,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "cortecs/minimax-m2.1"
     },
     {
@@ -15510,9 +15424,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "zenmux/minimax/minimax-m2.1"
     },
     {
@@ -15560,9 +15474,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "merge-gateway/minimax/minimax-m2.1"
     },
     {
@@ -15610,9 +15524,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "llmgateway/minimax-m2.1"
     },
     {
@@ -15660,9 +15574,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "ollama-cloud/minimax-m2.1"
     },
     {
@@ -15710,9 +15624,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "opencode/minimax-m2.1"
     },
     {
@@ -15760,9 +15674,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196608,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "kilo/minimax/minimax-m2.1"
     },
     {
@@ -15810,9 +15724,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "openrouter/minimax/minimax-m2.1"
     },
     {
@@ -15860,9 +15774,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "jiekou/minimax/minimax-m2.1"
     },
     {
@@ -15910,9 +15824,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2.1",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 200000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "nano-gpt/minimax/minimax-m2.1"
     },
     {
@@ -15967,9 +15881,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 200000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "qiniu-ai/minimax/minimax-m2"
     },
     {
@@ -16017,9 +15931,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 205000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "vercel/minimax/minimax-m2"
     },
     {
@@ -16067,9 +15981,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "novita-ai/minimax/minimax-m2"
     },
     {
@@ -16117,9 +16031,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 400000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "cortecs/minimax-m2"
     },
     {
@@ -16167,9 +16081,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204000,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "zenmux/minimax/minimax-m2"
     },
     {
@@ -16217,9 +16131,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196608,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "merge-gateway/minimax/minimax-m2"
     },
     {
@@ -16267,9 +16181,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196608,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "llmgateway/minimax-m2"
     },
     {
@@ -16317,9 +16231,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "ollama-cloud/minimax-m2"
     },
     {
@@ -16367,9 +16281,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 196608,
-      "status": "we_lack",
+      "status": "mismatch",
       "alias": "kilo/minimax/minimax-m2"
     },
     {
@@ -16417,9 +16331,9 @@
       "provider": "minimax",
       "model_id": "minimax-m2",
       "field": "context_window_tokens",
-      "ours": null,
+      "ours": 204800,
       "theirs": 204800,
-      "status": "we_lack",
+      "status": "match",
       "alias": "openrouter/minimax/minimax-m2"
     },
     {
@@ -17328,7 +17242,7 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "max_output_tokens",
       "ours": 65536,
-      "theirs": 32768,
+      "theirs": 16384,
       "status": "mismatch",
       "alias": "abacus/openai/gpt-oss-120b"
     },
@@ -17388,7 +17302,7 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.input_per_mtok",
       "ours": 0.15,
-      "theirs": 0.039,
+      "theirs": 0.037,
       "status": "mismatch",
       "alias": "deepinfra/openai/gpt-oss-120b"
     },
@@ -17638,8 +17552,8 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.input_per_mtok",
       "ours": 0.15,
-      "theirs": 0.15,
-      "status": "match",
+      "theirs": 0.04,
+      "status": "mismatch",
       "alias": "wandb/openai/gpt-oss-120b"
     },
     {
@@ -17648,8 +17562,8 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.output_per_mtok",
       "ours": 0.6,
-      "theirs": 0.6,
-      "status": "match",
+      "theirs": 0.14,
+      "status": "mismatch",
       "alias": "wandb/openai/gpt-oss-120b"
     },
     {
@@ -17658,8 +17572,8 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.cached_input_per_mtok",
       "ours": null,
-      "theirs": null,
-      "status": "match",
+      "theirs": 0.04,
+      "status": "we_lack",
       "alias": "wandb/openai/gpt-oss-120b"
     },
     {
@@ -17788,7 +17702,7 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.input_per_mtok",
       "ours": 0.15,
-      "theirs": 0.03,
+      "theirs": 0.036,
       "status": "mismatch",
       "alias": "openrouter/openai/gpt-oss-120b"
     },
@@ -17798,7 +17712,7 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.output_per_mtok",
       "ours": 0.6,
-      "theirs": 0.15,
+      "theirs": 0.18,
       "status": "mismatch",
       "alias": "openrouter/openai/gpt-oss-120b"
     },
@@ -18438,7 +18352,7 @@
       "model_id": "openai/gpt-oss-20b",
       "field": "pricing.input_per_mtok",
       "ours": 0.075,
-      "theirs": 0.05,
+      "theirs": 0.03,
       "status": "mismatch",
       "alias": "wandb/openai/gpt-oss-20b"
     },
@@ -18448,7 +18362,7 @@
       "model_id": "openai/gpt-oss-20b",
       "field": "pricing.output_per_mtok",
       "ours": 0.3,
-      "theirs": 0.2,
+      "theirs": 0.13,
       "status": "mismatch",
       "alias": "wandb/openai/gpt-oss-20b"
     },
@@ -18458,8 +18372,8 @@
       "model_id": "openai/gpt-oss-20b",
       "field": "pricing.cached_input_per_mtok",
       "ours": null,
-      "theirs": null,
-      "status": "match",
+      "theirs": 0.03,
+      "status": "we_lack",
       "alias": "wandb/openai/gpt-oss-20b"
     },
     {
@@ -18754,7 +18668,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/kimi-k2.7-code"
@@ -18804,7 +18718,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai/kimi-k2.7-code"
@@ -18854,7 +18768,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4.63,
       "status": "mismatch",
       "alias": "cortecs/kimi-k2.7-code"
@@ -18904,7 +18818,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode-go/kimi-k2.7-code"
@@ -18954,7 +18868,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "llmgateway/kimi-k2.7-code"
@@ -19004,7 +18918,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": null,
       "status": "they_lack",
       "alias": "ollama-cloud/kimi-k2.7-code"
@@ -19054,7 +18968,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai-cn/kimi-k2.7-code"
@@ -19104,7 +19018,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode/kimi-k2.7-code"
@@ -19154,7 +19068,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/kimi-k2.7-code"
@@ -19204,7 +19118,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 2.25,
       "status": "mismatch",
       "alias": "crof/kimi-k2.7-code"
@@ -19254,7 +19168,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "github-copilot/kimi-k2.7-code"
@@ -19325,7 +19239,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 3.858,
       "status": "mismatch",
       "alias": "alibaba-cn/kimi-k2.6"
@@ -19375,7 +19289,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/kimi-k2.6"
@@ -19425,7 +19339,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai/kimi-k2.6"
@@ -19475,7 +19389,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 3.54,
       "status": "mismatch",
       "alias": "cortecs/kimi-k2.6"
@@ -19525,7 +19439,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "auriko/kimi-k2.6"
@@ -19575,7 +19489,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode-go/kimi-k2.6"
@@ -19625,7 +19539,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "digitalocean/kimi-k2.6"
@@ -19675,7 +19589,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 2.2,
       "status": "mismatch",
       "alias": "llmgateway/kimi-k2.6"
@@ -19725,7 +19639,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": null,
       "status": "they_lack",
       "alias": "ollama-cloud/kimi-k2.6"
@@ -19775,7 +19689,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai-cn/kimi-k2.6"
@@ -19825,7 +19739,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "azure/kimi-k2.6"
@@ -19875,7 +19789,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode/kimi-k2.6"
@@ -19925,7 +19839,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/kimi-k2.6"
@@ -19975,7 +19889,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 1.99,
       "status": "mismatch",
       "alias": "crof/kimi-k2.6"
@@ -20025,7 +19939,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "azure-cognitive-services/kimi-k2.6"
@@ -20075,7 +19989,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "aihubmix/kimi-k2.6"
@@ -20122,7 +20036,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6-fast",
       "field": "pricing.input_per_mtok",
-      "ours": 2.0,
+      "ours": 2,
       "theirs": 0.69,
       "status": "mismatch",
       "alias": "neuralwatt/kimi-k2.6-fast"
@@ -20132,7 +20046,7 @@
       "provider": "fireworks",
       "model_id": "kimi-k2.6-fast",
       "field": "pricing.output_per_mtok",
-      "ours": 8.0,
+      "ours": 8,
       "theirs": 3.22,
       "status": "mismatch",
       "alias": "neuralwatt/kimi-k2.6-fast"
@@ -21071,50 +20985,7 @@
       "external": "modelsdev",
       "provider": "fireworks",
       "model_id": "deepseek-v4-pro",
-      "field": "pricing.input_per_mtok",
-      "ours": 1.74,
-      "theirs": 1.74,
-      "status": "match",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-pro",
-      "field": "pricing.output_per_mtok",
-      "ours": 3.48,
-      "theirs": 3.48,
-      "status": "match",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-pro",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.145,
-      "theirs": 0.02,
-      "status": "mismatch",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-pro",
-      "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 1000000,
-      "status": "we_lack",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-pro",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 384000,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "wafer.ai/deepseek-v4-pro"
     },
     {
@@ -21871,50 +21742,7 @@
       "external": "modelsdev",
       "provider": "fireworks",
       "model_id": "deepseek-v4-flash",
-      "field": "pricing.input_per_mtok",
-      "ours": 0.14,
-      "theirs": 0.14,
-      "status": "match",
-      "alias": "wafer.ai/deepseek-v4-flash"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-flash",
-      "field": "pricing.output_per_mtok",
-      "ours": 0.28,
-      "theirs": 0.28,
-      "status": "match",
-      "alias": "wafer.ai/deepseek-v4-flash"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-flash",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.028,
-      "theirs": 0.01,
-      "status": "mismatch",
-      "alias": "wafer.ai/deepseek-v4-flash"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-flash",
-      "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 1000000,
-      "status": "we_lack",
-      "alias": "wafer.ai/deepseek-v4-flash"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "fireworks",
-      "model_id": "deepseek-v4-flash",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 384000,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "wafer.ai/deepseek-v4-flash"
     },
     {
@@ -22310,7 +22138,7 @@
       "model_id": "glm-5.2",
       "field": "context_window_tokens",
       "ours": null,
-      "theirs": 1000000,
+      "theirs": 1024000,
       "status": "we_lack",
       "alias": "llmgateway/glm-5.2"
     },
@@ -25298,50 +25126,7 @@
       "external": "modelsdev",
       "provider": "together",
       "model_id": "deepseek-v4-pro",
-      "field": "pricing.input_per_mtok",
-      "ours": 1.74,
-      "theirs": 1.74,
-      "status": "match",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "deepseek-v4-pro",
-      "field": "pricing.output_per_mtok",
-      "ours": 3.48,
-      "theirs": 3.48,
-      "status": "match",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "deepseek-v4-pro",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.2,
-      "theirs": 0.02,
-      "status": "mismatch",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "deepseek-v4-pro",
-      "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 1000000,
-      "status": "we_lack",
-      "alias": "wafer.ai/deepseek-v4-pro"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "deepseek-v4-pro",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 384000,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "wafer.ai/deepseek-v4-pro"
     },
     {
@@ -25673,7 +25458,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/kimi-k2.7-code"
@@ -25723,7 +25508,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai/kimi-k2.7-code"
@@ -25773,7 +25558,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4.63,
       "status": "mismatch",
       "alias": "cortecs/kimi-k2.7-code"
@@ -25823,7 +25608,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode-go/kimi-k2.7-code"
@@ -25873,7 +25658,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "llmgateway/kimi-k2.7-code"
@@ -25923,7 +25708,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": null,
       "status": "they_lack",
       "alias": "ollama-cloud/kimi-k2.7-code"
@@ -25973,7 +25758,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "moonshotai-cn/kimi-k2.7-code"
@@ -26023,7 +25808,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "opencode/kimi-k2.7-code"
@@ -26073,7 +25858,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/kimi-k2.7-code"
@@ -26123,7 +25908,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 2.25,
       "status": "mismatch",
       "alias": "crof/kimi-k2.7-code"
@@ -26173,7 +25958,7 @@
       "provider": "together",
       "model_id": "kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
-      "ours": 4.0,
+      "ours": 4,
       "theirs": 4,
       "status": "match",
       "alias": "github-copilot/kimi-k2.7-code"
@@ -26601,7 +26386,7 @@
       "model_id": "glm-5.2",
       "field": "context_window_tokens",
       "ours": null,
-      "theirs": 1000000,
+      "theirs": 1024000,
       "status": "we_lack",
       "alias": "llmgateway/glm-5.2"
     },
@@ -28925,50 +28710,7 @@
       "external": "modelsdev",
       "provider": "together",
       "model_id": "qwen3.7-max",
-      "field": "pricing.input_per_mtok",
-      "ours": 1.25,
-      "theirs": 5,
-      "status": "mismatch",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "qwen3.7-max",
-      "field": "pricing.output_per_mtok",
-      "ours": 3.75,
-      "theirs": 15,
-      "status": "mismatch",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "qwen3.7-max",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.13,
-      "theirs": 0.5,
-      "status": "mismatch",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "qwen3.7-max",
-      "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 256000,
-      "status": "we_lack",
-      "alias": "wafer.ai/qwen3.7-max"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "together",
-      "model_id": "qwen3.7-max",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 65536,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "wafer.ai/qwen3.7-max"
     },
     {
@@ -32469,7 +32211,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "alibaba-cn/qwen3.6-plus"
@@ -32519,7 +32261,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan-cn/qwen3.6-plus"
@@ -32569,7 +32311,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "opencode-go/qwen3.6-plus"
@@ -32619,7 +32361,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "llmgateway/qwen3.6-plus"
@@ -32669,7 +32411,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan-cn/qwen3.6-plus"
@@ -32719,7 +32461,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "opencode/qwen3.6-plus"
@@ -32769,7 +32511,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-coding-plan/qwen3.6-plus"
@@ -32819,7 +32561,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 0,
       "status": "mismatch",
       "alias": "alibaba-token-plan/qwen3.6-plus"
@@ -32869,7 +32611,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 3,
       "status": "match",
       "alias": "alibaba/qwen3.6-plus"
@@ -32919,7 +32661,7 @@
       "provider": "together",
       "model_id": "qwen3.6-plus",
       "field": "pricing.output_per_mtok",
-      "ours": 3.0,
+      "ours": 3,
       "theirs": 1.69,
       "status": "mismatch",
       "alias": "aihubmix/qwen3.6-plus"

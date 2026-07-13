@@ -26,7 +26,7 @@
   "sources": [
     {
       "url": "https://www.together.ai/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -35,7 +35,7 @@
       "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page.",
   "permalink": "/models/together/minimax-m2_7.html"
 }

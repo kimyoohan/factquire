@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -38,7 +38,7 @@
       "quote": "similar tasks requiring complex reasoning and multiple steps. Text 128k 4k Chat command-a-translate-08-2025 Live Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Chinese, Arabic, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, Persian. Text 8K 8k Chat"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page.",
   "permalink": "/models/cohere/command-a-translate-08-2025.html"
 }

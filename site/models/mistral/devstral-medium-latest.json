@@ -26,7 +26,7 @@
   "sources": [
     {
       "url": "https://mistral.ai/pricing/api/",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -35,7 +35,7 @@
       "quote": "Devstral 2 ... Coding Agentic Text-to-text Input (/M tokens) $0.4 Output (/M tokens) $2 devstral-medium-latest"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/mistral/devstral-medium-latest.html"
 }

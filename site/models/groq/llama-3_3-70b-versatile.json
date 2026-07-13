@@ -26,7 +26,7 @@
   "sources": [
     {
       "url": "https://console.groq.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -36,7 +36,7 @@
       "quote": "Production Models MODEL ID ... llama-3.1-8b-instant $0.05 input$0.08 output ... 131,072 131,072 ... llama-3.3-70b-versatile $0.59 input$0.79 output ... 131,072 32,768 ... openai/gpt-oss-120b $0.15 input$0.60 output ... 131,072 65,536 ... openai/gpt-oss-20b $0.075 input$0.30 output ... 131,072 65,536"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Upstream model family: Meta Llama; provider is Groq serving platform.",
   "permalink": "/models/groq/llama-3_3-70b-versatile.html"
 }

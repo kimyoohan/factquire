@@ -26,7 +26,7 @@
   "sources": [
     {
       "url": "https://docs.perplexity.ai/docs/agent-api/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -35,7 +35,7 @@
       "quote": "Perplexity Sonar — Perplexity’s grounded search model. Model Input ($/1M)Output ($/1M)Cache ($/1M) `perplexity/sonar` 0.25 2.50 0.0625"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Perplexity Agent API model table; context window not stated on collected page.",
   "permalink": "/models/perplexity/perplexity_sonar.html"
 }

@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://mistral.ai/pricing/api/",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -36,7 +36,7 @@
       "quote": "Mistral Medium 3.5 ... Text-to-text Reasoning Coding Agentic Multimodal Input (/M tokens) $1.5 Output (/M tokens) $7.5 mistral-medium-latest"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/mistral/mistral-medium-latest.html"
 }

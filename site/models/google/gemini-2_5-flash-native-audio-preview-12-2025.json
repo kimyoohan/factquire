@@ -29,7 +29,7 @@
   "sources": [
     {
       "url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -39,7 +39,7 @@
     },
     {
       "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
-      "accessed_at": "2026-07-08T00:00:00Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "quote": "Input token limit 131,072 Output token limit 8,192",
       "fields": [
         "context_window_tokens",
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "verified_at": "2026-07-08T00:00:00Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier.",
   "permalink": "/models/google/gemini-2_5-flash-native-audio-preview-12-2025.html"
 }

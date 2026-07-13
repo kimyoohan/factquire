@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.cohere.com/docs/command-r7b",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -40,7 +40,7 @@
       "quote": "Command R7B model details and specifications Capabilities Multilingual Safety Modes Citations Tool Use Structured Outputs Reasoning Image Inputs Pricing Input $0.0375 / 1M tokens Output $0.15 / 1M tokens Specifications Context Window: 128,000 tokens Max Output Tokens: 4,000 tokens Knowledge Cutoff: June 1, 2024 Model ID command-r7b-12-2024"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/cohere/command-r7b-12-2024.html"
 }

@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://developers.openai.com/api/docs/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -37,7 +37,7 @@
     },
     {
       "url": "https://developers.openai.com/api/docs/models/compare",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "context_window_tokens",
         "max_output_tokens",
@@ -47,7 +47,7 @@
       "quote": "GPT-5.4 ... Input $2.50 Cached Input $0.25 Output $15.00 Context Window 1,050,000 Max Output Tokens 128,000 Knowledge Cutoff Aug 31, 2025 Supported Features Streaming Function calling Structured outputs Image input"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "OpenAI pricing records the standard short-context tier; long-context pricing, where present, is noted in the cited quote.",
   "permalink": "/models/openai/gpt-5_4.html"
 }

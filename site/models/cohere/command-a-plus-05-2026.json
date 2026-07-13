@@ -28,7 +28,7 @@
   "sources": [
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -39,7 +39,7 @@
       "quote": "Name Status Description Modality Context Length Maximum Output Tokens Endpoints command-a-plus-05-2026 Live Command A+ offers the last model in the Command A family, while being Cohere’s first Mixture of Experts model, simultaneously combining vision input support, agentic, reasoning, and world-class translation capabilities into single model weights. It also can fit on 1 x B200 or 2 x H100 GPUs, while providing significant latency and throughput improvements over Command A Reasoning, making it an ideal model for any enterprise to deploy at scale. Text, Images 128k 64k Chat"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page.",
   "permalink": "/models/cohere/command-a-plus-05-2026.html"
 }

@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -38,7 +38,7 @@
       "quote": "n ideal model for any enterprise to deploy at scale. Text, Images 128k 64k Chat command-a-03-2025 Live Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases. Command A has a context length of 256K, only requires two GPUs to run, and has 150% higher throughput compared to Command R+ 08-2024. Text 256k 8k Chat"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page.",
   "permalink": "/models/cohere/command-a-03-2025.html"
 }

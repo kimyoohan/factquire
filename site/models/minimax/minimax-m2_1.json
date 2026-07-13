@@ -26,7 +26,7 @@
   "sources": [
     {
       "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -36,14 +36,14 @@
     },
     {
       "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
-      "accessed_at": "2026-07-08T00:00:00Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "quote": "MiniMax-M2.1 204,800 Powerful Multi-Language Programming Capabilities with Comprehensively Enhanced Programming Experience",
       "fields": [
         "context_window_tokens"
       ]
     }
   ],
-  "verified_at": "2026-07-08T00:00:00Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Standard Pay-as-you-go tier; M3 base <=512k input-token tier recorded, long-context and Priority tiers noted in source.",
   "permalink": "/models/minimax/minimax-m2_1.html"
 }

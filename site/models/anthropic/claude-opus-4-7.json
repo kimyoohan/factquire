@@ -28,7 +28,7 @@
   "sources": [
     {
       "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -38,7 +38,7 @@
     },
     {
       "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "modalities"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "url": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id"
       ],
@@ -54,14 +54,14 @@
     },
     {
       "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "context_window_tokens"
       ],
       "quote": "Claude Fable 5, Claude Mythos 5, Claude Mythos Preview, Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 5, and Sonnet 4.6 include the full 1M token context window at standard pricing."
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/anthropic/claude-opus-4-7.html"
 }

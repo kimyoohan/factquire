@@ -29,7 +29,7 @@
   "sources": [
     {
       "url": "https://platform.kimi.ai/",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -39,7 +39,7 @@
     },
     {
       "url": "https://platform.kimi.ai/docs/pricing/chat-k26",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "modalities",
         "context_window_tokens"
@@ -47,7 +47,7 @@
       "quote": "Kimi K2.6 ... supports text, image, and video input ... Context length 256k"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/moonshot/kimi-k2_6.html"
 }

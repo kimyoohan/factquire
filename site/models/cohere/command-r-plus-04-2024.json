@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://cohere.com/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok"
@@ -36,7 +36,7 @@
     },
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -48,7 +48,7 @@
       "quote": ", retrieval augmented generation (RAG), tool use, and agents. Text 128k 4k Chat command-r-plus-04-2024 Deprecated Sept 15, 2025 Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It is best suited for complex RAG workflows and multi-step tool use. Text 128k 4k Chat command-r-plus Deprecated Sept 15, 2025 Alias for command-r-plus-04-2024 Text 128k 4k Chat command-r Deprecated Sept 15, 2025 Alias for command-r-03-2024 Text 128k 4k Chat"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/cohere/command-r-plus-04-2024.html"
 }

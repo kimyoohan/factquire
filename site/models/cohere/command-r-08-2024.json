@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -38,7 +38,7 @@
       "quote": "sh, Portuguese, Italian, French, German, and Spanish. Text, Images 128K 8K Chat command-r-08-2024 Live command-r-08-2024 is an update of the Command R model, delivered in August 2024. Find more information here Text 128k 4k Chat"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page.",
   "permalink": "/models/cohere/command-r-08-2024.html"
 }

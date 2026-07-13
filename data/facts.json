@@ -28,7 +28,7 @@
     "sources": [
       {
         "url": "https://developers.openai.com/api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -38,7 +38,7 @@
       },
       {
         "url": "https://developers.openai.com/api/docs/models/compare",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "context_window_tokens",
           "max_output_tokens",
@@ -48,7 +48,7 @@
         "quote": "GPT-5.5 ... Input $5.00 Cached Input $0.50 Output $30.00 Context Window 1,050,000 Max Output Tokens 128,000 Knowledge Cutoff Dec 01, 2025 Supported Features Streaming Function calling Structured outputs Image input"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "OpenAI pricing records the standard short-context tier; long-context pricing, where present, is noted in the cited quote."
   },
   {
@@ -80,7 +80,7 @@
     "sources": [
       {
         "url": "https://developers.openai.com/api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -89,7 +89,7 @@
       },
       {
         "url": "https://developers.openai.com/api/docs/models/compare",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "context_window_tokens",
           "max_output_tokens",
@@ -99,7 +99,7 @@
         "quote": "GPT-5.5 Pro ... Input $30.00 Cached Input - Output $180.00 Context Window 1,050,000 Max Output Tokens 128,000 Knowledge Cutoff Dec 01, 2025 Supported Features Streaming Function calling Structured outputs Image input"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "OpenAI pricing records the standard short-context tier; long-context pricing, where present, is noted in the cited quote."
   },
   {
@@ -131,7 +131,7 @@
     "sources": [
       {
         "url": "https://developers.openai.com/api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -141,7 +141,7 @@
       },
       {
         "url": "https://developers.openai.com/api/docs/models/compare",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "context_window_tokens",
           "max_output_tokens",
@@ -151,7 +151,7 @@
         "quote": "GPT-5.4 ... Input $2.50 Cached Input $0.25 Output $15.00 Context Window 1,050,000 Max Output Tokens 128,000 Knowledge Cutoff Aug 31, 2025 Supported Features Streaming Function calling Structured outputs Image input"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "OpenAI pricing records the standard short-context tier; long-context pricing, where present, is noted in the cited quote."
   },
   {
@@ -184,7 +184,7 @@
     "sources": [
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -194,7 +194,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
@@ -202,7 +202,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -212,7 +212,7 @@
         "quote": "Claude API ID claude-fable-5 claude-opus-4-8 claude-sonnet-5 claude-haiku-4-5-20251001 ... Context window 1M tokens 1M tokens 1M tokens 200k tokens Max output 128k tokens 128k tokens 128k tokens 64k tokens Reliable knowledge cutoff Jan 2026 Jan 2026 Jan 2026 Feb 2025"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -245,7 +245,7 @@
     "sources": [
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -255,7 +255,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
@@ -263,7 +263,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -273,7 +273,7 @@
         "quote": "Claude API ID claude-fable-5 claude-opus-4-8 claude-sonnet-5 claude-haiku-4-5-20251001 ... Context window 1M tokens 1M tokens 1M tokens 200k tokens Max output 128k tokens 128k tokens 128k tokens 64k tokens Reliable knowledge cutoff Jan 2026 Jan 2026 Jan 2026 Feb 2025"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -306,7 +306,7 @@
     "sources": [
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -316,7 +316,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
@@ -324,7 +324,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id"
         ],
@@ -332,14 +332,14 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "context_window_tokens"
         ],
         "quote": "Claude Fable 5, Claude Mythos 5, Claude Mythos Preview, Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 5, and Sonnet 4.6 include the full 1M token context window at standard pricing."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -372,7 +372,7 @@
     "sources": [
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -382,7 +382,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
@@ -390,7 +390,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id"
         ],
@@ -398,14 +398,14 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "context_window_tokens"
         ],
         "quote": "Claude Fable 5, Claude Mythos 5, Claude Mythos Preview, Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 5, and Sonnet 4.6 include the full 1M token context window at standard pricing."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -438,7 +438,7 @@
     "sources": [
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -448,7 +448,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
@@ -456,7 +456,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -466,7 +466,7 @@
         "quote": "Claude API ID claude-fable-5 claude-opus-4-8 claude-sonnet-5 claude-haiku-4-5-20251001 ... Context window 1M tokens 1M tokens 1M tokens 200k tokens Max output 128k tokens 128k tokens 128k tokens 64k tokens Reliable knowledge cutoff Jan 2026 Jan 2026 Jan 2026 Feb 2025"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -499,7 +499,7 @@
     "sources": [
       {
         "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -509,7 +509,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
@@ -517,7 +517,7 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -527,7 +527,7 @@
         "quote": "Claude API ID claude-fable-5 claude-opus-4-8 claude-sonnet-5 claude-haiku-4-5-20251001 ... Context window 1M tokens 1M tokens 1M tokens 200k tokens Max output 128k tokens 128k tokens 128k tokens 64k tokens Reliable knowledge cutoff Jan 2026 Jan 2026 Jan 2026 Feb 2025"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -560,7 +560,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -571,7 +571,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 1,048,576 Output token limit 65,536",
         "fields": [
           "context_window_tokens",
@@ -579,7 +579,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -613,7 +613,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -624,7 +624,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 1,048,576 Output token limit 65,536",
         "fields": [
           "context_window_tokens",
@@ -632,7 +632,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -663,7 +663,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -673,7 +673,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 131,072 Output token limit 65,536",
         "fields": [
           "context_window_tokens",
@@ -681,7 +681,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -714,7 +714,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -725,7 +725,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 1,048,576 Output token limit 65,536",
         "fields": [
           "context_window_tokens",
@@ -733,7 +733,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -764,7 +764,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -775,7 +775,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 1,048,576 Output token limit 65,536",
         "fields": [
           "context_window_tokens",
@@ -783,7 +783,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -816,7 +816,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -827,7 +827,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "context_window_tokens"
         ],
@@ -835,14 +835,14 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 1,048,576 Output token limit 65,536",
         "fields": [
           "max_output_tokens"
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -875,7 +875,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -886,7 +886,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 1,048,576 Output token limit 65,536",
         "fields": [
           "context_window_tokens",
@@ -894,7 +894,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -927,7 +927,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -938,7 +938,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 1,048,576 Output token limit 65,536",
         "fields": [
           "context_window_tokens",
@@ -946,7 +946,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -980,7 +980,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -990,7 +990,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 131,072 Output token limit 8,192",
         "fields": [
           "context_window_tokens",
@@ -998,7 +998,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -1029,7 +1029,7 @@
     "sources": [
       {
         "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1039,7 +1039,7 @@
       },
       {
         "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "Input token limit 8,192 Output token limit 16,384",
         "fields": [
           "context_window_tokens",
@@ -1047,7 +1047,7 @@
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Gemini pricing may vary by modality and prompt length; this entry records the cited standard text or text/image/video tier."
   },
   {
@@ -1079,7 +1079,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1088,7 +1088,7 @@
         "quote": "Mistral Medium 3.5 ... Text-to-text Reasoning Coding Agentic Multimodal Input (/M tokens) $1.5 Output (/M tokens) $7.5 mistral-medium-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1120,7 +1120,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1129,7 +1129,7 @@
         "quote": "Mistral Small 4 ... Text-to-text Agentic Multimodal Lightweight Input (/M tokens) $0.15 Output (/M tokens) $0.6 mistral-small-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1161,7 +1161,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1170,7 +1170,7 @@
         "quote": "Mistral Large 3 ... Text-to-text Multimodal Input (/M tokens) $0.5 Output (/M tokens) $1.5 mistral-large-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1202,7 +1202,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1211,7 +1211,7 @@
         "quote": "Voxtral Small ... Audio Input (per min / per M tok) $0.004 Text Input (per min / per M tok) $0.1 Output (/M tokens) $0.4 Available on `/v1/chat/completions` voxtral-small-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1242,7 +1242,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1251,7 +1251,7 @@
         "quote": "Devstral 2 ... Coding Agentic Text-to-text Input (/M tokens) $0.4 Output (/M tokens) $2 devstral-medium-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1283,7 +1283,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1292,7 +1292,7 @@
         "quote": "Devstral Small 2 ... Coding Agentic Text-to-text Lightweight Multimodal Input (/M tokens) $0.1 Output (/M tokens) $0.3 devstral-small-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1323,7 +1323,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1332,7 +1332,7 @@
         "quote": "Codestral ... Coding Text-to-text Input (/M tokens) $0.3 Output (/M tokens) $0.9 codestral-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1364,7 +1364,7 @@
     "sources": [
       {
         "url": "https://mistral.ai/pricing/api/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1373,7 +1373,7 @@
         "quote": "Magistral Medium ... Text-to-text Reasoning Multimodal Input (/M tokens) $2 Output (/M tokens) $5 magistral-medium-latest"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1405,7 +1405,7 @@
     "sources": [
       {
         "url": "https://docs.x.ai/developers/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1416,14 +1416,14 @@
       },
       {
         "url": "https://docs.x.ai/developers/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
         "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1455,7 +1455,7 @@
     "sources": [
       {
         "url": "https://docs.x.ai/developers/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1466,14 +1466,14 @@
       },
       {
         "url": "https://docs.x.ai/developers/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
         "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1505,7 +1505,7 @@
     "sources": [
       {
         "url": "https://docs.x.ai/developers/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1516,14 +1516,14 @@
       },
       {
         "url": "https://docs.x.ai/developers/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
         "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1555,7 +1555,7 @@
     "sources": [
       {
         "url": "https://docs.x.ai/developers/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1566,14 +1566,14 @@
       },
       {
         "url": "https://docs.x.ai/developers/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
         "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1605,7 +1605,7 @@
     "sources": [
       {
         "url": "https://docs.x.ai/developers/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1616,14 +1616,14 @@
       },
       {
         "url": "https://docs.x.ai/developers/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities"
         ],
         "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1655,7 +1655,7 @@
     "sources": [
       {
         "url": "https://api-docs.deepseek.com/quick_start/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1668,14 +1668,14 @@
       },
       {
         "url": "https://api-docs.deepseek.com/api/list-models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id"
         ],
         "quote": "\"id\": \"deepseek-v4-flash\" ... \"id\": \"deepseek-v4-pro\""
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1707,7 +1707,7 @@
     "sources": [
       {
         "url": "https://api-docs.deepseek.com/quick_start/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -1720,14 +1720,14 @@
       },
       {
         "url": "https://api-docs.deepseek.com/api/list-models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id"
         ],
         "quote": "\"id\": \"deepseek-v4-flash\" ... \"id\": \"deepseek-v4-pro\""
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1759,7 +1759,7 @@
     "sources": [
       {
         "url": "https://cohere.com/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -1768,7 +1768,7 @@
       },
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -1779,7 +1779,7 @@
         "quote": "R model, delivered in August 2024. Find more information here Text 128k 4k Chat command-r-plus-08-2024 Live command-r-plus-08-2024 is an update of the Command R+ model, delivered in August 2024. Find more information here Text 128k 4k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Listed as legacy on Cohere pricing page"
   },
   {
@@ -1811,7 +1811,7 @@
     "sources": [
       {
         "url": "https://cohere.com/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -1820,7 +1820,7 @@
       },
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -1832,7 +1832,7 @@
         "quote": "+ model, delivered in August 2024. Find more information here Text 128k 4k Chat command-r-03-2024 Deprecated Sept 15, 2025 Command R is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents. Text 128k 4k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1864,7 +1864,7 @@
     "sources": [
       {
         "url": "https://cohere.com/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -1873,7 +1873,7 @@
       },
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -1885,7 +1885,7 @@
         "quote": ", retrieval augmented generation (RAG), tool use, and agents. Text 128k 4k Chat command-r-plus-04-2024 Deprecated Sept 15, 2025 Command R+ is an instruction-following conversational model that performs language tasks at a higher quality, more reliably, and with a longer context than previous models. It is best suited for complex RAG workflows and multi-step tool use. Text 128k 4k Chat command-r-plus Deprecated Sept 15, 2025 Alias for command-r-plus-04-2024 Text 128k 4k Chat command-r Deprecated Sept 15, 2025 Alias for command-r-03-2024 Text 128k 4k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1917,7 +1917,7 @@
     "sources": [
       {
         "url": "https://cohere.com/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -1926,7 +1926,7 @@
       },
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -1938,7 +1938,7 @@
         "quote": "Command is Cohere’s default generation model that takes a user instruction (or command) and generates text following the instruction. Our Command models also have conversational capabilities, meaning they are well-suited for chat applications, and Command A Vision can interact with image inputs . Model Name Status Description Modality Context Length Maximum Output Tokens Endpoints"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -1970,7 +1970,7 @@
     "sources": [
       {
         "url": "https://cohere.com/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -1979,7 +1979,7 @@
       },
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -1991,7 +1991,7 @@
         "quote": "ommand-r Deprecated Sept 15, 2025 Alias for command-r-03-2024 Text 128k 4k Chat command-light Deprecated Sept 15, 2025 A smaller, faster version of command . Almost as capable, but a lot faster. Text 4k 4k Chat command Deprecated Sept 15, 2025 An instruction-following conversational model that performs language tasks with high quality, more reliably and with a longer context than our base generative models. Text 4k 4k Chat Using Command Models on Different Platforms In this table, we provide some important context for using Cohere Command models on Amazon Bedrock, Amazon SageMaker, and more. Model Name Amazon Bedrock Model ID Amazon SageMaker Azure AI Foundry Oracle OCI Generative AI Service"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -2023,7 +2023,7 @@
     "sources": [
       {
         "url": "https://cohere.com/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -2032,7 +2032,7 @@
       },
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -2043,7 +2043,7 @@
         "quote": "for European and Asia-Pacific languages. Supports 70 languages. Text 8k 8k Chat c4ai-aya-expanse-32b Live Aya Expanse is a highly performant 32B multilingual model, designed to rival monolingual performance through innovations in instruction tuning with data arbitrage, preference training, and model merging. Serves 23 languages. Text 128k 4k Chat c4ai-aya-vision-32b Live Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -2077,7 +2077,7 @@
     "sources": [
       {
         "url": "https://aws.amazon.com/bedrock/pricing/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2087,7 +2087,7 @@
       },
       {
         "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "modalities",
@@ -2097,7 +2097,7 @@
         "quote": "Model ID amazon.nova-premier-v1:0 amazon.nova-pro-v1:0 amazon.nova-lite-v1:0 amazon.nova-micro-v1:0 ... Input modalities Text, Image, Video Text, Image, Video Text, Image, Video Text ... Output Modalities Text Text Text Text ... Context Window 1M 300k 300k 128k ... Max Output Tokens 10K 10k 10k 10k"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "AWS Bedrock us-east-1 on-demand Standard tier; price table exposed on AWS Bedrock pricing."
   },
   {
@@ -2131,7 +2131,7 @@
     "sources": [
       {
         "url": "https://aws.amazon.com/bedrock/pricing/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2141,7 +2141,7 @@
       },
       {
         "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "modalities",
@@ -2151,7 +2151,7 @@
         "quote": "Model ID amazon.nova-premier-v1:0 amazon.nova-pro-v1:0 amazon.nova-lite-v1:0 amazon.nova-micro-v1:0 ... Input modalities Text, Image, Video Text, Image, Video Text, Image, Video Text ... Output Modalities Text Text Text Text ... Context Window 1M 300k 300k 128k ... Max Output Tokens 10K 10k 10k 10k"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "AWS Bedrock us-east-1 on-demand Standard tier; price table exposed on AWS Bedrock pricing."
   },
   {
@@ -2185,7 +2185,7 @@
     "sources": [
       {
         "url": "https://aws.amazon.com/bedrock/pricing/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2195,7 +2195,7 @@
       },
       {
         "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "modalities",
@@ -2205,7 +2205,7 @@
         "quote": "Model ID amazon.nova-premier-v1:0 amazon.nova-pro-v1:0 amazon.nova-lite-v1:0 amazon.nova-micro-v1:0 ... Input modalities Text, Image, Video Text, Image, Video Text, Image, Video Text ... Output Modalities Text Text Text Text ... Context Window 1M 300k 300k 128k ... Max Output Tokens 10K 10k 10k 10k"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "AWS Bedrock us-east-1 on-demand Standard tier; price table exposed on AWS Bedrock pricing."
   },
   {
@@ -2237,7 +2237,7 @@
     "sources": [
       {
         "url": "https://aws.amazon.com/bedrock/pricing/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2247,7 +2247,7 @@
       },
       {
         "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "modalities",
@@ -2257,7 +2257,7 @@
         "quote": "Model ID amazon.nova-premier-v1:0 amazon.nova-pro-v1:0 amazon.nova-lite-v1:0 amazon.nova-micro-v1:0 ... Input modalities Text, Image, Video Text, Image, Video Text, Image, Video Text ... Output Modalities Text Text Text Text ... Context Window 1M 300k 300k 128k ... Max Output Tokens 10K 10k 10k 10k"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "AWS Bedrock us-east-1 on-demand Standard tier; price table exposed on AWS Bedrock pricing."
   },
   {
@@ -2289,7 +2289,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2298,7 +2298,7 @@
         "quote": "Model ID ... qwen3.7-max International Non-Thinking and Thinking modes 0<Token<=1M $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-20 ... $2.5 $7.5 1 million tokens qwen3.7-max-preview ... $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-17 ... $2.5 $7.5 1 million tokens"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=1M tier recorded."
   },
   {
@@ -2330,7 +2330,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2339,7 +2339,7 @@
         "quote": "Model ID ... qwen3.7-max International Non-Thinking and Thinking modes 0<Token<=1M $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-20 ... $2.5 $7.5 1 million tokens qwen3.7-max-preview ... $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-17 ... $2.5 $7.5 1 million tokens"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=1M tier recorded."
   },
   {
@@ -2371,7 +2371,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2380,7 +2380,7 @@
         "quote": "Model ID ... qwen3.7-max International Non-Thinking and Thinking modes 0<Token<=1M $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-20 ... $2.5 $7.5 1 million tokens qwen3.7-max-preview ... $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-17 ... $2.5 $7.5 1 million tokens"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=1M tier recorded."
   },
   {
@@ -2412,7 +2412,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2421,7 +2421,7 @@
         "quote": "Model ID ... qwen3.7-max International Non-Thinking and Thinking modes 0<Token<=1M $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-20 ... $2.5 $7.5 1 million tokens qwen3.7-max-preview ... $2.5 $7.5 1 million tokens qwen3.7-max-2026-05-17 ... $2.5 $7.5 1 million tokens"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=1M tier recorded."
   },
   {
@@ -2453,7 +2453,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2462,7 +2462,7 @@
         "quote": "qwen3.6-max-preview International Non-Thinking and Thinking modes 0<Token<=128K $1.3 $7.8 1 million tokens 128K<Token<=256K $2 $12"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=128K tier recorded; higher tiers noted in quote."
   },
   {
@@ -2494,7 +2494,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2503,7 +2503,7 @@
         "quote": "qwen3-max International Non-Thinking and Thinking modes 0<Token<=32K $1.2 $6 1 million tokens 32K<Token<=128K $2.4 $12 128K<Token<=256K $3 $15 qwen3-max-2026-01-23 ... $1.2 $6"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=32K tier recorded; higher tiers noted in quote."
   },
   {
@@ -2535,7 +2535,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2544,7 +2544,7 @@
         "quote": "qwen3-max International Non-Thinking and Thinking modes 0<Token<=32K $1.2 $6 1 million tokens 32K<Token<=128K $2.4 $12 128K<Token<=256K $3 $15 qwen3-max-2026-01-23 ... $1.2 $6"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; base 0<Token<=32K tier recorded; higher tiers noted in quote."
   },
   {
@@ -2578,7 +2578,7 @@
     "sources": [
       {
         "url": "https://platform.kimi.ai/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2588,7 +2588,7 @@
       },
       {
         "url": "https://platform.kimi.ai/docs/pricing/chat-k27-code",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities",
           "context_window_tokens"
@@ -2596,7 +2596,7 @@
         "quote": "Kimi K2.7 Code ... supports text, image, video input ... Context length 256k"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -2630,7 +2630,7 @@
     "sources": [
       {
         "url": "https://platform.kimi.ai/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2640,7 +2640,7 @@
       },
       {
         "url": "https://platform.kimi.ai/docs/pricing/chat-k26",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities",
           "context_window_tokens"
@@ -2648,7 +2648,7 @@
         "quote": "Kimi K2.6 ... supports text, image, and video input ... Context length 256k"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -2682,7 +2682,7 @@
     "sources": [
       {
         "url": "https://platform.kimi.ai/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2692,7 +2692,7 @@
       },
       {
         "url": "https://platform.kimi.ai/docs/pricing/chat-k25",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "modalities",
           "context_window_tokens"
@@ -2700,7 +2700,7 @@
         "quote": "Kimi K2.5 supports text, image, and video input ... Context length 256k"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -2731,7 +2731,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2740,7 +2740,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -2771,7 +2771,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2780,7 +2780,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -2811,7 +2811,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2820,7 +2820,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -2851,7 +2851,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2860,7 +2860,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -2891,7 +2891,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2900,7 +2900,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -2931,7 +2931,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2940,7 +2940,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -2971,7 +2971,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -2980,7 +2980,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -3011,7 +3011,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3020,7 +3020,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -3051,7 +3051,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3060,7 +3060,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -3091,7 +3091,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3100,7 +3100,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -3131,7 +3131,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3140,7 +3140,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -3171,7 +3171,7 @@
     "sources": [
       {
         "url": "https://docs.z.ai/guides/overview/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -3179,7 +3179,7 @@
         "quote": "Prices per 1M tokens. Model Input Cached Input Cached Input Storage Output GLM-5.2$1.4$0.26 Limited-time Free$4.4 GLM-5.1$1.4$0.26 Limited-time Free$4.4 GLM-5$1$0.2 Limited-time Free$3.2 GLM-5-Turbo$1.2$0.24 Limited-time Free$4.0 GLM-4.7$0.6$0.11 Limited-time Free$2.2 GLM-4.7-FlashX$0.07$0.01 Limited-time Free$0.4 GLM-4.6$0.6$0.11 Limited-time Free$2.2 GLM-4.5$0.6$0.11 Limited-time Free$2.2 GLM-4.5-X$2.2$0.45 Limited-time Free$8.9 GLM-4.5-Air$0.2$0.03 Limited-time Free$1.1 GLM-4.5-AirX$1.1$0.22 Limited-time Free$4.5 GLM-4-32B-0414-128K$0.1--$0.1"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Z.AI official USD pricing; provider key follows EXPANSION_ORDER zhipu naming. Cached input storage is listed as limited-time free and not modeled."
   },
   {
@@ -3210,7 +3210,7 @@
     "sources": [
       {
         "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3220,14 +3220,14 @@
       },
       {
         "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "MiniMax-M3 1,000,000 Latest M-series language model for agentic reasoning, tool use, coding, and long-context tasks",
         "fields": [
           "context_window_tokens"
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Standard Pay-as-you-go tier; M3 base <=512k input-token tier recorded, long-context and Priority tiers noted in source."
   },
   {
@@ -3258,7 +3258,7 @@
     "sources": [
       {
         "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3268,14 +3268,14 @@
       },
       {
         "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "MiniMax-M2.7 204,800 Beginning the journey of recursive self-improvement",
         "fields": [
           "context_window_tokens"
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Standard Pay-as-you-go tier; M3 base <=512k input-token tier recorded, long-context and Priority tiers noted in source."
   },
   {
@@ -3306,7 +3306,7 @@
     "sources": [
       {
         "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3316,14 +3316,14 @@
       },
       {
         "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "MiniMax-M2.5 204,800 Peak Performance. Ultimate Value. Master the Complex",
         "fields": [
           "context_window_tokens"
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Standard Pay-as-you-go tier; M3 base <=512k input-token tier recorded, long-context and Priority tiers noted in source."
   },
   {
@@ -3354,7 +3354,7 @@
     "sources": [
       {
         "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3364,14 +3364,14 @@
       },
       {
         "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "MiniMax-M2.1 204,800 Powerful Multi-Language Programming Capabilities with Comprehensively Enhanced Programming Experience",
         "fields": [
           "context_window_tokens"
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Standard Pay-as-you-go tier; M3 base <=512k input-token tier recorded, long-context and Priority tiers noted in source."
   },
   {
@@ -3402,7 +3402,7 @@
     "sources": [
       {
         "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3412,14 +3412,14 @@
       },
       {
         "url": "https://platform.minimax.io/docs/api-reference/text-openai-api",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "MiniMax-M2 204,800 Agentic capabilities, Advanced reasoning",
         "fields": [
           "context_window_tokens"
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Standard Pay-as-you-go tier; M3 base <=512k input-token tier recorded, long-context and Priority tiers noted in source."
   },
   {
@@ -3450,7 +3450,7 @@
     "sources": [
       {
         "url": "https://console.groq.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3460,7 +3460,7 @@
         "quote": "Production Models MODEL ID ... llama-3.1-8b-instant $0.05 input$0.08 output ... 131,072 131,072 ... llama-3.3-70b-versatile $0.59 input$0.79 output ... 131,072 32,768 ... openai/gpt-oss-120b $0.15 input$0.60 output ... 131,072 65,536 ... openai/gpt-oss-20b $0.075 input$0.30 output ... 131,072 65,536"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Upstream model family: Meta Llama; provider is Groq serving platform."
   },
   {
@@ -3491,7 +3491,7 @@
     "sources": [
       {
         "url": "https://console.groq.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3501,7 +3501,7 @@
         "quote": "Production Models MODEL ID ... llama-3.1-8b-instant $0.05 input$0.08 output ... 131,072 131,072 ... llama-3.3-70b-versatile $0.59 input$0.79 output ... 131,072 32,768 ... openai/gpt-oss-120b $0.15 input$0.60 output ... 131,072 65,536 ... openai/gpt-oss-20b $0.075 input$0.30 output ... 131,072 65,536"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Upstream model family: Meta Llama; provider is Groq serving platform."
   },
   {
@@ -3532,7 +3532,7 @@
     "sources": [
       {
         "url": "https://console.groq.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3542,7 +3542,7 @@
         "quote": "Production Models MODEL ID ... llama-3.1-8b-instant $0.05 input$0.08 output ... 131,072 131,072 ... llama-3.3-70b-versatile $0.59 input$0.79 output ... 131,072 32,768 ... openai/gpt-oss-120b $0.15 input$0.60 output ... 131,072 65,536 ... openai/gpt-oss-20b $0.075 input$0.30 output ... 131,072 65,536"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Upstream model family: OpenAI GPT OSS; provider is Groq serving platform."
   },
   {
@@ -3573,7 +3573,7 @@
     "sources": [
       {
         "url": "https://console.groq.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3583,7 +3583,7 @@
         "quote": "Production Models MODEL ID ... llama-3.1-8b-instant $0.05 input$0.08 output ... 131,072 131,072 ... llama-3.3-70b-versatile $0.59 input$0.79 output ... 131,072 32,768 ... openai/gpt-oss-120b $0.15 input$0.60 output ... 131,072 65,536 ... openai/gpt-oss-20b $0.075 input$0.30 output ... 131,072 65,536"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Upstream model family: OpenAI GPT OSS; provider is Groq serving platform."
   },
   {
@@ -3614,7 +3614,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3623,7 +3623,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3654,7 +3654,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3663,7 +3663,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code Fast $1.90 / $0.38 / $8.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3694,7 +3694,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3703,7 +3703,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3734,7 +3734,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3743,7 +3743,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.6 Fast $2.00 / $0.30 / $8.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3774,7 +3774,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3783,7 +3783,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3814,7 +3814,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3823,7 +3823,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3854,7 +3854,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3863,7 +3863,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3894,7 +3894,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3903,7 +3903,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... GLM 5.2 Fast $2.10 / $0.21 / $6.60"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3934,7 +3934,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3943,7 +3943,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -3974,7 +3974,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -3983,7 +3983,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... GLM 5.1 Fast $2.80 / $0.52 / $8.80"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -4014,7 +4014,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4023,7 +4023,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -4054,7 +4054,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4063,7 +4063,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -4094,7 +4094,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4103,7 +4103,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -4134,7 +4134,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4143,7 +4143,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -4174,7 +4174,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4183,7 +4183,7 @@
         "quote": "Text and vision models ... prices are input / cached input / output (USD per 1M tokens) ... Kimi K2.7 Code $0.95 / $0.19 / $4.00 ... Kimi K2.6 $0.95 / $0.16 / $4.00 ... DeepSeek V4 Pro $1.74 / $0.145 / $3.48 ... DeepSeek V4 Flash $0.14 / $0.028 / $0.28 ... GLM 5.2 $1.40 / $0.14 / $4.40 ... GLM 5.1 $1.40 / $0.26 / $4.40 ... Qwen 3.7 Plus $0.40 / $0.08 / $1.60 ... MiniMax M3 $0.30 / $0.06 / $1.20 ... MiniMax M2.7 $0.30 / $0.06 / $1.20 ... OpenAI GPT OSS 120B $0.15 / $0.015 / $0.60 ... OpenAI GPT OSS 20B $0.07 / $0.035 / $0.30 ... NVIDIA Nemotron 3 Ultra (Preview) $0.60 / $0.12 / $2.40"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family named in display_name. Context window not captured from Fireworks model page."
   },
   {
@@ -4214,7 +4214,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4223,7 +4223,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4254,16 +4254,24 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
           "pricing.cached_input_per_mtok"
         ],
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
+      },
+      {
+        "url": "https://www.together.ai/pricing",
+        "accessed_at": "2026-07-13T03:00:00Z",
+        "fields": [
+          "status"
+        ],
+        "quote": "Now serving MiniMax-M3 for efficient inference"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4294,7 +4302,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4303,7 +4311,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4334,7 +4342,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4343,7 +4351,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4374,7 +4382,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4382,7 +4390,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4413,7 +4421,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4421,7 +4429,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4452,7 +4460,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4461,7 +4469,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4492,7 +4500,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4500,7 +4508,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4531,7 +4539,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4540,7 +4548,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4571,7 +4579,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4580,7 +4588,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4611,7 +4619,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4619,7 +4627,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4650,7 +4658,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -4659,7 +4667,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4690,7 +4698,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4698,7 +4706,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4729,7 +4737,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4737,7 +4745,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4768,7 +4776,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4776,7 +4784,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4807,7 +4815,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4815,7 +4823,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4846,7 +4854,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4854,7 +4862,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4885,7 +4893,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4893,7 +4901,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4924,7 +4932,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4932,7 +4940,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -4963,7 +4971,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -4971,7 +4979,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -5002,7 +5010,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -5011,7 +5019,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -5042,7 +5050,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -5051,7 +5059,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -5082,7 +5090,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -5091,7 +5099,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -5122,7 +5130,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5130,7 +5138,7 @@
         "quote": "Serverless Inference Price per 1M tokens Model Input output DeepSeek V4 Pro $1.74 $0.20 (cached) $3.48 MiniMax M3 $0.30 $0.06 (cached) $1.20 Kimi K2.7 Code $0.95 $0.19 (cached) $4.00 GLM-5.2 $1.40 $0.26 (cached) $4.40 LFM2 24B A2B $0.03 $0.12 Gemma 4 31B $0.39 $0.97 NVIDIA Nemotron 3 Ultra $0.60 $0.20 (cached) $3.60 Qwen3.7-Plus $0.32 $1.28 Kimi K2.6 $1.20 $0.20 (cached) $4.50 Qwen3.7-Max $1.25 $0.13 (cached) $3.75 gpt-oss-120B $0.15 $0.60 Qwen3.5-397B-A17B $0.60 $0.35 (cached) $3.60 Qwen3.5 9B $0.17 $0.25 Gemma-4-31B-it-Pearl $0.28 $0.86 Cogito v2.1 671B $1.25 $1.25 Rnj-1 Instruct $0.15 $0.15 Llama 3.3 70B $1.04 $1.04 Gemma 3n E4B Instruct $0.06 $0.12 gpt-oss-20B $0.05 $0.20 Qwen3 235B A22B FP8 Throughput $0.20 $0.60 MiniMax M2.5 $0.30 $0.06 (cached) $1.20 GLM-5.1 $1.40 $0.26 (cached) $4.40 MiniMax M2.7 $0.30 $0.06 (cached) $1.20 Qwen3.6-Plus $0.50 $3.00"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; upstream model family named in display_name. Context window not captured from Together model page."
   },
   {
@@ -5161,7 +5169,7 @@
     "sources": [
       {
         "url": "https://docs.perplexity.ai/docs/agent-api/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -5170,7 +5178,7 @@
         "quote": "Perplexity Sonar — Perplexity’s grounded search model. Model Input ($/1M)Output ($/1M)Cache ($/1M) `perplexity/sonar` 0.25 2.50 0.0625"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Perplexity Agent API model table; context window not stated on collected page."
   },
   {
@@ -5203,7 +5211,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -5214,7 +5222,7 @@
         "quote": "Name Status Description Modality Context Length Maximum Output Tokens Endpoints command-a-plus-05-2026 Live Command A+ offers the last model in the Command A family, while being Cohere’s first Mixture of Experts model, simultaneously combining vision input support, agentic, reasoning, and world-class translation capabilities into single model weights. It also can fit on 1 x B200 or 2 x H100 GPUs, while providing significant latency and throughput improvements over Command A Reasoning, making it an ideal model for any enterprise to deploy at scale. Text, Images 128k 64k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   },
   {
@@ -5246,7 +5254,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -5257,7 +5265,7 @@
         "quote": "n ideal model for any enterprise to deploy at scale. Text, Images 128k 64k Chat command-a-03-2025 Live Command A is our most performant model to date, excelling at tool use, agents, retrieval augmented generation (RAG), and multilingual use cases. Command A has a context length of 256K, only requires two GPUs to run, and has 150% higher throughput compared to Command R+ 08-2024. Text 256k 8k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   },
   {
@@ -5289,7 +5297,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -5300,7 +5308,7 @@
         "quote": "similar tasks requiring complex reasoning and multiple steps. Text 128k 4k Chat command-a-translate-08-2025 Live Command A Translate is Cohere’s state of the art machine translation model, excelling at a variety of translation tasks on 23 languages: English, French, Spanish, Italian, German, Portuguese, Japanese, Korean, Chinese, Arabic, Russian, Polish, Turkish, Vietnamese, Dutch, Czech, Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, Persian. Text 8K 8k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   },
   {
@@ -5332,7 +5340,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -5343,7 +5351,7 @@
         "quote": "Indonesian, Ukrainian, Romanian, Greek, Hindi, Hebrew, Persian. Text 8K 8k Chat command-a-reasoning-08-2025 Live Command A Reasoning is Cohere’s first reasoning model, able to ‘think’ before generating an output in a way that allows it to perform well in certain kinds of nuanced problem-solving and agent-based tasks in 23 languages. Text 256k 32k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   },
   {
@@ -5376,7 +5384,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -5387,7 +5395,7 @@
         "quote": "anced problem-solving and agent-based tasks in 23 languages. Text 256k 32k Chat command-a-vision-07-2025 Live Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&A, and object detection. It officially supports English, Portuguese, Italian, French, German, and Spanish. Text, Images 128K 8K Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   },
   {
@@ -5419,7 +5427,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -5430,7 +5438,7 @@
         "quote": "sh, Portuguese, Italian, French, German, and Spanish. Text, Images 128K 8K Chat command-r-08-2024 Live command-r-08-2024 is an update of the Command R model, delivered in August 2024. Find more information here Text 128k 4k Chat"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   },
   {
@@ -5462,7 +5470,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/command-r7b",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -5475,7 +5483,7 @@
         "quote": "Command R7B model details and specifications Capabilities Multilingual Safety Modes Citations Tool Use Structured Outputs Reasoning Image Inputs Pricing Input $0.0375 / 1M tokens Output $0.15 / 1M tokens Specifications Context Window: 128,000 tokens Max Output Tokens: 4,000 tokens Knowledge Cutoff: June 1, 2024 Model ID command-r7b-12-2024"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": null
   },
   {
@@ -5507,7 +5515,7 @@
     "sources": [
       {
         "url": "https://docs.cohere.com/docs/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -5518,7 +5526,7 @@
         "quote": "Name Status Description Modality Context Length Maximum Output Tokens Endpoints tiny-aya-global Live Tiny Aya Global is a 3.35B instruction-tuned multilingual model with the best balance across languages and regions. Supports 70 languages. Text 8k 8k Chat tiny-aya-earth Live Tiny Aya Earth is a 3.35B region-specialized multilingual model, best for West Asian and African languages. Supports 70 languages. Text 8k 8k Chat tiny-aya-fire Live Tiny Aya Fire is a 3.35B region-specialized multilingual model, best for South Asian languages. Supports 70 languages. Text 8k 8k Chat tiny-aya-water Live Tiny Aya Water is a 3.35B region-specialized multilingual model, best for European and Asia-Pacific lan"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page."
   },
   {
@@ -5550,7 +5558,7 @@
     "sources": [
       {
         "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5559,7 +5567,7 @@
       },
       {
         "url": "https://docs.perplexity.ai/docs/sonar/models/sonar-pro",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens"
@@ -5567,7 +5575,7 @@
         "quote": "Sonar Pro ... Input Tokens $3 Per 1M Tokens ... Output Tokens $15 Per 1M Tokens ... model: sonar-pro ... 200K context length"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Perplexity Sonar API model; request fees vary by search context size and are noted in the cited pricing quote."
   },
   {
@@ -5599,7 +5607,7 @@
     "sources": [
       {
         "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5608,7 +5616,7 @@
       },
       {
         "url": "https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens"
@@ -5616,7 +5624,7 @@
         "quote": "Sonar Reasoning Pro ... sonar-reasoning was deprecated on December 15, 2025 ... model: sonar-reasoning-pro ... 128K context length"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Perplexity Sonar API reasoning model; request fees vary by search context size and are noted in the cited pricing quote."
   },
   {
@@ -5648,7 +5656,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5657,7 +5665,7 @@
       },
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -5666,7 +5674,7 @@
         "quote": "All models > Qwen3.7: Model ID qwen3.7-plus; Input Text, images, video; Output Text; Context 1M; Max output 64k."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International/Global Model Studio price; base 0<Token<=256K tier recorded; higher tier to 1M tokens is noted in the cited quote."
   },
   {
@@ -5698,7 +5706,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5707,7 +5715,7 @@
       },
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -5716,7 +5724,7 @@
         "quote": "All models > Qwen3.7: Model ID qwen3.7-plus-2026-05-26; Input Text, images, video; Output Text; Context 1M; Max output 64k."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International/Global Model Studio price; base 0<Token<=256K tier recorded; higher tier to 1M tokens is noted in the cited quote."
   },
   {
@@ -5748,7 +5756,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5757,7 +5765,7 @@
       },
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -5766,7 +5774,7 @@
         "quote": "All models > Qwen3.6: Model ID qwen3.6-plus; Input Text, images, video; Output Text; Context 1M; Max output 64k."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International/Global Model Studio price; base 0<Token<=256K tier recorded; higher tier to 1M tokens is noted in the cited quote."
   },
   {
@@ -5798,7 +5806,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5807,7 +5815,7 @@
       },
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -5816,7 +5824,7 @@
         "quote": "All models > Qwen3.6: Model ID qwen3.6-plus-2026-04-02; Input Text, images, video; Output Text; Context 1M; Max output 64k."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International/Global Model Studio price; base 0<Token<=256K tier recorded; higher tier to 1M tokens is noted in the cited quote."
   },
   {
@@ -5848,7 +5856,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5857,7 +5865,7 @@
       },
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -5866,7 +5874,7 @@
         "quote": "All models > Qwen3.6: Model ID qwen3.6-flash; Input Text, images, video; Output Text; Context 1M; Max output 64k."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; 0<Token<=256K tier recorded."
   },
   {
@@ -5898,7 +5906,7 @@
     "sources": [
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5907,7 +5915,7 @@
       },
       {
         "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -5916,7 +5924,7 @@
         "quote": "All models > Qwen3.6: Model ID qwen3.6-flash-2026-04-16; Input Text, images, video; Output Text; Context 1M; Max output 64k."
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "International Model Studio price; 0<Token<=256K tier recorded."
   },
   {
@@ -5947,7 +5955,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -5956,7 +5964,7 @@
       },
       {
         "url": "https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -5965,7 +5973,7 @@
         "quote": "model path:accounts/fireworks/models/llama-v3p3-70b-instruct ... Fireworks supports a context length of 131,072 tokens ... The model is available via serverless at $0.90 per million tokens ... Support image input Not supported"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family is Meta Llama. Generic >16B serverless token tier recorded."
   },
   {
@@ -5997,7 +6005,7 @@
     "sources": [
       {
         "url": "https://docs.fireworks.ai/serverless/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -6006,7 +6014,7 @@
       },
       {
         "url": "https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -6015,7 +6023,7 @@
         "quote": "model path:accounts/fireworks/models/qwen2p5-vl-32b-instruct ... Fireworks supports up to 128,000 tokens ... The model is supported on serverless deployment at $0.90 per million tokens ... Support image input Supported"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Fireworks serving platform; upstream model family is Qwen. Generic >16B serverless token tier recorded."
   },
   {
@@ -6047,7 +6055,7 @@
     "sources": [
       {
         "url": "https://www.together.ai/pricing",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok"
@@ -6056,7 +6064,7 @@
       },
       {
         "url": "https://www.together.ai/models/qwen2-5-7b-instruct-turbo",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "context_window_tokens",
@@ -6066,7 +6074,7 @@
         "quote": "Endpoint: Qwen/Qwen2.5-7B-Instruct-Turbo ... Context length 32K ... Input modalities Text Output modalities Text Released October 11, 2024"
       }
     ],
-    "verified_at": "2026-07-07T11:44:22Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "Provider is Together AI serving platform; exact endpoint ID recorded from Together model page."
   },
   {
@@ -6099,7 +6107,7 @@
     "sources": [
       {
         "url": "https://aws.amazon.com/bedrock/pricing/",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "pricing.input_per_mtok",
           "pricing.output_per_mtok",
@@ -6109,7 +6117,7 @@
       },
       {
         "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "model_id",
           "status",
@@ -6120,7 +6128,7 @@
       },
       {
         "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
-        "accessed_at": "2026-07-07T11:44:22Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "fields": [
           "context_window_tokens",
           "modalities"
@@ -6129,14 +6137,14 @@
       },
       {
         "url": "https://platform.claude.com/docs/en/release-notes/overview",
-        "accessed_at": "2026-07-08T00:00:00Z",
+        "accessed_at": "2026-07-13T03:00:00Z",
         "quote": "We've moved 8,192 token outputs from beta to general availability for Claude Sonnet 3.5.",
         "fields": [
           "max_output_tokens"
         ]
       }
     ],
-    "verified_at": "2026-07-08T00:00:00Z",
+    "verified_at": "2026-07-13T03:00:00Z",
     "notes": "hosted third-party model (Anthropic) on Bedrock; Public Extended Access price recorded from AWS Bedrock pricing."
   }
 ]

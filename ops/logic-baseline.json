@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T00:00:00Z",
+  "generated_at": "2026-07-13T03:00:00Z",
   "policy": "Findings listed here are accepted warnings. Validation fails only on logic findings with keys absent from this baseline.",
   "findings": [
     {
@@ -1536,13 +1536,6 @@
       "detail": "no stored quote entails input=['text'] and output=['text']"
     },
     {
-      "key": "together/minimax-m3|status|UNSUPPORTED|no stored quote entails status ga",
-      "entry": "together/minimax-m3",
-      "field": "status",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails status ga"
-    },
-    {
       "key": "together/nvidia-nemotron-3-ultra|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
       "entry": "together/nvidia-nemotron-3-ultra",
       "field": "modalities",
@@ -1891,6 +1884,34 @@
       "field": "status",
       "class": "UNSUPPORTED",
       "detail": "no stored quote entails status ga"
+    },
+    {
+      "key": "google/gemini-2.5-flash-preview-tts|context_window_tokens|RULE-3|context window 8192 is lower than max output 16384",
+      "entry": "google/gemini-2.5-flash-preview-tts",
+      "field": "context_window_tokens",
+      "class": "RULE-3",
+      "detail": "context window 8192 is lower than max output 16384"
+    },
+    {
+      "key": "fireworks/kimi-k2.6-fast <> moonshot/kimi-k2.6|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
+      "entry": "fireworks/kimi-k2.6-fast <> moonshot/kimi-k2.6",
+      "field": "pricing.output_per_mtok",
+      "class": "RULE-4",
+      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
+    },
+    {
+      "key": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
+      "entry": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code",
+      "field": "pricing.output_per_mtok",
+      "class": "RULE-4",
+      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
+    },
+    {
+      "key": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
+      "entry": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code",
+      "field": "pricing.output_per_mtok",
+      "class": "RULE-4",
+      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
     }
   ]
 }

@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://api-docs.deepseek.com/quick_start/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -40,14 +40,14 @@
     },
     {
       "url": "https://api-docs.deepseek.com/api/list-models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id"
       ],
       "quote": "\"id\": \"deepseek-v4-flash\" ... \"id\": \"deepseek-v4-pro\""
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/deepseek/deepseek-v4-flash.html"
 }

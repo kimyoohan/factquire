@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.perplexity.ai/docs/getting-started/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok"
@@ -36,7 +36,7 @@
     },
     {
       "url": "https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "context_window_tokens"
@@ -44,7 +44,7 @@
       "quote": "Sonar Reasoning Pro ... sonar-reasoning was deprecated on December 15, 2025 ... model: sonar-reasoning-pro ... 128K context length"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Perplexity Sonar API reasoning model; request fees vary by search context size and are noted in the cited pricing quote.",
   "permalink": "/models/perplexity/sonar-reasoning-pro.html"
 }

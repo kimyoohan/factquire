@@ -29,7 +29,7 @@
   "sources": [
     {
       "url": "https://aws.amazon.com/bedrock/pricing/",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -39,7 +39,7 @@
     },
     {
       "url": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "modalities",
@@ -49,7 +49,7 @@
       "quote": "Model ID amazon.nova-premier-v1:0 amazon.nova-pro-v1:0 amazon.nova-lite-v1:0 amazon.nova-micro-v1:0 ... Input modalities Text, Image, Video Text, Image, Video Text, Image, Video Text ... Output Modalities Text Text Text Text ... Context Window 1M 300k 300k 128k ... Max Output Tokens 10K 10k 10k 10k"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "AWS Bedrock us-east-1 on-demand Standard tier; price table exposed on AWS Bedrock pricing.",
   "permalink": "/models/amazon/amazon_nova-premier-v1_0.html"
 }

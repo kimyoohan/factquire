@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -36,7 +36,7 @@
       "quote": "qwen3-max International Non-Thinking and Thinking modes 0<Token<=32K $1.2 $6 1 million tokens 32K<Token<=128K $2.4 $12 128K<Token<=256K $3 $15 qwen3-max-2026-01-23 ... $1.2 $6"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "International Model Studio price; base 0<Token<=32K tier recorded; higher tiers noted in quote.",
   "permalink": "/models/alibaba/qwen3-max.html"
 }

@@ -444,7 +444,7 @@ def scoped_status_quote_statuses(entry, quote):
         for match in pattern.finditer(quote):
             start, end = match.span()
             scoped_quote = quote[max(0, start - 50): min(len(quote), end + 50)]
-            if re.search(r"\b(ga|generally available|live|available)\b", scoped_quote, re.IGNORECASE):
+            if re.search(r"\b(ga|generally available|live|available|serving)\b", scoped_quote, re.IGNORECASE):
                 statuses.add("ga")
             if re.search(rf"\b(legacy|deprecated|retired)\s+models?\b.{{0,60}}{re.escape(alias)}", scoped_quote, re.IGNORECASE):
                 statuses.add("deprecated")

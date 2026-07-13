@@ -184,6 +184,7 @@ glm-5.1	1.4	4.4	-	-	ga
 glm-5.2	1.4	4.4	-	-	ga
 
 ## Changelog
+2026-07-13	v0.7	No changes; all facts re-verified
 2026-07-07	v0.6	No changes; all facts re-verified
 2026-07-04	v0.5	Logic audit triage
 2026-07-04	v0.4	Wave-2 gap fill

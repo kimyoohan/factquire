@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.fireworks.ai/serverless/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok"
@@ -36,7 +36,7 @@
     },
     {
       "url": "https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "context_window_tokens",
@@ -45,7 +45,7 @@
       "quote": "model path:accounts/fireworks/models/qwen2p5-vl-32b-instruct ... Fireworks supports up to 128,000 tokens ... The model is supported on serverless deployment at $0.90 per million tokens ... Support image input Supported"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Provider is Fireworks serving platform; upstream model family is Qwen. Generic >16B serverless token tier recorded.",
   "permalink": "/models/fireworks/qwen2p5-vl-32b-instruct.html"
 }

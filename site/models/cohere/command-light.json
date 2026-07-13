@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://cohere.com/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok"
@@ -36,7 +36,7 @@
     },
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -48,7 +48,7 @@
       "quote": "ommand-r Deprecated Sept 15, 2025 Alias for command-r-03-2024 Text 128k 4k Chat command-light Deprecated Sept 15, 2025 A smaller, faster version of command . Almost as capable, but a lot faster. Text 4k 4k Chat command Deprecated Sept 15, 2025 An instruction-following conversational model that performs language tasks with high quality, more reliably and with a longer context than our base generative models. Text 4k 4k Chat Using Command Models on Different Platforms In this table, we provide some important context for using Cohere Command models on Amazon Bedrock, Amazon SageMaker, and more. Model Name Amazon Bedrock Model ID Amazon SageMaker Azure AI Foundry Oracle OCI Generative AI Service"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/cohere/command-light.html"
 }

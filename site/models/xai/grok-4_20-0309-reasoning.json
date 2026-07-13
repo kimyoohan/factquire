@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.x.ai/developers/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -38,14 +38,14 @@
     },
     {
       "url": "https://docs.x.ai/developers/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "modalities"
       ],
       "quote": "We have dedicated models and APIs for audio, image, and video capabilities. For everything else, use Grok 4.3."
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/xai/grok-4_20-0309-reasoning.html"
 }

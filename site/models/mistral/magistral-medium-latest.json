@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://mistral.ai/pricing/api/",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -36,7 +36,7 @@
       "quote": "Magistral Medium ... Text-to-text Reasoning Multimodal Input (/M tokens) $2 Output (/M tokens) $5 magistral-medium-latest"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/mistral/magistral-medium-latest.html"
 }

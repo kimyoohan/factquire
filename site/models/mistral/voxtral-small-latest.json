@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://mistral.ai/pricing/api/",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -36,7 +36,7 @@
       "quote": "Voxtral Small ... Audio Input (per min / per M tok) $0.004 Text Input (per min / per M tok) $0.1 Output (/M tokens) $0.4 Available on `/v1/chat/completions` voxtral-small-latest"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/mistral/voxtral-small-latest.html"
 }

@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -38,7 +38,7 @@
       "quote": "Name Status Description Modality Context Length Maximum Output Tokens Endpoints tiny-aya-global Live Tiny Aya Global is a 3.35B instruction-tuned multilingual model with the best balance across languages and regions. Supports 70 languages. Text 8k 8k Chat tiny-aya-earth Live Tiny Aya Earth is a 3.35B region-specialized multilingual model, best for West Asian and African languages. Supports 70 languages. Text 8k 8k Chat tiny-aya-fire Live Tiny Aya Fire is a 3.35B region-specialized multilingual model, best for South Asian languages. Supports 70 languages. Text 8k 8k Chat tiny-aya-water Live Tiny Aya Water is a 3.35B region-specialized multilingual model, best for European and Asia-Pacific lan"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page.",
   "permalink": "/models/cohere/tiny-aya-global.html"
 }

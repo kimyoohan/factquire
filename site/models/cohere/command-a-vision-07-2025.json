@@ -28,7 +28,7 @@
   "sources": [
     {
       "url": "https://docs.cohere.com/docs/models",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "status",
@@ -39,7 +39,7 @@
       "quote": "anced problem-solving and agent-based tasks in 23 languages. Text 256k 32k Chat command-a-vision-07-2025 Live Command A Vision is our first model capable of processing images, excelling in enterprise use cases such as analyzing charts, graphs, and diagrams, table understanding, OCR, document Q&A, and object detection. It officially supports English, Portuguese, Italian, French, German, and Spanish. Text, Images 128K 8K Chat"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Cohere model page confirms live model and limits; public token price was not found in collected primary pricing page.",
   "permalink": "/models/cohere/command-a-vision-07-2025.html"
 }

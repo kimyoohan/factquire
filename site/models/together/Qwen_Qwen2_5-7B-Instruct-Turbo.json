@@ -27,7 +27,7 @@
   "sources": [
     {
       "url": "https://www.together.ai/pricing",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok"
@@ -36,7 +36,7 @@
     },
     {
       "url": "https://www.together.ai/models/qwen2-5-7b-instruct-turbo",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "model_id",
         "context_window_tokens",
@@ -46,7 +46,7 @@
       "quote": "Endpoint: Qwen/Qwen2.5-7B-Instruct-Turbo ... Context length 32K ... Input modalities Text Output modalities Text Released October 11, 2024"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": "Provider is Together AI serving platform; exact endpoint ID recorded from Together model page.",
   "permalink": "/models/together/Qwen_Qwen2_5-7B-Instruct-Turbo.html"
 }

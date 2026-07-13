@@ -26,7 +26,7 @@
   "sources": [
     {
       "url": "https://mistral.ai/pricing/api/",
-      "accessed_at": "2026-07-07T11:44:22Z",
+      "accessed_at": "2026-07-13T03:00:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok",
@@ -35,7 +35,7 @@
       "quote": "Codestral ... Coding Text-to-text Input (/M tokens) $0.3 Output (/M tokens) $0.9 codestral-latest"
     }
   ],
-  "verified_at": "2026-07-07T11:44:22Z",
+  "verified_at": "2026-07-13T03:00:00Z",
   "notes": null,
   "permalink": "/models/mistral/codestral-latest.html"
 }
