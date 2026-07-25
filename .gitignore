@@ -8,3 +8,6 @@ ops/outreach/candidates-2026-07-05-summary.md
 .tmp/
 content/drafts/*.md
 ops/stories/*.md
+
+.wrangler/
+notify-api/.wrangler/
