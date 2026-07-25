@@ -1,14 +1,56 @@
 {
-  "generated_at": "2026-07-13T01:21:34Z",
+  "generated_at": "2026-07-20T01:31:56Z",
   "field_tolerance": "relative difference > 0.5% for prices; any integer token-limit difference",
   "stats": {
-    "match": 1080,
-    "mismatch": 998,
-    "not_present": 121,
-    "they_lack": 226,
-    "we_lack": 1026
+    "match": 1085,
+    "mismatch": 992,
+    "not_present": 148,
+    "they_lack": 209,
+    "we_lack": 1019
   },
   "comparisons": [
+    {
+      "external": "litellm",
+      "provider": "openai",
+      "model_id": "gpt-5.6-sol",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "openai",
+      "model_id": "gpt-5.6-sol",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "litellm",
+      "provider": "openai",
+      "model_id": "gpt-5.6-terra",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "openai",
+      "model_id": "gpt-5.6-terra",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "litellm",
+      "provider": "openai",
+      "model_id": "gpt-5.6-luna",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "openai",
+      "model_id": "gpt-5.6-luna",
+      "status": "not_present",
+      "alias": null
+    },
     {
       "external": "litellm",
       "provider": "openai",
@@ -908,6 +950,20 @@
       "theirs": 64000,
       "status": "match",
       "alias": "anthropic/claude-haiku-4-5-20251001"
+    },
+    {
+      "external": "litellm",
+      "provider": "google",
+      "model_id": "gemini-3.5-flash",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "google",
+      "model_id": "gemini-3.5-flash",
+      "status": "not_present",
+      "alias": null
     },
     {
       "external": "litellm",
@@ -2454,6 +2510,20 @@
     {
       "external": "litellm",
       "provider": "xai",
+      "model_id": "grok-4.5",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "xai",
+      "model_id": "grok-4.5",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "litellm",
+      "provider": "xai",
       "model_id": "grok-build-0.1",
       "status": "not_present",
       "alias": null
@@ -3320,6 +3390,62 @@
       "theirs": 4000,
       "status": "match",
       "alias": "cohere/c4ai-aya-expanse-32b"
+    },
+    {
+      "external": "litellm",
+      "provider": "cohere",
+      "model_id": "tiny-aya-earth",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "cohere",
+      "model_id": "tiny-aya-earth",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "litellm",
+      "provider": "cohere",
+      "model_id": "tiny-aya-fire",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "cohere",
+      "model_id": "tiny-aya-fire",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "litellm",
+      "provider": "cohere",
+      "model_id": "tiny-aya-water",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "cohere",
+      "model_id": "tiny-aya-water",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "litellm",
+      "provider": "cohere",
+      "model_id": "c4ai-aya-vision-32b",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "cohere",
+      "model_id": "c4ai-aya-vision-32b",
+      "status": "not_present",
+      "alias": null
     },
     {
       "external": "litellm",
@@ -4260,6 +4386,20 @@
       "external": "modelsdev",
       "provider": "alibaba",
       "model_id": "qwen3.7-max-2026-05-20",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "litellm",
+      "provider": "alibaba",
+      "model_id": "qwen3.7-max-2026-06-08",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "alibaba",
+      "model_id": "qwen3.7-max-2026-06-08",
       "status": "not_present",
       "alias": null
     },
@@ -9830,50 +9970,7 @@
       "external": "modelsdev",
       "provider": "zhipu",
       "model_id": "glm-5",
-      "field": "pricing.input_per_mtok",
-      "ours": 1,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-5"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-5",
-      "field": "pricing.output_per_mtok",
-      "ours": 3.2,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-5"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-5",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.2,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-5"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-5",
-      "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 202752,
-      "status": "we_lack",
-      "alias": "ollama-cloud/glm-5"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-5",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 131072,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "ollama-cloud/glm-5"
     },
     {
@@ -10787,50 +10884,7 @@
       "external": "modelsdev",
       "provider": "zhipu",
       "model_id": "glm-4.7",
-      "field": "pricing.input_per_mtok",
-      "ours": 0.6,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-4.7"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.7",
-      "field": "pricing.output_per_mtok",
-      "ours": 2.2,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-4.7"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.7",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.11,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-4.7"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.7",
-      "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 202752,
-      "status": "we_lack",
-      "alias": "ollama-cloud/glm-4.7"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.7",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 131072,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "ollama-cloud/glm-4.7"
     },
     {
@@ -11644,50 +11698,7 @@
       "external": "modelsdev",
       "provider": "zhipu",
       "model_id": "glm-4.6",
-      "field": "pricing.input_per_mtok",
-      "ours": 0.6,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-4.6"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.6",
-      "field": "pricing.output_per_mtok",
-      "ours": 2.2,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-4.6"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.6",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.11,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/glm-4.6"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.6",
-      "field": "context_window_tokens",
-      "ours": null,
-      "theirs": 202752,
-      "status": "we_lack",
-      "alias": "ollama-cloud/glm-4.6"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "zhipu",
-      "model_id": "glm-4.6",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 131072,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "ollama-cloud/glm-4.6"
     },
     {
@@ -13174,8 +13185,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.input_per_mtok",
       "ours": 0.3,
-      "theirs": 0.6,
-      "status": "mismatch",
+      "theirs": 0.3,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -13184,8 +13195,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.output_per_mtok",
       "ours": 1.2,
-      "theirs": 2.4,
-      "status": "mismatch",
+      "theirs": 1.2,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -13194,8 +13205,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.06,
-      "theirs": 0.12,
-      "status": "mismatch",
+      "theirs": 0.06,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -13204,7 +13215,7 @@
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
       "ours": 1000000,
-      "theirs": 512000,
+      "theirs": 524288,
       "status": "mismatch",
       "alias": "llmgateway/minimax-m3"
     },
@@ -13364,7 +13375,7 @@
       "model_id": "minimax-m3",
       "field": "max_output_tokens",
       "ours": null,
-      "theirs": 131072,
+      "theirs": 512000,
       "status": "we_lack",
       "alias": "openrouter/minimax/minimax-m3"
     },
@@ -13981,7 +13992,7 @@
       "model_id": "minimax-m2.7",
       "field": "pricing.input_per_mtok",
       "ours": 0.3,
-      "theirs": 0.24,
+      "theirs": 0.25,
       "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.7"
     },
@@ -13991,7 +14002,7 @@
       "model_id": "minimax-m2.7",
       "field": "pricing.output_per_mtok",
       "ours": 1.2,
-      "theirs": 0.96,
+      "theirs": 1,
       "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.7"
     },
@@ -14001,8 +14012,8 @@
       "model_id": "minimax-m2.7",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.06,
-      "theirs": null,
-      "status": "they_lack",
+      "theirs": 0.05,
+      "status": "mismatch",
       "alias": "openrouter/minimax/minimax-m2.7"
     },
     {
@@ -14021,7 +14032,7 @@
       "model_id": "minimax-m2.7",
       "field": "max_output_tokens",
       "ours": null,
-      "theirs": 196608,
+      "theirs": 131072,
       "status": "we_lack",
       "alias": "openrouter/minimax/minimax-m2.7"
     },
@@ -15543,50 +15554,7 @@
       "external": "modelsdev",
       "provider": "minimax",
       "model_id": "minimax-m2.1",
-      "field": "pricing.input_per_mtok",
-      "ours": 0.3,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/minimax-m2.1"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2.1",
-      "field": "pricing.output_per_mtok",
-      "ours": 1.2,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/minimax-m2.1"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2.1",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.03,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/minimax-m2.1"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2.1",
-      "field": "context_window_tokens",
-      "ours": 204800,
-      "theirs": 204800,
-      "status": "match",
-      "alias": "ollama-cloud/minimax-m2.1"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2.1",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 131072,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "ollama-cloud/minimax-m2.1"
     },
     {
@@ -16200,50 +16168,7 @@
       "external": "modelsdev",
       "provider": "minimax",
       "model_id": "minimax-m2",
-      "field": "pricing.input_per_mtok",
-      "ours": 0.3,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/minimax-m2"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2",
-      "field": "pricing.output_per_mtok",
-      "ours": 1.2,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/minimax-m2"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2",
-      "field": "pricing.cached_input_per_mtok",
-      "ours": 0.03,
-      "theirs": null,
-      "status": "they_lack",
-      "alias": "ollama-cloud/minimax-m2"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2",
-      "field": "context_window_tokens",
-      "ours": 204800,
-      "theirs": 204800,
-      "status": "match",
-      "alias": "ollama-cloud/minimax-m2"
-    },
-    {
-      "external": "modelsdev",
-      "provider": "minimax",
-      "model_id": "minimax-m2",
-      "field": "max_output_tokens",
-      "ours": null,
-      "theirs": 128000,
-      "status": "we_lack",
+      "status": "not_present",
       "alias": "ollama-cloud/minimax-m2"
     },
     {
@@ -16302,8 +16227,8 @@
       "model_id": "minimax-m2",
       "field": "pricing.input_per_mtok",
       "ours": 0.3,
-      "theirs": 0.255,
-      "status": "mismatch",
+      "theirs": 0.3,
+      "status": "match",
       "alias": "openrouter/minimax/minimax-m2"
     },
     {
@@ -16312,8 +16237,8 @@
       "model_id": "minimax-m2",
       "field": "pricing.output_per_mtok",
       "ours": 1.2,
-      "theirs": 1.02,
-      "status": "mismatch",
+      "theirs": 1.2,
+      "status": "match",
       "alias": "openrouter/minimax/minimax-m2"
     },
     {
@@ -16322,8 +16247,8 @@
       "model_id": "minimax-m2",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.03,
-      "theirs": null,
-      "status": "they_lack",
+      "theirs": 0.03,
+      "status": "match",
       "alias": "openrouter/minimax/minimax-m2"
     },
     {
@@ -17702,7 +17627,7 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.input_per_mtok",
       "ours": 0.15,
-      "theirs": 0.036,
+      "theirs": 0.037,
       "status": "mismatch",
       "alias": "openrouter/openai/gpt-oss-120b"
     },
@@ -17712,7 +17637,7 @@
       "model_id": "openai/gpt-oss-120b",
       "field": "pricing.output_per_mtok",
       "ours": 0.6,
-      "theirs": 0.18,
+      "theirs": 0.17,
       "status": "mismatch",
       "alias": "openrouter/openai/gpt-oss-120b"
     },
@@ -18502,7 +18427,7 @@
       "model_id": "openai/gpt-oss-20b",
       "field": "pricing.input_per_mtok",
       "ours": 0.075,
-      "theirs": 0.029,
+      "theirs": 0.03,
       "status": "mismatch",
       "alias": "openrouter/openai/gpt-oss-20b"
     },
@@ -18512,7 +18437,7 @@
       "model_id": "openai/gpt-oss-20b",
       "field": "pricing.output_per_mtok",
       "ours": 0.3,
-      "theirs": 0.14,
+      "theirs": 0.13,
       "status": "mismatch",
       "alias": "openrouter/openai/gpt-oss-20b"
     },
@@ -18522,8 +18447,8 @@
       "model_id": "openai/gpt-oss-20b",
       "field": "pricing.cached_input_per_mtok",
       "ours": null,
-      "theirs": null,
-      "status": "match",
+      "theirs": 0.03,
+      "status": "we_lack",
       "alias": "openrouter/openai/gpt-oss-20b"
     },
     {
@@ -20387,8 +20312,8 @@
       "model_id": "deepseek-v4-pro",
       "field": "pricing.input_per_mtok",
       "ours": 1.74,
-      "theirs": 1.74,
-      "status": "match",
+      "theirs": 0.435,
+      "status": "mismatch",
       "alias": "opencode-go/deepseek-v4-pro"
     },
     {
@@ -20397,8 +20322,8 @@
       "model_id": "deepseek-v4-pro",
       "field": "pricing.output_per_mtok",
       "ours": 3.48,
-      "theirs": 3.48,
-      "status": "match",
+      "theirs": 0.87,
+      "status": "mismatch",
       "alias": "opencode-go/deepseek-v4-pro"
     },
     {
@@ -20407,7 +20332,7 @@
       "model_id": "deepseek-v4-pro",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.145,
-      "theirs": 0.0145,
+      "theirs": 0.003625,
       "status": "mismatch",
       "alias": "opencode-go/deepseek-v4-pro"
     },
@@ -23607,8 +23532,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.input_per_mtok",
       "ours": 0.3,
-      "theirs": 0.6,
-      "status": "mismatch",
+      "theirs": 0.3,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -23617,8 +23542,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.output_per_mtok",
       "ours": 1.2,
-      "theirs": 2.4,
-      "status": "mismatch",
+      "theirs": 1.2,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -23627,8 +23552,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.06,
-      "theirs": 0.12,
-      "status": "mismatch",
+      "theirs": 0.06,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -23637,7 +23562,7 @@
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
       "ours": null,
-      "theirs": 512000,
+      "theirs": 524288,
       "status": "we_lack",
       "alias": "llmgateway/minimax-m3"
     },
@@ -24528,8 +24453,8 @@
       "model_id": "deepseek-v4-pro",
       "field": "pricing.input_per_mtok",
       "ours": 1.74,
-      "theirs": 1.74,
-      "status": "match",
+      "theirs": 0.435,
+      "status": "mismatch",
       "alias": "opencode-go/deepseek-v4-pro"
     },
     {
@@ -24538,8 +24463,8 @@
       "model_id": "deepseek-v4-pro",
       "field": "pricing.output_per_mtok",
       "ours": 3.48,
-      "theirs": 3.48,
-      "status": "match",
+      "theirs": 0.87,
+      "status": "mismatch",
       "alias": "opencode-go/deepseek-v4-pro"
     },
     {
@@ -24548,7 +24473,7 @@
       "model_id": "deepseek-v4-pro",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.2,
-      "theirs": 0.0145,
+      "theirs": 0.003625,
       "status": "mismatch",
       "alias": "opencode-go/deepseek-v4-pro"
     },
@@ -25292,8 +25217,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.input_per_mtok",
       "ours": 0.3,
-      "theirs": 0.6,
-      "status": "mismatch",
+      "theirs": 0.3,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -25302,8 +25227,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.output_per_mtok",
       "ours": 1.2,
-      "theirs": 2.4,
-      "status": "mismatch",
+      "theirs": 1.2,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -25312,8 +25237,8 @@
       "model_id": "minimax-m3",
       "field": "pricing.cached_input_per_mtok",
       "ours": 0.06,
-      "theirs": 0.12,
-      "status": "mismatch",
+      "theirs": 0.06,
+      "status": "match",
       "alias": "llmgateway/minimax-m3"
     },
     {
@@ -25322,7 +25247,7 @@
       "model_id": "minimax-m3",
       "field": "context_window_tokens",
       "ours": null,
-      "theirs": 512000,
+      "theirs": 524288,
       "status": "we_lack",
       "alias": "llmgateway/minimax-m3"
     },
@@ -26799,6 +26724,20 @@
       "theirs": 131072,
       "status": "we_lack",
       "alias": "zhipuai-coding-plan/glm-5.2"
+    },
+    {
+      "external": "litellm",
+      "provider": "together",
+      "model_id": "LiquidAI/LFM2.5-8B-A1B",
+      "status": "not_present",
+      "alias": null
+    },
+    {
+      "external": "modelsdev",
+      "provider": "together",
+      "model_id": "LiquidAI/LFM2.5-8B-A1B",
+      "status": "not_present",
+      "alias": null
     },
     {
       "external": "litellm",

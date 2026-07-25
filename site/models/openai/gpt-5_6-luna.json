@@ -1,0 +1,61 @@
+{
+  "provider": "openai",
+  "model_id": "gpt-5.6-luna",
+  "display_name": "GPT-5.6 Luna",
+  "status": "ga",
+  "release_date": null,
+  "deprecation_date": null,
+  "retirement_date": null,
+  "pricing": {
+    "input_per_mtok": 1,
+    "output_per_mtok": 6,
+    "cached_input_per_mtok": 0.1,
+    "batch_discount_pct": null
+  },
+  "context_window_tokens": 1050000,
+  "max_output_tokens": 128000,
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "knowledge_cutoff": "Feb 16, 2026",
+  "sources": [
+    {
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "pricing.input_per_mtok",
+        "pricing.output_per_mtok",
+        "pricing.cached_input_per_mtok"
+      ],
+      "quote": "gpt-5.6-luna $1.00 $0.10 $1.25 $6.00 $2.00 $0.20 $2.50 $9.00"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/compare",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "context_window_tokens",
+        "max_output_tokens",
+        "knowledge_cutoff",
+        "modalities"
+      ],
+      "quote": "GPT-5.6 Luna ... Input $1.00 Cached Input $0.10 Output $6.00 Context Window 1,050,000 Max Output Tokens 128,000 Knowledge Cutoff Feb 16, 2026 Supported Features Streaming Function calling Structured outputs Image input"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "accessed_at": "2026-07-25T12:20:00Z",
+      "fields": [
+        "status"
+      ],
+      "quote": "Below is a list of all available snapshots and aliases for GPT-5.6 Luna . gpt-5.6-luna"
+    }
+  ],
+  "verified_at": "2026-07-20T01:30:00Z",
+  "notes": "OpenAI pricing records the standard short-context tier; long-context pricing is included in the cited quote.",
+  "permalink": "/models/openai/gpt-5_6-luna.html"
+}

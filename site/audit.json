@@ -1,6 +1,21 @@
 {
   "audits": [
     {
+      "date": "2026-07-20",
+      "summary": "Weekly external audit reran LiteLLM and models.dev comparisons after refreshing all cited primary-source pages. Newly added models are not yet mapped in the external datasets, while Alibaba pricing and lifecycle differences were adjudicated in favor of the current official Model Studio pages; no ModelWire corrections were required after adjudication.",
+      "stats": {
+        "models_compared": 146,
+        "external_model_pairs_compared": 672,
+        "raw_mismatches": 992,
+        "raw_we_lack": 1019,
+        "raw_they_lack": 209,
+        "raw_not_present": 148,
+        "raw_matches": 1085,
+        "modelwire_corrections": 0
+      },
+      "findings": []
+    },
+    {
       "date": "2026-07-13",
       "summary": "Weekly external audit reran LiteLLM and models.dev comparisons after refreshing all cited primary-source pages. Raw third-party differences are preserved in data/external/mismatches.json; no primary-source-backed ModelWire corrections were required.",
       "stats": {

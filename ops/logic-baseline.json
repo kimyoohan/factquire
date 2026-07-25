@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T03:00:00Z",
+  "generated_at": "2026-07-25T00:00:00Z",
   "policy": "Findings listed here are accepted warnings. Validation fails only on logic findings with keys absent from this baseline.",
   "findings": [
     {
@@ -38,11 +38,25 @@
       "detail": "stored value 256000 only matches ambiguous quote unit(s): 256K can mean decimal 256000 or binary 262144 tokens"
     },
     {
+      "key": "alibaba/qwen3.6-plus|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
+      "entry": "alibaba/qwen3.6-plus",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
+    },
+    {
       "key": "alibaba/qwen3.6-plus|max_output_tokens|AMBIGUOUS|stored value 64000 only matches ambiguous quote unit(s): 64k can mean decimal 64000 or binary 65536 tokens",
       "entry": "alibaba/qwen3.6-plus",
       "field": "max_output_tokens",
       "class": "AMBIGUOUS",
       "detail": "stored value 64000 only matches ambiguous quote unit(s): 64k can mean decimal 64000 or binary 65536 tokens"
+    },
+    {
+      "key": "alibaba/qwen3.6-plus-2026-04-02|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
+      "entry": "alibaba/qwen3.6-plus-2026-04-02",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
     },
     {
       "key": "alibaba/qwen3.6-plus-2026-04-02|max_output_tokens|AMBIGUOUS|stored value 64000 only matches ambiguous quote unit(s): 64k can mean decimal 64000 or binary 65536 tokens",
@@ -52,11 +66,25 @@
       "detail": "stored value 64000 only matches ambiguous quote unit(s): 64k can mean decimal 64000 or binary 65536 tokens"
     },
     {
+      "key": "alibaba/qwen3.7-plus|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
+      "entry": "alibaba/qwen3.7-plus",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
+    },
+    {
       "key": "alibaba/qwen3.7-plus|max_output_tokens|AMBIGUOUS|stored value 64000 only matches ambiguous quote unit(s): 64k can mean decimal 64000 or binary 65536 tokens",
       "entry": "alibaba/qwen3.7-plus",
       "field": "max_output_tokens",
       "class": "AMBIGUOUS",
       "detail": "stored value 64000 only matches ambiguous quote unit(s): 64k can mean decimal 64000 or binary 65536 tokens"
+    },
+    {
+      "key": "alibaba/qwen3.7-plus-2026-05-26|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
+      "entry": "alibaba/qwen3.7-plus-2026-05-26",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
     },
     {
       "key": "alibaba/qwen3.7-plus-2026-05-26|max_output_tokens|AMBIGUOUS|stored value 64000 only matches ambiguous quote unit(s): 64k can mean decimal 64000 or binary 65536 tokens",
@@ -213,6 +241,20 @@
       "detail": "stored value 4000 only matches ambiguous quote unit(s): 4k can mean decimal 4000 or binary 4096 tokens"
     },
     {
+      "key": "cohere/c4ai-aya-vision-32b|context_window_tokens|AMBIGUOUS|stored value 16000 only matches ambiguous quote unit(s): 16k can mean decimal 16000 or binary 16384 tokens",
+      "entry": "cohere/c4ai-aya-vision-32b",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 16000 only matches ambiguous quote unit(s): 16k can mean decimal 16000 or binary 16384 tokens"
+    },
+    {
+      "key": "cohere/c4ai-aya-vision-32b|max_output_tokens|AMBIGUOUS|stored value 4000 only matches ambiguous quote unit(s): 4k can mean decimal 4000 or binary 4096 tokens",
+      "entry": "cohere/c4ai-aya-vision-32b",
+      "field": "max_output_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 4000 only matches ambiguous quote unit(s): 4k can mean decimal 4000 or binary 4096 tokens"
+    },
+    {
       "key": "cohere/command-a-03-2025|context_window_tokens|AMBIGUOUS|stored value 256000 only matches ambiguous quote unit(s): 256K can mean decimal 256000 or binary 262144 tokens; 256k can mean decimal 256000 or binary 262144 tokens",
       "entry": "cohere/command-a-03-2025",
       "field": "context_window_tokens",
@@ -353,6 +395,34 @@
       "detail": "stored value 4000 only matches ambiguous quote unit(s): 4k can mean decimal 4000 or binary 4096 tokens; 4k can mean decimal 4000 or binary 4096 tokens"
     },
     {
+      "key": "cohere/tiny-aya-earth|context_window_tokens|AMBIGUOUS|stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens",
+      "entry": "cohere/tiny-aya-earth",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens"
+    },
+    {
+      "key": "cohere/tiny-aya-earth|max_output_tokens|AMBIGUOUS|stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens",
+      "entry": "cohere/tiny-aya-earth",
+      "field": "max_output_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens"
+    },
+    {
+      "key": "cohere/tiny-aya-fire|context_window_tokens|AMBIGUOUS|stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens",
+      "entry": "cohere/tiny-aya-fire",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens"
+    },
+    {
+      "key": "cohere/tiny-aya-fire|max_output_tokens|AMBIGUOUS|stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens",
+      "entry": "cohere/tiny-aya-fire",
+      "field": "max_output_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens"
+    },
+    {
       "key": "cohere/tiny-aya-global|context_window_tokens|AMBIGUOUS|stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens",
       "entry": "cohere/tiny-aya-global",
       "field": "context_window_tokens",
@@ -365,6 +435,20 @@
       "field": "max_output_tokens",
       "class": "AMBIGUOUS",
       "detail": "stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens"
+    },
+    {
+      "key": "cohere/tiny-aya-water|context_window_tokens|AMBIGUOUS|stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens",
+      "entry": "cohere/tiny-aya-water",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens"
+    },
+    {
+      "key": "cohere/tiny-aya-water|max_output_tokens|AMBIGUOUS|stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens",
+      "entry": "cohere/tiny-aya-water",
+      "field": "max_output_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 8000 only matches ambiguous quote unit(s): 8k can mean decimal 8000 or binary 8192 tokens; 8k can mean decimal 8000 or binary 8192 tokens"
     },
     {
       "key": "deepseek/deepseek-v4-flash|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
@@ -430,6 +514,13 @@
       "detail": "stored value 128000 only matches ambiguous quote unit(s): 128K can mean decimal 128000 or binary 131072 tokens"
     },
     {
+      "key": "together/LiquidAI/LFM2.5-8B-A1B|context_window_tokens|AMBIGUOUS|stored value 128000 only matches ambiguous quote unit(s): 128K can mean decimal 128000 or binary 131072 tokens",
+      "entry": "together/LiquidAI/LFM2.5-8B-A1B",
+      "field": "context_window_tokens",
+      "class": "AMBIGUOUS",
+      "detail": "stored value 128000 only matches ambiguous quote unit(s): 128K can mean decimal 128000 or binary 131072 tokens"
+    },
+    {
       "key": "together/Qwen/Qwen2.5-7B-Instruct-Turbo|context_window_tokens|AMBIGUOUS|stored value 32768 only matches ambiguous quote unit(s): 32K can mean decimal 32000 or binary 32768 tokens",
       "entry": "together/Qwen/Qwen2.5-7B-Instruct-Turbo",
       "field": "context_window_tokens",
@@ -437,39 +528,11 @@
       "detail": "stored value 32768 only matches ambiguous quote unit(s): 32K can mean decimal 32000 or binary 32768 tokens"
     },
     {
-      "key": "xai/grok-4.20-0309-non-reasoning|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
-      "entry": "xai/grok-4.20-0309-non-reasoning",
+      "key": "google/gemini-2.5-flash-preview-tts|context_window_tokens|RULE-3|context window 8192 is lower than max output 16384",
+      "entry": "google/gemini-2.5-flash-preview-tts",
       "field": "context_window_tokens",
-      "class": "AMBIGUOUS",
-      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
-    },
-    {
-      "key": "xai/grok-4.20-0309-reasoning|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
-      "entry": "xai/grok-4.20-0309-reasoning",
-      "field": "context_window_tokens",
-      "class": "AMBIGUOUS",
-      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
-    },
-    {
-      "key": "xai/grok-4.20-multi-agent-0309|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
-      "entry": "xai/grok-4.20-multi-agent-0309",
-      "field": "context_window_tokens",
-      "class": "AMBIGUOUS",
-      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
-    },
-    {
-      "key": "xai/grok-4.3|context_window_tokens|AMBIGUOUS|stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens",
-      "entry": "xai/grok-4.3",
-      "field": "context_window_tokens",
-      "class": "AMBIGUOUS",
-      "detail": "stored value 1000000 only matches ambiguous quote unit(s): 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens; 1M can mean decimal 1000000 or binary 1048576 tokens"
-    },
-    {
-      "key": "xai/grok-build-0.1|context_window_tokens|AMBIGUOUS|stored value 256000 only matches ambiguous quote unit(s): 256k can mean decimal 256000 or binary 262144 tokens",
-      "entry": "xai/grok-build-0.1",
-      "field": "context_window_tokens",
-      "class": "AMBIGUOUS",
-      "detail": "stored value 256000 only matches ambiguous quote unit(s): 256k can mean decimal 256000 or binary 262144 tokens"
+      "class": "RULE-3",
+      "detail": "context window 8192 is lower than max output 16384"
     },
     {
       "key": "alibaba/qwen3.7-max <> together/qwen3.7-max|pricing.input_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 2.5 vs 1.25",
@@ -528,11 +591,11 @@
       "detail": "same canonical model prices are exact 2x/10x ratio: 8.8 vs 4.4"
     },
     {
-      "key": "fireworks/kimi-k2.6-fast <> moonshot/kimi-k2.6|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8.0 vs 4.0",
+      "key": "fireworks/kimi-k2.6-fast <> moonshot/kimi-k2.6|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
       "entry": "fireworks/kimi-k2.6-fast <> moonshot/kimi-k2.6",
       "field": "pricing.output_per_mtok",
       "class": "RULE-4",
-      "detail": "same canonical model prices are exact 2x/10x ratio: 8.0 vs 4.0"
+      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
     },
     {
       "key": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code|pricing.cached_input_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 0.38 vs 0.19",
@@ -549,11 +612,11 @@
       "detail": "same canonical model prices are exact 2x/10x ratio: 1.9 vs 0.95"
     },
     {
-      "key": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8.0 vs 4.0",
+      "key": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
       "entry": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
       "class": "RULE-4",
-      "detail": "same canonical model prices are exact 2x/10x ratio: 8.0 vs 4.0"
+      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
     },
     {
       "key": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code|pricing.cached_input_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 0.38 vs 0.19",
@@ -570,11 +633,11 @@
       "detail": "same canonical model prices are exact 2x/10x ratio: 1.9 vs 0.95"
     },
     {
-      "key": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8.0 vs 4.0",
+      "key": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
       "entry": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code",
       "field": "pricing.output_per_mtok",
       "class": "RULE-4",
-      "detail": "same canonical model prices are exact 2x/10x ratio: 8.0 vs 4.0"
+      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
     },
     {
       "key": "minimax/minimax-m2.7|status|RULE-5|active status but source 0 contains inactive language: Legacy",
@@ -619,11 +682,11 @@
       "detail": "no stored quote entails input=['text'] and output=['text']"
     },
     {
-      "key": "alibaba/qwen3-max-2026-01-23|status|UNSUPPORTED|no stored quote entails status ga",
+      "key": "alibaba/qwen3-max-2026-01-23|status|UNSUPPORTED|no stored quote entails status deprecated",
       "entry": "alibaba/qwen3-max-2026-01-23",
       "field": "status",
       "class": "UNSUPPORTED",
-      "detail": "no stored quote entails status ga"
+      "detail": "no stored quote entails status deprecated"
     },
     {
       "key": "alibaba/qwen3.6-flash|status|UNSUPPORTED|no stored quote entails status ga",
@@ -698,6 +761,20 @@
     {
       "key": "alibaba/qwen3.7-max-2026-05-20|status|UNSUPPORTED|no stored quote entails status ga",
       "entry": "alibaba/qwen3.7-max-2026-05-20",
+      "field": "status",
+      "class": "UNSUPPORTED",
+      "detail": "no stored quote entails status ga"
+    },
+    {
+      "key": "alibaba/qwen3.7-max-2026-06-08|modalities|UNSUPPORTED|no stored quote entails input=['image', 'text'] and output=['text']",
+      "entry": "alibaba/qwen3.7-max-2026-06-08",
+      "field": "modalities",
+      "class": "UNSUPPORTED",
+      "detail": "no stored quote entails input=['image', 'text'] and output=['text']"
+    },
+    {
+      "key": "alibaba/qwen3.7-max-2026-06-08|status|UNSUPPORTED|no stored quote entails status ga",
+      "entry": "alibaba/qwen3.7-max-2026-06-08",
       "field": "status",
       "class": "UNSUPPORTED",
       "detail": "no stored quote entails status ga"
@@ -1039,6 +1116,13 @@
       "detail": "no stored quote entails input=['audio', 'image', 'text', 'video'] and output=['text']"
     },
     {
+      "key": "google/gemini-3.5-flash|modalities|UNSUPPORTED|no stored quote entails input=['audio', 'image', 'text', 'video'] and output=['text']",
+      "entry": "google/gemini-3.5-flash",
+      "field": "modalities",
+      "class": "UNSUPPORTED",
+      "detail": "no stored quote entails input=['audio', 'image', 'text', 'video'] and output=['text']"
+    },
+    {
       "key": "groq/llama-3.1-8b-instant|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
       "entry": "groq/llama-3.1-8b-instant",
       "field": "modalities",
@@ -1142,13 +1226,6 @@
       "field": "status",
       "class": "UNSUPPORTED",
       "detail": "no stored quote entails status ga"
-    },
-    {
-      "key": "minimax/minimax-m3|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
-      "entry": "minimax/minimax-m3",
-      "field": "modalities",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails input=['text'] and output=['text']"
     },
     {
       "key": "minimax/minimax-m3|status|UNSUPPORTED|no stored quote entails status ga",
@@ -1648,76 +1725,6 @@
       "detail": "no stored quote entails status ga"
     },
     {
-      "key": "xai/grok-4.20-0309-non-reasoning|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
-      "entry": "xai/grok-4.20-0309-non-reasoning",
-      "field": "modalities",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails input=['text'] and output=['text']"
-    },
-    {
-      "key": "xai/grok-4.20-0309-non-reasoning|status|UNSUPPORTED|no stored quote entails status ga",
-      "entry": "xai/grok-4.20-0309-non-reasoning",
-      "field": "status",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails status ga"
-    },
-    {
-      "key": "xai/grok-4.20-0309-reasoning|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
-      "entry": "xai/grok-4.20-0309-reasoning",
-      "field": "modalities",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails input=['text'] and output=['text']"
-    },
-    {
-      "key": "xai/grok-4.20-0309-reasoning|status|UNSUPPORTED|no stored quote entails status ga",
-      "entry": "xai/grok-4.20-0309-reasoning",
-      "field": "status",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails status ga"
-    },
-    {
-      "key": "xai/grok-4.20-multi-agent-0309|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
-      "entry": "xai/grok-4.20-multi-agent-0309",
-      "field": "modalities",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails input=['text'] and output=['text']"
-    },
-    {
-      "key": "xai/grok-4.20-multi-agent-0309|status|UNSUPPORTED|no stored quote entails status ga",
-      "entry": "xai/grok-4.20-multi-agent-0309",
-      "field": "status",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails status ga"
-    },
-    {
-      "key": "xai/grok-4.3|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
-      "entry": "xai/grok-4.3",
-      "field": "modalities",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails input=['text'] and output=['text']"
-    },
-    {
-      "key": "xai/grok-4.3|status|UNSUPPORTED|no stored quote entails status ga",
-      "entry": "xai/grok-4.3",
-      "field": "status",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails status ga"
-    },
-    {
-      "key": "xai/grok-build-0.1|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
-      "entry": "xai/grok-build-0.1",
-      "field": "modalities",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails input=['text'] and output=['text']"
-    },
-    {
-      "key": "xai/grok-build-0.1|status|UNSUPPORTED|no stored quote entails status ga",
-      "entry": "xai/grok-build-0.1",
-      "field": "status",
-      "class": "UNSUPPORTED",
-      "detail": "no stored quote entails status ga"
-    },
-    {
       "key": "zhipu/glm-4-32b-0414-128k|modalities|UNSUPPORTED|no stored quote entails input=['text'] and output=['text']",
       "entry": "zhipu/glm-4-32b-0414-128k",
       "field": "modalities",
@@ -1884,34 +1891,6 @@
       "field": "status",
       "class": "UNSUPPORTED",
       "detail": "no stored quote entails status ga"
-    },
-    {
-      "key": "google/gemini-2.5-flash-preview-tts|context_window_tokens|RULE-3|context window 8192 is lower than max output 16384",
-      "entry": "google/gemini-2.5-flash-preview-tts",
-      "field": "context_window_tokens",
-      "class": "RULE-3",
-      "detail": "context window 8192 is lower than max output 16384"
-    },
-    {
-      "key": "fireworks/kimi-k2.6-fast <> moonshot/kimi-k2.6|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
-      "entry": "fireworks/kimi-k2.6-fast <> moonshot/kimi-k2.6",
-      "field": "pricing.output_per_mtok",
-      "class": "RULE-4",
-      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
-    },
-    {
-      "key": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
-      "entry": "fireworks/kimi-k2.7-code-fast <> moonshot/kimi-k2.7-code",
-      "field": "pricing.output_per_mtok",
-      "class": "RULE-4",
-      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
-    },
-    {
-      "key": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code|pricing.output_per_mtok|RULE-4|same canonical model prices are exact 2x/10x ratio: 8 vs 4",
-      "entry": "fireworks/kimi-k2.7-code-fast <> together/kimi-k2.7-code",
-      "field": "pricing.output_per_mtok",
-      "class": "RULE-4",
-      "detail": "same canonical model prices are exact 2x/10x ratio: 8 vs 4"
     }
   ]
 }

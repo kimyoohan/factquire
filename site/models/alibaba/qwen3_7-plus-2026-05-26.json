@@ -7,8 +7,8 @@
   "deprecation_date": null,
   "retirement_date": null,
   "pricing": {
-    "input_per_mtok": 0.4,
-    "output_per_mtok": 1.6,
+    "input_per_mtok": 0.276,
+    "output_per_mtok": 1.101,
     "cached_input_per_mtok": null,
     "batch_discount_pct": null
   },
@@ -27,16 +27,16 @@
   "sources": [
     {
       "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-      "accessed_at": "2026-07-13T03:00:00Z",
+      "accessed_at": "2026-07-20T01:30:00Z",
       "fields": [
         "pricing.input_per_mtok",
         "pricing.output_per_mtok"
       ],
-      "quote": "qwen3.7-plus Currently equivalent to qwen3.7-plus-2026-05-26 International 0<Token?256K $0.4 $1.6 $1.6 1 million tokens 256K<Token?1M $1.2 $4.8 $4.8 qwen3.7-plus-2026-05-26 International 0<Token?256K $0.4 $1.6 $1.6 1 million tokens 256K<Token?1M $1.2 $4.8 $4.8 qwen3.6-plus Currently equivalent to qwen3.6-plus-2026-04-02 International 0<Token?256K $0.5 $3 $3 1 million tokens 256K<Token?1M $2 $6 $6 qwen3.6-plus-2026-04-02 International 0<Token?256K $0.5 $3 $3 1 million tokens 256K<Token?1M $2 $6 $6"
+      "quote": "qwen3.7-plus Currently equivalent to qwen3.7-plus-2026-05-26 Global 0<Token<=256K List price $0.276 List price $1.101 256K<Token<=1M List price $0.826 List price $3.301 qwen3.7-plus-2026-05-26 Global 0<Token<=256K $0.276 $1.101 256K<Token<=1M $0.826 $3.301 qwen3.6-plus Currently equivalent to qwen3.6-plus-2026-04-02 Global 0<Token<=256K $0.276 $1.651 256K<Token<=1M $1.101 $6.602 qwen3.6-plus-2026-04-02 Global 0<Token<=256K $0.276 $1.651 256K<Token<=1M $1.101 $6.602"
     },
     {
       "url": "https://www.alibabacloud.com/help/en/model-studio/models",
-      "accessed_at": "2026-07-13T03:00:00Z",
+      "accessed_at": "2026-07-20T01:30:00Z",
       "fields": [
         "model_id",
         "context_window_tokens",
@@ -45,7 +45,7 @@
       "quote": "All models > Qwen3.7: Model ID qwen3.7-plus-2026-05-26; Input Text, images, video; Output Text; Context 1M; Max output 64k."
     }
   ],
-  "verified_at": "2026-07-13T03:00:00Z",
+  "verified_at": "2026-07-20T01:30:00Z",
   "notes": "International/Global Model Studio price; base 0<Token<=256K tier recorded; higher tier to 1M tokens is noted in the cited quote.",
   "permalink": "/models/alibaba/qwen3_7-plus-2026-05-26.html"
 }

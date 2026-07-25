@@ -2,6 +2,18 @@
 
 Null fields below were left unset because the collected primary source snippets did not confirm a value in the required form.
 
+- openai/gpt-5.6-sol: `release_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-sol: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-sol: `retirement_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-sol: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-terra: `release_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-terra: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-terra: `retirement_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-terra: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-luna: `release_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-luna: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-luna: `retirement_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
+- openai/gpt-5.6-luna: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
 - openai/gpt-5.5: `release_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
 - openai/gpt-5.5: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
 - openai/gpt-5.5: `retirement_date` - not confirmed in collected primary source pages. Looked: https://developers.openai.com/api/docs/models/compare, https://developers.openai.com/api/docs/pricing
@@ -43,78 +55,62 @@ Null fields below were left unset because the collected primary source snippets 
 - anthropic/claude-haiku-4-5-20251001: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.claude.com/docs/en/about-claude/models/overview, https://platform.claude.com/docs/en/about-claude/pricing
 - anthropic/claude-haiku-4-5-20251001: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.claude.com/docs/en/about-claude/models/overview, https://platform.claude.com/docs/en/about-claude/pricing
 - anthropic/claude-haiku-4-5-20251001: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.claude.com/docs/en/about-claude/models/overview, https://platform.claude.com/docs/en/about-claude/pricing
-- google/gemini-3.1-flash-lite: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-lite: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-lite: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-lite: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-lite: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-lite: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-lite: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-pro-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-pro-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-pro-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-pro-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-pro-preview: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-pro-preview: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-pro-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3.1-flash-live-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3-flash-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3-flash-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3-flash-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3-flash-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3-flash-preview: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3-flash-preview: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-3-flash-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-pro: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-pro: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-pro: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-pro: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-pro: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-pro: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-pro: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite-preview-09-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite-preview-09-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite-preview-09-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite-preview-09-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite-preview-09-2025: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite-preview-09-2025: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-lite-preview-09-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-native-audio-preview-12-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
-- google/gemini-2.5-flash-preview-tts: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.5-flash: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/changelog, https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.5-flash: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/changelog, https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.5-flash: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/changelog, https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-lite: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-lite: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-lite: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-lite: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-lite: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-pro-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-pro-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-pro-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-pro-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-pro-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-live-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-live-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-live-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-live-preview: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-live-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3.1-flash-live-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3-flash-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3-flash-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3-flash-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3-flash-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-3-flash-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-pro: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-pro: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-pro: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-pro: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-pro: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite-preview-09-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite-preview-09-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite-preview-09-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite-preview-09-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-lite-preview-09-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-native-audio-preview-12-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-native-audio-preview-12-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-native-audio-preview-12-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-native-audio-preview-12-2025: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-native-audio-preview-12-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-native-audio-preview-12-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-preview-tts: `release_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-preview-tts: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-preview-tts: `retirement_date` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-preview-tts: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-preview-tts: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts, https://ai.google.dev/gemini-api/docs/pricing
+- google/gemini-2.5-flash-preview-tts: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-preview-tts, https://ai.google.dev/gemini-api/docs/pricing
 - mistral/mistral-medium-latest: `release_date` - not confirmed in collected primary source pages. Looked: https://mistral.ai/pricing/api/
 - mistral/mistral-medium-latest: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://mistral.ai/pricing/api/
 - mistral/mistral-medium-latest: `retirement_date` - not confirmed in collected primary source pages. Looked: https://mistral.ai/pricing/api/
@@ -179,6 +175,11 @@ Null fields below were left unset because the collected primary source snippets 
 - mistral/magistral-medium-latest: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://mistral.ai/pricing/api/
 - mistral/magistral-medium-latest: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://mistral.ai/pricing/api/
 - mistral/magistral-medium-latest: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://mistral.ai/pricing/api/
+- xai/grok-4.5: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models/grok-4.5
+- xai/grok-4.5: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models/grok-4.5
+- xai/grok-4.5: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models/grok-4.5
+- xai/grok-4.5: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models/grok-4.5
+- xai/grok-4.5: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models/grok-4.5
 - xai/grok-build-0.1: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models, https://docs.x.ai/developers/pricing
 - xai/grok-build-0.1: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models, https://docs.x.ai/developers/pricing
 - xai/grok-build-0.1: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.x.ai/developers/models, https://docs.x.ai/developers/pricing
@@ -251,6 +252,30 @@ Null fields below were left unset because the collected primary source snippets 
 - cohere/c4ai-aya-expanse-32b: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://cohere.com/pricing, https://docs.cohere.com/docs/models
 - cohere/c4ai-aya-expanse-32b: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://cohere.com/pricing, https://docs.cohere.com/docs/models
 - cohere/c4ai-aya-expanse-32b: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://cohere.com/pricing, https://docs.cohere.com/docs/models
+- cohere/tiny-aya-earth: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-earth: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-earth: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-earth: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-earth: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-earth: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-fire: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-fire: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-fire: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-fire: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-fire: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-fire: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-water: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-water: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-water: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-water: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-water: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/tiny-aya-water: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/c4ai-aya-vision-32b: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/c4ai-aya-vision-32b: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/c4ai-aya-vision-32b: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/c4ai-aya-vision-32b: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/c4ai-aya-vision-32b: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
+- cohere/c4ai-aya-vision-32b: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - amazon/amazon.nova-premier-v1:0: `release_date` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html
 - amazon/amazon.nova-premier-v1:0: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html
 - amazon/amazon.nova-premier-v1:0: `retirement_date` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html
@@ -285,6 +310,13 @@ Null fields below were left unset because the collected primary source snippets 
 - alibaba/qwen3.7-max-2026-05-20: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3.7-max-2026-05-20: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3.7-max-2026-05-20: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.7-max-2026-06-08: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.7-max-2026-06-08: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.7-max-2026-06-08: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.7-max-2026-06-08: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.7-max-2026-06-08: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.7-max-2026-06-08: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.7-max-2026-06-08: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3.7-max-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3.7-max-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3.7-max-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
@@ -299,13 +331,12 @@ Null fields below were left unset because the collected primary source snippets 
 - alibaba/qwen3.7-max-2026-05-17: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3.7-max-2026-05-17: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3.7-max-2026-05-17: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3.6-max-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3.6-max-preview: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3.6-max-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3.6-max-preview: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3.6-max-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3.6-max-preview: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3.6-max-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.6-max-preview: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.6-max-preview: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.6-max-preview: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.6-max-preview: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.6-max-preview: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3.6-max-preview: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3-max: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3-max: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3-max: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
@@ -313,13 +344,12 @@ Null fields below were left unset because the collected primary source snippets 
 - alibaba/qwen3-max: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3-max: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - alibaba/qwen3-max: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3-max-2026-01-23: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3-max-2026-01-23: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3-max-2026-01-23: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3-max-2026-01-23: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3-max-2026-01-23: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3-max-2026-01-23: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- alibaba/qwen3-max-2026-01-23: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3-max-2026-01-23: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3-max-2026-01-23: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3-max-2026-01-23: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3-max-2026-01-23: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3-max-2026-01-23: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
+- alibaba/qwen3-max-2026-01-23: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-depreciation, https://www.alibabacloud.com/help/en/model-studio/model-pricing
 - moonshot/kimi-k2.7-code: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
 - moonshot/kimi-k2.7-code: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
 - moonshot/kimi-k2.7-code: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.kimi.ai/, https://platform.kimi.ai/docs/pricing/chat-k27-code
@@ -423,41 +453,36 @@ Null fields below were left unset because the collected primary source snippets 
 - zhipu/glm-4-32b-0414-128k: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://docs.z.ai/guides/overview/pricing
 - zhipu/glm-4-32b-0414-128k: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.z.ai/guides/overview/pricing
 - zhipu/glm-4-32b-0414-128k: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.z.ai/guides/overview/pricing
-- minimax/minimax-m3: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m3: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m3: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m3: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m3: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m3: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m3: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.7: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.7: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.7: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.7: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.7: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.7: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.7: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.5: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.5: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.5: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.5: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.5: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.5: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.5: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.1: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.1: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.1: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.1: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.1: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.1: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2.1: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
-- minimax/minimax-m2: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m3: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m3: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m3: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m3: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m3: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m3: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.7: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.7: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.7: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.7: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.7: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.7: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.5: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.5: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.5: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.5: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.5: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.5: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.1: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.1: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.1: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.1: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.1: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2.1: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2: `release_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2: `retirement_date` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
+- minimax/minimax-m2: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://platform.minimax.io/docs/api-reference/text-openai-api, https://platform.minimax.io/docs/guides/pricing-paygo
 - groq/llama-3.1-8b-instant: `release_date` - not confirmed in collected primary source pages. Looked: https://console.groq.com/docs/models
 - groq/llama-3.1-8b-instant: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://console.groq.com/docs/models
 - groq/llama-3.1-8b-instant: `retirement_date` - not confirmed in collected primary source pages. Looked: https://console.groq.com/docs/models
@@ -615,6 +640,12 @@ Null fields below were left unset because the collected primary source snippets 
 - together/glm-5.2: `context_window_tokens` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
 - together/glm-5.2: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
 - together/glm-5.2: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
+- together/LiquidAI/LFM2.5-8B-A1B: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/lfm2-5-8b-a1b, https://www.together.ai/pricing
+- together/LiquidAI/LFM2.5-8B-A1B: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/lfm2-5-8b-a1b, https://www.together.ai/pricing
+- together/LiquidAI/LFM2.5-8B-A1B: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/lfm2-5-8b-a1b, https://www.together.ai/pricing
+- together/LiquidAI/LFM2.5-8B-A1B: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/lfm2-5-8b-a1b, https://www.together.ai/pricing
+- together/LiquidAI/LFM2.5-8B-A1B: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/lfm2-5-8b-a1b, https://www.together.ai/pricing
+- together/LiquidAI/LFM2.5-8B-A1B: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/lfm2-5-8b-a1b, https://www.together.ai/pricing
 - together/lfm2-24b-a2b: `release_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
 - together/lfm2-24b-a2b: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
 - together/lfm2-24b-a2b: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing
@@ -778,48 +809,36 @@ Null fields below were left unset because the collected primary source snippets 
 - cohere/command-a-plus-05-2026: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-plus-05-2026: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-plus-05-2026: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-plus-05-2026: `pricing.input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-plus-05-2026: `pricing.output_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-plus-05-2026: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-plus-05-2026: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-plus-05-2026: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-03-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-03-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-03-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-03-2025: `pricing.input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-03-2025: `pricing.output_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-03-2025: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-03-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-03-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-translate-08-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-translate-08-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-translate-08-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-translate-08-2025: `pricing.input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-translate-08-2025: `pricing.output_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-translate-08-2025: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-translate-08-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-translate-08-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-reasoning-08-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-reasoning-08-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-reasoning-08-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-reasoning-08-2025: `pricing.input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-reasoning-08-2025: `pricing.output_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-reasoning-08-2025: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-reasoning-08-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-reasoning-08-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-vision-07-2025: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-vision-07-2025: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-vision-07-2025: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-vision-07-2025: `pricing.input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-a-vision-07-2025: `pricing.output_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-vision-07-2025: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-vision-07-2025: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-a-vision-07-2025: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-r-08-2024: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-r-08-2024: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-r-08-2024: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-r-08-2024: `pricing.input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/command-r-08-2024: `pricing.output_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-r-08-2024: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-r-08-2024: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/command-r-08-2024: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
@@ -831,97 +850,79 @@ Null fields below were left unset because the collected primary source snippets 
 - cohere/tiny-aya-global: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/tiny-aya-global: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/tiny-aya-global: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/tiny-aya-global: `pricing.input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-- cohere/tiny-aya-global: `pricing.output_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/tiny-aya-global: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/tiny-aya-global: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
 - cohere/tiny-aya-global: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.cohere.com/docs/models
-
-## EXPANSION2_ORDER Wave-2 gap fill (2026-07-04)
-
-- perplexity/sonar-reasoning: skipped - official Perplexity page says `sonar-reasoning` was deprecated on December 15, 2025; API reference available options list `sonar`, `sonar-pro`, `sonar-deep-research`, and `sonar-reasoning-pro`. Looked: https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro, https://docs.perplexity.ai/api-reference/sonar-post
-- alibaba/qwen-turbo: skipped - official Alibaba pricing page says Qwen-Turbo will no longer be updated and recommends switching to Qwen-Flash. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing
-- fireworks/qwen3-235b-a22b: skipped - official Fireworks model library lists the model as Ready/on-demand, but its model page says Serverless is not supported and the current serverless pricing page does not list qwen3-235b-a22b or a MoE >176B per-token tier. Looked: https://fireworks.ai/models/fireworks/qwen3-235b-a22b, https://docs.fireworks.ai/serverless/pricing
-- fireworks/firefunction-v2: skipped - official Fireworks model page lists it as a LoRA addon with Serverless not supported, and the current serverless pricing page has no explicit FireFunction V2 token price. Looked: https://fireworks.ai/models/fireworks/firefunction-v2, https://docs.fireworks.ai/serverless/pricing
-- groq/mixtral-8x7b-32768: skipped - not present in Groq current Production Models or Preview Models tables. Looked: https://console.groq.com/docs/models
-- groq/gemma2-9b-it: skipped - not present in Groq current Production Models or Preview Models tables. Looked: https://console.groq.com/docs/models
 - perplexity/sonar-pro: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
 - perplexity/sonar-pro: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
 - perplexity/sonar-pro: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
-- perplexity/sonar-pro: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
-- perplexity/sonar-pro: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
 - perplexity/sonar-pro: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
 - perplexity/sonar-pro: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
+- perplexity/sonar-pro: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
+- perplexity/sonar-pro: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-pro
 - perplexity/sonar-reasoning-pro: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
 - perplexity/sonar-reasoning-pro: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
 - perplexity/sonar-reasoning-pro: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
-- perplexity/sonar-reasoning-pro: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
-- perplexity/sonar-reasoning-pro: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
 - perplexity/sonar-reasoning-pro: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
 - perplexity/sonar-reasoning-pro: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
+- perplexity/sonar-reasoning-pro: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
+- perplexity/sonar-reasoning-pro: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.perplexity.ai/docs/getting-started/pricing, https://docs.perplexity.ai/docs/sonar/models/sonar-reasoning-pro
 - alibaba/qwen3.7-plus: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.7-plus: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.7-plus: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
+- alibaba/qwen3.7-plus: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus-2026-05-26: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus-2026-05-26: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus-2026-05-26: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.7-plus-2026-05-26: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.7-plus-2026-05-26: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus-2026-05-26: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.7-plus-2026-05-26: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
+- alibaba/qwen3.7-plus-2026-05-26: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-plus: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-plus: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
+- alibaba/qwen3.6-plus: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus-2026-04-02: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus-2026-04-02: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus-2026-04-02: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-plus-2026-04-02: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-plus-2026-04-02: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus-2026-04-02: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-plus-2026-04-02: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
+- alibaba/qwen3.6-plus-2026-04-02: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-flash: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-flash: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
+- alibaba/qwen3.6-flash: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash-2026-04-16: `release_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash-2026-04-16: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash-2026-04-16: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-flash-2026-04-16: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
-- alibaba/qwen3.6-flash-2026-04-16: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash-2026-04-16: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - alibaba/qwen3.6-flash-2026-04-16: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
+- alibaba/qwen3.6-flash-2026-04-16: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.alibabacloud.com/help/en/model-studio/model-pricing, https://www.alibabacloud.com/help/en/model-studio/models
 - fireworks/llama-v3p3-70b-instruct: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
 - fireworks/llama-v3p3-70b-instruct: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
 - fireworks/llama-v3p3-70b-instruct: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
-- fireworks/llama-v3p3-70b-instruct: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
-- fireworks/llama-v3p3-70b-instruct: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
 - fireworks/llama-v3p3-70b-instruct: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
 - fireworks/llama-v3p3-70b-instruct: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
+- fireworks/llama-v3p3-70b-instruct: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
+- fireworks/llama-v3p3-70b-instruct: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/llama-v3p3-70b-instruct
 - fireworks/qwen2p5-vl-32b-instruct: `release_date` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
 - fireworks/qwen2p5-vl-32b-instruct: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
 - fireworks/qwen2p5-vl-32b-instruct: `retirement_date` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
-- fireworks/qwen2p5-vl-32b-instruct: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
-- fireworks/qwen2p5-vl-32b-instruct: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
 - fireworks/qwen2p5-vl-32b-instruct: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
 - fireworks/qwen2p5-vl-32b-instruct: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
-- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing, https://www.together.ai/models/qwen2-5-7b-instruct-turbo
-- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing, https://www.together.ai/models/qwen2-5-7b-instruct-turbo
-- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing, https://www.together.ai/models/qwen2-5-7b-instruct-turbo
-- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing, https://www.together.ai/models/qwen2-5-7b-instruct-turbo
-- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing, https://www.together.ai/models/qwen2-5-7b-instruct-turbo
-- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.together.ai/pricing, https://www.together.ai/models/qwen2-5-7b-instruct-turbo
-- amazon/anthropic.claude-3-5-sonnet-20241022-v2:0: `release_date` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html, https://www.anthropic.com/news/claude-3-5-sonnet
-- amazon/anthropic.claude-3-5-sonnet-20241022-v2:0: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html, https://www.anthropic.com/news/claude-3-5-sonnet
-- amazon/anthropic.claude-3-5-sonnet-20241022-v2:0: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html, https://www.anthropic.com/news/claude-3-5-sonnet
-- amazon/anthropic.claude-3-5-sonnet-20241022-v2:0: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html, https://www.anthropic.com/news/claude-3-5-sonnet
+- fireworks/qwen2p5-vl-32b-instruct: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
+- fireworks/qwen2p5-vl-32b-instruct: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://docs.fireworks.ai/serverless/pricing, https://fireworks.ai/models/fireworks/qwen2p5-vl-32b-instruct
+- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `deprecation_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/qwen2-5-7b-instruct-turbo, https://www.together.ai/pricing
+- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `retirement_date` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/qwen2-5-7b-instruct-turbo, https://www.together.ai/pricing
+- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `pricing.cached_input_per_mtok` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/qwen2-5-7b-instruct-turbo, https://www.together.ai/pricing
+- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/qwen2-5-7b-instruct-turbo, https://www.together.ai/pricing
+- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `max_output_tokens` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/qwen2-5-7b-instruct-turbo, https://www.together.ai/pricing
+- together/Qwen/Qwen2.5-7B-Instruct-Turbo: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://www.together.ai/models/qwen2-5-7b-instruct-turbo, https://www.together.ai/pricing
+- amazon/anthropic.claude-3-5-sonnet-20241022-v2:0: `release_date` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html, https://platform.claude.com/docs/en/release-notes/overview, https://www.anthropic.com/news/claude-3-5-sonnet
+- amazon/anthropic.claude-3-5-sonnet-20241022-v2:0: `pricing.batch_discount_pct` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html, https://platform.claude.com/docs/en/release-notes/overview, https://www.anthropic.com/news/claude-3-5-sonnet
+- amazon/anthropic.claude-3-5-sonnet-20241022-v2:0: `knowledge_cutoff` - not confirmed in collected primary source pages. Looked: https://aws.amazon.com/bedrock/pricing/, https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html, https://platform.claude.com/docs/en/release-notes/overview, https://www.anthropic.com/news/claude-3-5-sonnet

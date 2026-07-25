@@ -1,0 +1,53 @@
+{
+  "provider": "cohere",
+  "model_id": "c4ai-aya-vision-32b",
+  "display_name": "Aya Vision 32B",
+  "status": "ga",
+  "release_date": null,
+  "deprecation_date": null,
+  "retirement_date": null,
+  "pricing": {
+    "input_per_mtok": null,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "batch_discount_pct": null
+  },
+  "context_window_tokens": 16000,
+  "context_window_notation": "16k",
+  "max_output_tokens": 4000,
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "knowledge_cutoff": null,
+  "sources": [
+    {
+      "url": "https://docs.cohere.com/docs/models",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "model_id",
+        "status",
+        "modalities",
+        "context_window_tokens",
+        "max_output_tokens"
+      ],
+      "quote": "c4ai-aya-vision-32b Live Aya Vision is a state-of-the-art multimodal model excelling at a variety of critical benchmarks for language, text, and image capabilities. Serves 23 languages. Text, Images 16k 4k Chat"
+    },
+    {
+      "url": "https://docs.cohere.com/docs/aya-vision",
+      "accessed_at": "2026-07-25T12:20:00Z",
+      "fields": [
+        "modalities"
+      ],
+      "quote": "Aya Vision’s multimodal capabilities enable it to understand content across different media types, including text and images as input."
+    }
+  ],
+  "verified_at": "2026-07-20T01:30:00Z",
+  "notes": "Cohere model page confirms live API availability and limits; public token price was not found in the collected primary pricing page.",
+  "permalink": "/models/cohere/c4ai-aya-vision-32b.html"
+}

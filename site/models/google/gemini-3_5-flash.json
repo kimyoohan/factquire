@@ -1,0 +1,64 @@
+{
+  "provider": "google",
+  "model_id": "gemini-3.5-flash",
+  "display_name": "Gemini 3.5 Flash",
+  "status": "ga",
+  "release_date": "2026-05-19",
+  "deprecation_date": null,
+  "retirement_date": null,
+  "pricing": {
+    "input_per_mtok": 1.5,
+    "output_per_mtok": 9,
+    "cached_input_per_mtok": 0.15,
+    "batch_discount_pct": null
+  },
+  "context_window_tokens": 1048576,
+  "max_output_tokens": 65536,
+  "modalities": {
+    "input": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "knowledge_cutoff": "January 2025",
+  "sources": [
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "pricing.input_per_mtok",
+        "pricing.output_per_mtok",
+        "pricing.cached_input_per_mtok"
+      ],
+      "quote": "Gemini 3.5 Flash gemini-3.5-flash ... Paid Tier, per 1M tokens in USD Input price $1.50 Output price (including thinking tokens) $9.00 Context caching price $0.15"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "context_window_tokens",
+        "max_output_tokens",
+        "modalities",
+        "knowledge_cutoff"
+      ],
+      "quote": "Model code gemini-3.5-flash Supported data types Inputs Text, Image, Video, Audio, and PDF Output Text Token limits Input token limit 1,048,576 Output token limit 65,536 ... Knowledge cutoff January 2025"
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "release_date",
+        "status"
+      ],
+      "quote": "May 19, 2026 Released gemini-3.5-flash, the generally available (GA) version of Gemini 3.5 Flash"
+    }
+  ],
+  "verified_at": "2026-07-20T01:30:00Z",
+  "notes": "Paid standard tier recorded; batch and long-context variants are not represented in the base price fields.",
+  "permalink": "/models/google/gemini-3_5-flash.html"
+}

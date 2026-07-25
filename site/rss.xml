@@ -33,6 +33,13 @@
       <description>Software is making purchasing decisions about AI models using unverified data. We built a source-verified feed — every number quoted from a primary source, independently reviewed before publishing.</description>
     </item>
     <item>
+      <title>FactQuire v0.8: Added 11 newly verified API models across OpenAI, Google, xAI, Alibaba, Cohere, and Together. Alibaba also cut Qwen3.6/3.7 Plus pricing and announced October 10 deprecations for two tracked Qwen models.</title>
+      <link>https://factquire.com/changelog.html#v0.8</link>
+      <guid>https://factquire.com/changelog.html#v0.8</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Added 11 newly verified API models across OpenAI, Google, xAI, Alibaba, Cohere, and Together. Alibaba also cut Qwen3.6/3.7 Plus pricing and announced October 10 deprecations for two tracked Qwen models.</description>
+    </item>
+    <item>
       <title>FactQuire v0.7: No changes; all facts re-verified</title>
       <link>https://factquire.com/changelog.html#v0.7</link>
       <guid>https://factquire.com/changelog.html#v0.7</guid>

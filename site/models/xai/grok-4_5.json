@@ -1,0 +1,59 @@
+{
+  "provider": "xai",
+  "model_id": "grok-4.5",
+  "display_name": "Grok 4.5",
+  "status": "ga",
+  "release_date": null,
+  "deprecation_date": null,
+  "retirement_date": null,
+  "pricing": {
+    "input_per_mtok": 2,
+    "output_per_mtok": 6,
+    "cached_input_per_mtok": 0.3,
+    "batch_discount_pct": null
+  },
+  "context_window_tokens": 500000,
+  "max_output_tokens": null,
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "knowledge_cutoff": "February 1, 2026",
+  "sources": [
+    {
+      "url": "https://docs.x.ai/developers/models/grok-4.5",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "model_id",
+        "status",
+        "pricing.input_per_mtok",
+        "pricing.output_per_mtok",
+        "context_window_tokens",
+        "modalities",
+        "knowledge_cutoff"
+      ],
+      "quote": "Grok 4.5 grok-4.5 ... This model is available on multiple clusters ... Modalities Text, Image Text Context window 500,000 Pricing Input Tokens $2.00/1M tokens Cached tokens $0.50/1M tokens Output Tokens $6.00/1M tokens ... Knowledge cutoff February 1, 2026"
+    },
+    {
+      "url": "https://docs.x.ai/developers/models/grok-4.5",
+      "accessed_at": "2026-07-25T12:40:00Z",
+      "fields": [
+        "pricing.input_per_mtok",
+        "pricing.output_per_mtok",
+        "pricing.cached_input_per_mtok",
+        "context_window_tokens",
+        "modalities",
+        "status"
+      ],
+      "quote": "Grok 4.5 grok-4.5 ... This model is available on multiple clusters ... Modalities Text, Image Text Context window 500,000 ... Pricing Input Tokens $2.00 / 1M tokens Cached tokens $0.30 / 1M tokens Output Tokens $6.00 / 1M tokens"
+    }
+  ],
+  "verified_at": "2026-07-25T12:40:00Z",
+  "notes": "The official model page states that Grok 4.5 is available through the xAI API; EU console availability is region-limited at launch. Cached input price dropped from $0.50 to $0.30 per 1M tokens between 2026-07-20 and 2026-07-25 page accesses.",
+  "permalink": "/models/xai/grok-4_5.html"
+}

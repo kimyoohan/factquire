@@ -1,0 +1,53 @@
+{
+  "provider": "together",
+  "model_id": "LiquidAI/LFM2.5-8B-A1B",
+  "display_name": "LFM2.5 8B A1B on Together",
+  "status": "ga",
+  "release_date": "2026-05-27",
+  "deprecation_date": null,
+  "retirement_date": null,
+  "pricing": {
+    "input_per_mtok": 0.03,
+    "output_per_mtok": 0.12,
+    "cached_input_per_mtok": null,
+    "batch_discount_pct": null
+  },
+  "context_window_tokens": 128000,
+  "context_window_notation": "128K",
+  "max_output_tokens": null,
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "knowledge_cutoff": null,
+  "sources": [
+    {
+      "url": "https://www.together.ai/pricing",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "pricing.input_per_mtok",
+        "pricing.output_per_mtok"
+      ],
+      "quote": "Serverless Inference Price per 1M tokens Model Input output ... LFM2.5-8B-A1B $0.03 $0.12"
+    },
+    {
+      "url": "https://www.together.ai/models/lfm2-5-8b-a1b",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "model_id",
+        "status",
+        "release_date",
+        "context_window_tokens",
+        "modalities"
+      ],
+      "quote": "Endpoint LiquidAI/LFM2.5-8B-A1B ... Available on Together AI serverless and dedicated infrastructure ... Context length 128K Input price $0.03 / 1M tokens Output price $0.12 / 1M tokens Input modalities Text Output modalities Text Released May 27, 2026"
+    }
+  ],
+  "verified_at": "2026-07-20T01:30:00Z",
+  "notes": "Provider is Together AI serving platform; endpoint ID is recorded as the model_id.",
+  "permalink": "/models/together/LiquidAI_LFM2_5-8B-A1B.html"
+}

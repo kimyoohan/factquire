@@ -1,6 +1,164 @@
 {
   "releases": [
     {
+      "date": "2026-07-20",
+      "version": "0.8",
+      "summary": "Added 11 newly verified API models across OpenAI, Google, xAI, Alibaba, Cohere, and Together. Alibaba also cut Qwen3.6/3.7 Plus pricing and announced October 10 deprecations for two tracked Qwen models.",
+      "entries": [
+        {
+          "type": "added",
+          "provider": "alibaba",
+          "model_id": "qwen3.7-max-2026-06-08"
+        },
+        {
+          "type": "added",
+          "provider": "cohere",
+          "model_id": "c4ai-aya-vision-32b"
+        },
+        {
+          "type": "added",
+          "provider": "cohere",
+          "model_id": "tiny-aya-earth"
+        },
+        {
+          "type": "added",
+          "provider": "cohere",
+          "model_id": "tiny-aya-fire"
+        },
+        {
+          "type": "added",
+          "provider": "cohere",
+          "model_id": "tiny-aya-water"
+        },
+        {
+          "type": "added",
+          "provider": "google",
+          "model_id": "gemini-3.5-flash"
+        },
+        {
+          "type": "added",
+          "provider": "openai",
+          "model_id": "gpt-5.6-luna"
+        },
+        {
+          "type": "added",
+          "provider": "openai",
+          "model_id": "gpt-5.6-sol"
+        },
+        {
+          "type": "added",
+          "provider": "openai",
+          "model_id": "gpt-5.6-terra"
+        },
+        {
+          "type": "added",
+          "provider": "together",
+          "model_id": "LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "type": "added",
+          "provider": "xai",
+          "model_id": "grok-4.5"
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3-max-2026-01-23",
+          "field": "deprecation_date",
+          "old": null,
+          "new": "2026-10-10"
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3-max-2026-01-23",
+          "field": "status",
+          "old": "ga",
+          "new": "deprecated"
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.6-max-preview",
+          "field": "deprecation_date",
+          "old": null,
+          "new": "2026-10-10"
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.6-max-preview",
+          "field": "status",
+          "old": "preview",
+          "new": "deprecated"
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.6-plus",
+          "field": "pricing.input_per_mtok",
+          "old": 0.5,
+          "new": 0.276
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.6-plus",
+          "field": "pricing.output_per_mtok",
+          "old": 3,
+          "new": 1.651
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.6-plus-2026-04-02",
+          "field": "pricing.input_per_mtok",
+          "old": 0.5,
+          "new": 0.276
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.6-plus-2026-04-02",
+          "field": "pricing.output_per_mtok",
+          "old": 3,
+          "new": 1.651
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.7-plus",
+          "field": "pricing.input_per_mtok",
+          "old": 0.4,
+          "new": 0.276
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.7-plus",
+          "field": "pricing.output_per_mtok",
+          "old": 1.6,
+          "new": 1.101
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.7-plus-2026-05-26",
+          "field": "pricing.input_per_mtok",
+          "old": 0.4,
+          "new": 0.276
+        },
+        {
+          "type": "changed",
+          "provider": "alibaba",
+          "model_id": "qwen3.7-plus-2026-05-26",
+          "field": "pricing.output_per_mtok",
+          "old": 1.6,
+          "new": 1.101
+        }
+      ]
+    },
+    {
       "date": "2026-07-13",
       "version": "0.7",
       "summary": "No changes; all facts re-verified",

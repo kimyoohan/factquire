@@ -1,0 +1,44 @@
+{
+  "provider": "cohere",
+  "model_id": "tiny-aya-fire",
+  "display_name": "Tiny Aya Fire",
+  "status": "ga",
+  "release_date": null,
+  "deprecation_date": null,
+  "retirement_date": null,
+  "pricing": {
+    "input_per_mtok": null,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "batch_discount_pct": null
+  },
+  "context_window_tokens": 8000,
+  "context_window_notation": "8k",
+  "max_output_tokens": 8000,
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "knowledge_cutoff": null,
+  "sources": [
+    {
+      "url": "https://docs.cohere.com/docs/models",
+      "accessed_at": "2026-07-20T01:30:00Z",
+      "fields": [
+        "model_id",
+        "status",
+        "modalities",
+        "context_window_tokens",
+        "max_output_tokens"
+      ],
+      "quote": "tiny-aya-fire Live Tiny Aya Fire is a 3.35B region-specialized multilingual model, best for South Asian languages. Supports 70 languages. Text 8k 8k Chat"
+    }
+  ],
+  "verified_at": "2026-07-20T01:30:00Z",
+  "notes": "Cohere model page confirms live model and limits; public token price was not found in the collected primary pricing page.",
+  "permalink": "/models/cohere/tiny-aya-fire.html"
+}

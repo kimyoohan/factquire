@@ -97,6 +97,18 @@ def value_tokens(value):
     if value is None:
         return {"null", "none"}
     tokens = {str(value)}
+    if isinstance(value, str):
+        match = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", value)
+        if match:
+            year, month, day = (int(part) for part in match.groups())
+            month_name = date(year, month, day).strftime("%B")
+            tokens.update(
+                {
+                    f"{month_name} {day}, {year}",
+                    f"{month_name} {day} {year}",
+                    f"{month}/{day}/{year}",
+                }
+            )
     if isinstance(value, (int, float)):
         tokens.add(f"{value:,}")
         tokens.add(f"{float(value):.1f}")
