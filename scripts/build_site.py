@@ -206,7 +206,8 @@ def page(title, description, path, body, current=None, extra_head="", jsonld=Non
     <section class="subscribe" id="subscribe">
       <div class="subscribe-inner">
         <strong>Price &amp; deprecation alerts</strong>
-        <p>One weekly email when any tracked model changes price or limits, or gets deprecated. Every change source-verified. No spam, unsubscribe anytime.</p>
+        <p>One weekly email when any tracked model changes price or limits, or gets deprecated. Every change source-verified. No spam, unsubscribe anytime.
+        Want per-model alerts within a day? <a href="/watchlist.html">Create a free watchlist →</a></p>
         <form id="subscribe-form" action="{SUBSCRIBE_ENDPOINT}" method="post">
           <input type="email" name="email" required placeholder="you@company.com" aria-label="Email address">
           <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true">
@@ -641,6 +642,81 @@ def build_trust_pages(changelog):
     )
 
 
+def build_watchlist_page(facts):
+    model_keys = sorted(f"{entry.get('provider')}/{entry.get('model_id')}" for entry in facts)
+    options = "\n".join(f'<option value="{escape(key)}"></option>' for key in model_keys)
+    picker_rows = []
+    for index in range(1, 4):
+        picker_rows.append(f"""
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-{index}" placeholder="{'provider/model-id (e.g. openai/gpt-5.6-terra)' if index == 1 else 'optional'}" aria-label="Model {index}">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model {index} monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model {index} monthly output million tokens">
+      </div>""")
+    body = f"""      <h1>Free model watchlist</h1>
+      <p>Pick up to 3 models. Whenever a watched model's <strong>price, token limits, status, or deprecation date</strong>
+      changes in our source-verified data, you get an email within a day — with the provider's own quote backing the change.</p>
+      <p>Optionally add your monthly volume (millions of tokens) and the alert includes your estimated monthly cost impact.</p>
+      <datalist id="model-keys">
+{options}
+      </datalist>
+      <form id="watchlist-form">
+        {''.join(picker_rows)}
+        <div class="watch-row">
+          <input type="email" id="watch-email" required placeholder="you@company.com" aria-label="Email address">
+          <input type="text" id="watch-hp" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button type="submit">Start watching</button>
+        </div>
+        <p id="watchlist-status" role="status"></p>
+      </form>
+      <p class="watch-note">Free tier: 3 models, daily checks, unsubscribe anytime. Data source: the same
+      <a href="/audit.html">audited</a> facts feed that powers this site.</p>
+      <script>
+      (function () {{
+        var form = document.getElementById("watchlist-form");
+        var status = document.getElementById("watchlist-status");
+        form.addEventListener("submit", function (ev) {{
+          ev.preventDefault();
+          var models = [];
+          var volumes = {{}};
+          document.querySelectorAll(".watch-row").forEach(function (row) {{
+            var m = row.querySelector(".watch-model");
+            if (!m || !m.value.trim()) return;
+            var key = m.value.trim();
+            models.push(key);
+            var vin = parseFloat((row.querySelector(".watch-vol-in") || {{}}).value);
+            var vout = parseFloat((row.querySelector(".watch-vol-out") || {{}}).value);
+            if (!isNaN(vin) || !isNaN(vout)) {{
+              volumes[key] = {{ inputMTok: isNaN(vin) ? 0 : vin, outputMTok: isNaN(vout) ? 0 : vout }};
+            }}
+          }});
+          if (!models.length) {{ status.textContent = "Pick at least one model."; return; }}
+          status.textContent = "Saving…";
+          fetch("https://factquire-watchdog.azij.workers.dev/watchlist", {{
+            method: "POST",
+            headers: {{ "Content-Type": "application/json" }},
+            body: JSON.stringify({{ email: document.getElementById("watch-email").value.trim(), models: models, volumes: volumes, website: document.getElementById("watch-hp").value }})
+          }}).then(function (r) {{ return r.json().catch(function () {{ return {{}}; }}).then(function (d) {{ return {{ ok: r.ok, data: d }}; }}); }})
+            .then(function (res) {{
+              status.textContent = res.ok
+                ? "Watching " + (res.data.watching || []).join(", ") + ". You'll get an email when any of them changes."
+                : (res.data && res.data.error) || "Something went wrong — please try again.";
+            }})
+            .catch(function () {{ status.textContent = "Network error — please try again."; }});
+        }});
+      }})();
+      </script>"""
+    write_text(
+        SITE_DIR / "watchlist.html",
+        page(
+            "Model watchlist - FactQuire",
+            "Watch up to 3 LLM API models for free. Get a source-verified email within a day of any price, limit, or lifecycle change.",
+            "/watchlist.html",
+            body,
+        ),
+    )
+
+
 def build_rss(articles, changelog):
     rss_items = []
     for article in articles:
@@ -783,6 +859,7 @@ def collect_site_urls(facts, articles):
         ("/changelog.html", "daily", "0.8"),
         ("/audit.html", "weekly", "0.7"),
         ("/about.html", "monthly", "0.5"),
+        ("/watchlist.html", "monthly", "0.7"),
         ("/corrections.html", "daily", "0.7"),
         ("/editorial.html", "monthly", "0.6"),
         ("/cite.html", "monthly", "0.6"),
@@ -900,6 +977,7 @@ def main():
     build_model_pages(facts, changelog)
     articles = build_articles()
     build_core_pages(facts, changelog)
+    build_watchlist_page(facts)
     build_trust_pages(changelog)
     build_rss(articles, changelog)
     build_llms_files(facts, changelog)

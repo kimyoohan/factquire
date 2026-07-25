@@ -2,9 +2,10 @@ name = "factquire-watchdog"
 main = "src/index.js"
 compatibility_date = "2026-07-01"
 
-# Every 4 hours: process the next batch of 25 source URLs (61 total → full sweep ~2x/day)
+# 0 */4: source-page batches (25 URLs each, 61 total → full sweep ~2x/day)
+# 30 22 UTC (= 07:30 KST): daily personalized watchlist alerts from published facts diff
 [triggers]
-crons = ["0 */4 * * *"]
+crons = ["0 */4 * * *", "30 22 * * *"]
 
 [[kv_namespaces]]
 binding = "STATE"

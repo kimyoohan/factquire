@@ -453,3 +453,31 @@ code {
   color: #1a5fb4;
   margin-top: 10px;
 }
+
+/* --- Watchlist page --- */
+.watch-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.watch-row input {
+  padding: 9px 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+.watch-model { min-width: 320px; flex: 2; }
+.watch-vol-in, .watch-vol-out { width: 150px; }
+#watchlist-form button {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #1a5fb4;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+#watchlist-form button:hover { background: #14487f; }
+#watchlist-status { min-height: 1.2em; color: #1a5fb4; font-size: 0.9rem; }
+.watch-note { color: #666; font-size: 0.88rem; margin-top: 16px; }
