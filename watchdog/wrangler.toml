@@ -1,0 +1,15 @@
+name = "factquire-watchdog"
+main = "src/index.js"
+compatibility_date = "2026-07-01"
+
+# Every 4 hours: process the next batch of 25 source URLs (61 total → full sweep ~2x/day)
+[triggers]
+crons = ["0 */4 * * *"]
+
+[[kv_namespaces]]
+binding = "STATE"
+id = "fb08e1b343de450099bb9a83175b6b06"
+
+# Secrets (set via `wrangler secret put`):
+#   RESEND_API_KEY — alert emails
+#   RUN_KEY        — manual trigger: GET /run?key=<RUN_KEY>

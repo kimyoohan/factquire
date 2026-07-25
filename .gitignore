@@ -11,3 +11,4 @@ ops/stories/*.md
 
 .wrangler/
 notify-api/.wrangler/
+watchdog/.runkey.local
