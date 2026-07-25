@@ -101,7 +101,12 @@ def resend_request(path, payload, api_key):
     req = urllib.request.Request(
         f"https://api.resend.com{path}",
         data=json.dumps(payload).encode("utf-8"),
-        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            # Resend/Cloudflare WAF rejects urllib's default Python-urllib UA with 403
+            "User-Agent": "factquire-digest/1.0 (+https://factquire.com)",
+        },
         method="POST",
     )
     with urllib.request.urlopen(req, timeout=30) as res:
