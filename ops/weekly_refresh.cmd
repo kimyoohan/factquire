@@ -17,6 +17,9 @@ call "C:\Users\USER\AppData\Roaming\npm\codex.cmd" exec --sandbox danger-full-ac
 echo ===== %date% %time% VERIFY (claude) =====
 call "C:\Users\USER\AppData\Roaming\npm\claude.cmd" -p --dangerously-skip-permissions "Read VERIFY_ORDER.md in the current working directory and execute it fully. IMPORTANT: if VERIFY_ORDER.md does not exist in the current directory, STOP immediately and do nothing - do NOT search elsewhere and do NOT work on any other project."
 
+echo ===== %date% %time% DIGEST (send only if fresh changes) =====
+py scripts\send_digest.py --if-changes
+
 echo ===== %date% %time% AUDIT OUTREACH (claude) =====
 call "C:\Users\USER\AppData\Roaming\npm\claude.cmd" -p --dangerously-skip-permissions "Read AUDIT_OUTREACH_ORDER.md in the current working directory and execute it fully. IMPORTANT: if AUDIT_OUTREACH_ORDER.md does not exist in the current directory, STOP immediately and do nothing - do NOT search elsewhere and do NOT work on any other project."
 echo ===== %date% %time% DONE =====

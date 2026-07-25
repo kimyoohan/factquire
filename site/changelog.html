@@ -46,6 +46,45 @@
 <section class="release"><h2>v0.2 - 2026-07-04</h2><p>External dataset audit self-correction: Gemini 2.5 Flash exact context limit</p><ul class="changes"><li>google/gemini-2.5-flash context_window_tokens changed from 1000000 to 1048576</li></ul></section>
 <section class="release"><h2>v0.1 - 2026-07-04</h2><p>Initial dataset: 40 models across 7 providers</p><ul class="changes"><li>openai/gpt-5.5 added</li><li>openai/gpt-5.5-pro added</li><li>openai/gpt-5.4 added</li><li>anthropic/claude-fable-5 added</li><li>anthropic/claude-opus-4-8 added</li><li>anthropic/claude-opus-4-7 added</li><li>anthropic/claude-opus-4-6 added</li><li>anthropic/claude-sonnet-5 added</li><li>anthropic/claude-haiku-4-5-20251001 added</li><li>google/gemini-3.1-flash-lite added</li><li>google/gemini-3.1-pro-preview added</li><li>google/gemini-3.1-flash-live-preview added</li><li>google/gemini-3-flash-preview added</li><li>google/gemini-2.5-pro added</li><li>google/gemini-2.5-flash added</li><li>google/gemini-2.5-flash-lite added</li><li>google/gemini-2.5-flash-lite-preview-09-2025 added</li><li>google/gemini-2.5-flash-native-audio-preview-12-2025 added</li><li>google/gemini-2.5-flash-preview-tts added</li><li>mistral/mistral-medium-latest added</li><li>mistral/mistral-small-latest added</li><li>mistral/mistral-large-latest added</li><li>mistral/voxtral-small-latest added</li><li>mistral/devstral-medium-latest added</li><li>mistral/devstral-small-latest added</li><li>mistral/codestral-latest added</li><li>mistral/magistral-medium-latest added</li><li>xai/grok-build-0.1 added</li><li>xai/grok-4.3 added</li><li>xai/grok-4.20-multi-agent-0309 added</li><li>xai/grok-4.20-0309-reasoning added</li><li>xai/grok-4.20-0309-non-reasoning added</li><li>deepseek/deepseek-v4-flash added</li><li>deepseek/deepseek-v4-pro added</li><li>cohere/command-r-plus-08-2024 added</li><li>cohere/command-r-03-2024 added</li><li>cohere/command-r-plus-04-2024 added</li><li>cohere/command added</li><li>cohere/command-light added</li><li>cohere/c4ai-aya-expanse-32b added</li></ul></section>
     </main>
+    <section class="subscribe" id="subscribe">
+      <div class="subscribe-inner">
+        <strong>Price &amp; deprecation alerts</strong>
+        <p>One weekly email when any tracked model changes price or limits, or gets deprecated. Every change source-verified. No spam, unsubscribe anytime.</p>
+        <form id="subscribe-form" action="https://factquire-notify.pages.dev/subscribe" method="post">
+          <input type="email" name="email" required placeholder="you@company.com" aria-label="Email address">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true">
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="subscribe-status" role="status"></p>
+      </div>
+    </section>
+    <script>
+    (function () {
+      var form = document.getElementById("subscribe-form");
+      if (!form) return;
+      var status = document.getElementById("subscribe-status");
+      form.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var email = form.email.value.trim();
+        if (!email) return;
+        status.textContent = "Subscribing…";
+        fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: email, website: form.website.value })
+        }).then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, data: d }; }); })
+          .then(function (res) {
+            if (res.ok) {
+              status.textContent = "Subscribed. You’ll get the next weekly digest.";
+              form.reset();
+            } else {
+              status.textContent = res.data && res.data.error ? res.data.error : "Something went wrong — please try again later.";
+            }
+          })
+          .catch(function () { status.textContent = "Network error — please try again later."; });
+      });
+    })();
+    </script>
     <footer class="site-footer">
       <a href="/corrections.html">corrections</a> |
       <a href="/editorial.html">editorial</a> |

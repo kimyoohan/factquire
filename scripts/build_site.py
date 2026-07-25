@@ -13,6 +13,7 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://factquire.com"
+SUBSCRIBE_ENDPOINT = "https://factquire-notify.pages.dev/subscribe"
 FACTS_PATH = ROOT / "data" / "facts.json"
 CHANGELOG_PATH = ROOT / "data" / "changelog.json"
 AUDIT_PATH = ROOT / "data" / "audit.json"
@@ -202,6 +203,45 @@ def page(title, description, path, body, current=None, extra_head="", jsonld=Non
     <main>
 {body}
     </main>
+    <section class="subscribe" id="subscribe">
+      <div class="subscribe-inner">
+        <strong>Price &amp; deprecation alerts</strong>
+        <p>One weekly email when any tracked model changes price or limits, or gets deprecated. Every change source-verified. No spam, unsubscribe anytime.</p>
+        <form id="subscribe-form" action="{SUBSCRIBE_ENDPOINT}" method="post">
+          <input type="email" name="email" required placeholder="you@company.com" aria-label="Email address">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true">
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="subscribe-status" role="status"></p>
+      </div>
+    </section>
+    <script>
+    (function () {{
+      var form = document.getElementById("subscribe-form");
+      if (!form) return;
+      var status = document.getElementById("subscribe-status");
+      form.addEventListener("submit", function (ev) {{
+        ev.preventDefault();
+        var email = form.email.value.trim();
+        if (!email) return;
+        status.textContent = "Subscribing…";
+        fetch(form.action, {{
+          method: "POST",
+          headers: {{ "Content-Type": "application/json" }},
+          body: JSON.stringify({{ email: email, website: form.website.value }})
+        }}).then(function (r) {{ return r.json().catch(function () {{ return {{}}; }}).then(function (d) {{ return {{ ok: r.ok, data: d }}; }}); }})
+          .then(function (res) {{
+            if (res.ok) {{
+              status.textContent = "Subscribed. You’ll get the next weekly digest.";
+              form.reset();
+            }} else {{
+              status.textContent = res.data && res.data.error ? res.data.error : "Something went wrong — please try again later.";
+            }}
+          }})
+          .catch(function () {{ status.textContent = "Network error — please try again later."; }});
+      }});
+    }})();
+    </script>
     <footer class="site-footer">
       <a href="/corrections.html">corrections</a> |
       <a href="/editorial.html">editorial</a> |

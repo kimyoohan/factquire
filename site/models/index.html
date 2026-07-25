@@ -54,6 +54,45 @@
 <section><h2>xai</h2><ul><li><a href="/models/xai/grok-4_20-0309-non-reasoning.html">grok-4.20-0309-non-reasoning</a> <span class="muted">ga</span></li><li><a href="/models/xai/grok-4_20-0309-reasoning.html">grok-4.20-0309-reasoning</a> <span class="muted">ga</span></li><li><a href="/models/xai/grok-4_20-multi-agent-0309.html">grok-4.20-multi-agent-0309</a> <span class="muted">ga</span></li><li><a href="/models/xai/grok-4_3.html">grok-4.3</a> <span class="muted">ga</span></li><li><a href="/models/xai/grok-4_5.html">grok-4.5</a> <span class="muted">ga</span></li><li><a href="/models/xai/grok-build-0_1.html">grok-build-0.1</a> <span class="muted">ga</span></li></ul></section>
 <section><h2>zhipu</h2><ul><li><a href="/models/zhipu/glm-4-32b-0414-128k.html">glm-4-32b-0414-128k</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-4_5.html">glm-4.5</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-4_5-air.html">glm-4.5-air</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-4_5-airx.html">glm-4.5-airx</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-4_5-x.html">glm-4.5-x</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-4_6.html">glm-4.6</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-4_7.html">glm-4.7</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-4_7-flashx.html">glm-4.7-flashx</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-5.html">glm-5</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-5-turbo.html">glm-5-turbo</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-5_1.html">glm-5.1</a> <span class="muted">ga</span></li><li><a href="/models/zhipu/glm-5_2.html">glm-5.2</a> <span class="muted">ga</span></li></ul></section>
     </main>
+    <section class="subscribe" id="subscribe">
+      <div class="subscribe-inner">
+        <strong>Price &amp; deprecation alerts</strong>
+        <p>One weekly email when any tracked model changes price or limits, or gets deprecated. Every change source-verified. No spam, unsubscribe anytime.</p>
+        <form id="subscribe-form" action="https://factquire-notify.pages.dev/subscribe" method="post">
+          <input type="email" name="email" required placeholder="you@company.com" aria-label="Email address">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true">
+          <button type="submit">Subscribe</button>
+        </form>
+        <p id="subscribe-status" role="status"></p>
+      </div>
+    </section>
+    <script>
+    (function () {
+      var form = document.getElementById("subscribe-form");
+      if (!form) return;
+      var status = document.getElementById("subscribe-status");
+      form.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var email = form.email.value.trim();
+        if (!email) return;
+        status.textContent = "Subscribing…";
+        fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: email, website: form.website.value })
+        }).then(function (r) { return r.json().catch(function () { return {}; }).then(function (d) { return { ok: r.ok, data: d }; }); })
+          .then(function (res) {
+            if (res.ok) {
+              status.textContent = "Subscribed. You’ll get the next weekly digest.";
+              form.reset();
+            } else {
+              status.textContent = res.data && res.data.error ? res.data.error : "Something went wrong — please try again later.";
+            }
+          })
+          .catch(function () { status.textContent = "Network error — please try again later."; });
+      });
+    })();
+    </script>
     <footer class="site-footer">
       <a href="/corrections.html">corrections</a> |
       <a href="/editorial.html">editorial</a> |

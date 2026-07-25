@@ -394,3 +394,62 @@ code {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* --- Weekly alerts subscribe band --- */
+.subscribe {
+  border-top: 1px solid #d8d8d8;
+  background: #f6f8fa;
+  padding: 28px 24px;
+  margin-top: 40px;
+}
+.subscribe-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscribe-inner strong {
+  font-size: 1.05rem;
+}
+.subscribe-inner p {
+  margin: 8px 0 14px;
+  color: #444;
+  font-size: 0.92rem;
+}
+#subscribe-form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#subscribe-form input[type="email"] {
+  padding: 9px 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  min-width: 260px;
+  font-size: 0.95rem;
+}
+#subscribe-form button {
+  padding: 9px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #1a5fb4;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+#subscribe-form button:hover {
+  background: #14487f;
+}
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+#subscribe-status {
+  min-height: 1.2em;
+  font-size: 0.88rem;
+  color: #1a5fb4;
+  margin-top: 10px;
+}
