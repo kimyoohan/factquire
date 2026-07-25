@@ -261,6 +261,48 @@ function diffModel(prev, curr) {
   return changes;
 }
 
+// Same canonicalization as scripts/logic_check.py canonical_model_key —
+// groups the same underlying model served by different providers.
+function canonicalKey(provider, modelId) {
+  let value = String(modelId).toLowerCase().replace("qwen-3", "qwen3").replace("qwen-2", "qwen2");
+  value = value.replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  let parts = value.split("-").filter((p) => p && !["openai", "accounts", "fireworks", "models"].includes(p));
+  if (parts.length && parts[0] === String(provider).toLowerCase()) parts = parts.slice(1);
+  value = parts.join("-");
+  value = value.replace(/^(openai-)+/, "").replace(/-fast$/, "");
+  return value;
+}
+
+function modelUrl(key, ref) {
+  const [provider, ...rest] = key.split("/");
+  const safe = (v) => v.replace(/[^a-zA-Z0-9_-]/g, "_");
+  return `https://factquire.com/models/${safe(provider)}/${safe(rest.join("/"))}.html${ref ? `?ref=${ref}` : ""}`;
+}
+
+// Cheapest other-provider host of the SAME canonical model. Never suggests a
+// different model — only "same model, cheaper host", which is a pure fact.
+function cheaperAlternative(targetKey, current, canonMap) {
+  const target = current[targetKey];
+  const tp = target && target.pricing;
+  if (!tp || tp.input_per_mtok == null || tp.output_per_mtok == null) return null;
+  const canon = canonicalKey(target.provider, target.model_id);
+  let best = null;
+  for (const key of canonMap[canon] || []) {
+    if (key === targetKey) continue;
+    const cand = current[key];
+    if (cand.provider === target.provider) continue;
+    const cp = cand.pricing;
+    if (!cp || cp.input_per_mtok == null || cp.output_per_mtok == null) continue;
+    const notWorse = cp.input_per_mtok <= tp.input_per_mtok && cp.output_per_mtok <= tp.output_per_mtok;
+    const strictlyBetter = cp.input_per_mtok < tp.input_per_mtok || cp.output_per_mtok < tp.output_per_mtok;
+    if (!notWorse || !strictlyBetter) continue;
+    if (!best || cp.input_per_mtok + cp.output_per_mtok < best.pricing.input_per_mtok + best.pricing.output_per_mtok) {
+      best = { key, pricing: cp };
+    }
+  }
+  return best;
+}
+
 function estimateMonthlyCost(model, volume) {
   if (!volume || !model.pricing) return null;
   const inP = model.pricing.input_per_mtok;
@@ -277,6 +319,12 @@ async function runDaily(env) {
 
   const current = {};
   for (const m of feed.models || []) current[`${m.provider}/${m.model_id}`] = m;
+
+  const canonMap = {};
+  for (const [key, m] of Object.entries(current)) {
+    const canon = canonicalKey(m.provider, m.model_id);
+    (canonMap[canon] = canonMap[canon] || []).push(key);
+  }
 
   const prevSnapshot = (await env.STATE.get("snapshot:models", "json")) || {};
   const changedModels = {};
@@ -298,11 +346,25 @@ async function runDaily(env) {
         const rows = changedModels[m]
           .map((c) => `<li>${c.label}: <s>${c.before ?? "—"}</s> → <b>${c.after ?? "—"}</b></li>`)
           .join("");
-        const cost = estimateMonthlyCost(current[m], (entry.volumes || {})[m]);
+        const volume = (entry.volumes || {})[m];
+        const cost = estimateMonthlyCost(current[m], volume);
         const costLine = cost != null ? `<p style="margin:4px 0;color:#444;">Your est. monthly cost for this model: <b>$${cost.toFixed(2)}</b></p>` : "";
-        const safe = m.replace(/[^a-zA-Z0-9_/-]/g, "_").replace("/", "/");
-        return `<h3 style="margin:14px 0 4px;font-size:15px;">${m}</h3><ul style="margin:4px 0;">${rows}</ul>${costLine}
-<p style="margin:4px 0;font-size:13px;"><a href="https://factquire.com/models/${m.split("/")[0]}/${encodeURIComponent(m.split("/").slice(1).join("/").replace(/[^a-zA-Z0-9_-]/g, "_"))}.html">source-verified details →</a></p>`;
+
+        // "Same model, cheaper host" — pure price fact, never a different model.
+        let recLine = "";
+        const alt = cheaperAlternative(m, current, canonMap);
+        if (alt) {
+          const tp = current[m].pricing;
+          const altCost = estimateMonthlyCost(current[alt.key], volume);
+          const saveTxt =
+            cost != null && altCost != null && cost > altCost
+              ? ` — you'd save ~<b>$${(cost - altCost).toFixed(2)}/mo</b> at your volume`
+              : "";
+          recLine = `<p style="margin:8px 0 4px;padding:8px 10px;background:#f2f7f2;border-radius:6px;font-size:13px;">💡 Same model, cheaper host: <b>${alt.key}</b> at $${alt.pricing.input_per_mtok}/1M in · $${alt.pricing.output_per_mtok}/1M out (vs $${tp.input_per_mtok} · $${tp.output_per_mtok})${saveTxt}. <a href="${modelUrl(alt.key, "alt-rec")}">compare →</a></p>`;
+        }
+
+        return `<h3 style="margin:14px 0 4px;font-size:15px;">${m}</h3><ul style="margin:4px 0;">${rows}</ul>${costLine}${recLine}
+<p style="margin:4px 0;font-size:13px;"><a href="${modelUrl(m, "alert")}">source-verified details →</a></p>`;
       });
 
       const html = `<div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:600px;margin:0 auto;padding:20px;color:#1c1c1c;">
