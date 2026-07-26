@@ -172,6 +172,7 @@ async function runBatch(env) {
 // ---------------------------------------------------------------------------
 
 const ALLOWED_ORIGINS = new Set(["https://factquire.com", "https://www.factquire.com"]);
+const JARADA_ORIGINS = new Set(["https://jarada.net", "https://www.jarada.net"]);
 const MAX_MODELS = 3;
 const MODEL_KEY_RE = /^[a-z0-9._-]+\/[A-Za-z0-9./:_-]{1,80}$/;
 const WATCHED_FIELDS = [
@@ -401,6 +402,39 @@ export default {
   },
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === "/subscribe-jarada") {
+      const origin = request.headers.get("Origin") || "";
+      const allowed = JARADA_ORIGINS.has(origin) ? origin : "https://jarada.net";
+      const headers = {
+        "Access-Control-Allow-Origin": allowed,
+        "Access-Control-Allow-Methods": "POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Content-Type": "application/json",
+      };
+      if (request.method === "OPTIONS") return new Response(null, { status: 204, headers });
+      if (request.method !== "POST") return new Response(JSON.stringify({ error: "POST only" }), { status: 405, headers });
+      let payload;
+      try {
+        payload = await request.json();
+      } catch {
+        return new Response(JSON.stringify({ error: "잘못된 요청입니다." }), { status: 400, headers });
+      }
+      if (payload.website) return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
+      const email = String(payload.email || "").trim().toLowerCase();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email) || email.length > 254) {
+        return new Response(JSON.stringify({ error: "올바른 이메일 주소를 입력해 주세요." }), { status: 400, headers });
+      }
+      if (!env.RESEND_API_KEY || !env.JARADA_AUDIENCE_ID) {
+        return new Response(JSON.stringify({ error: "아직 준비 중이에요 — 잠시 후 다시 시도해 주세요." }), { status: 503, headers });
+      }
+      const res = await fetch(`https://api.resend.com/audiences/${env.JARADA_AUDIENCE_ID}/contacts`, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, "Content-Type": "application/json", "User-Agent": UA },
+        body: JSON.stringify({ email, unsubscribed: false }),
+      });
+      if (res.ok || res.status === 409) return new Response(JSON.stringify({ ok: true }), { status: 200, headers });
+      return new Response(JSON.stringify({ error: "지금은 등록할 수 없어요 — 잠시 후 다시 시도해 주세요." }), { status: 502, headers });
+    }
     if (url.pathname === "/watchlist" && request.method === "OPTIONS") {
       return new Response(null, { status: 204, headers: corsHeaders(request.headers.get("Origin") || "") });
     }
