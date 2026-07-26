@@ -669,7 +669,7 @@ def build_watchlist_page(facts):
         </div>
         <p id="watchlist-status" role="status"></p>
       </form>
-      <p class="watch-note">Free — 3 models per email, checked daily, unsubscribe anytime. Data source: the same
+      <p class="watch-note">Free — up to 10 models per email, checked daily, unsubscribe anytime. Data source: the same
       <a href="/audit.html">audited</a> facts feed that powers this site.</p>
       <script>
       (function () {{
