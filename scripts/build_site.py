@@ -646,7 +646,7 @@ def build_watchlist_page(facts):
     model_keys = sorted(f"{entry.get('provider')}/{entry.get('model_id')}" for entry in facts)
     options = "\n".join(f'<option value="{escape(key)}"></option>' for key in model_keys)
     picker_rows = []
-    for index in range(1, 4):
+    for index in range(1, 11):
         picker_rows.append(f"""
       <div class="watch-row">
         <input list="model-keys" class="watch-model" id="watch-model-{index}" placeholder="{'provider/model-id (e.g. openai/gpt-5.6-terra)' if index == 1 else 'optional'}" aria-label="Model {index}">
@@ -654,7 +654,7 @@ def build_watchlist_page(facts):
         <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model {index} monthly output million tokens">
       </div>""")
     body = f"""      <h1>Free model watchlist</h1>
-      <p>Pick up to 3 models. Whenever a watched model's <strong>price, token limits, status, or deprecation date</strong>
+      <p>Pick up to 10 models. Whenever a watched model's <strong>price, token limits, status, or deprecation date</strong>
       changes in our source-verified data, you get an email within a day — with the provider's own quote backing the change.</p>
       <p>Optionally add your monthly volume (millions of tokens) and the alert includes your estimated monthly cost impact.</p>
       <datalist id="model-keys">
@@ -669,7 +669,7 @@ def build_watchlist_page(facts):
         </div>
         <p id="watchlist-status" role="status"></p>
       </form>
-      <p class="watch-note">Free tier: 3 models, daily checks, unsubscribe anytime. Data source: the same
+      <p class="watch-note">Free — 3 models per email, checked daily, unsubscribe anytime. Data source: the same
       <a href="/audit.html">audited</a> facts feed that powers this site.</p>
       <script>
       (function () {{

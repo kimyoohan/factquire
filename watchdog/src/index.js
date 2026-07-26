@@ -173,7 +173,7 @@ async function runBatch(env) {
 
 const ALLOWED_ORIGINS = new Set(["https://factquire.com", "https://www.factquire.com"]);
 const JARADA_ORIGINS = new Set(["https://jarada.net", "https://www.jarada.net"]);
-const MAX_MODELS = 3;
+const MAX_MODELS = 10;
 const MODEL_KEY_RE = /^[a-z0-9._-]+\/[A-Za-z0-9./:_-]{1,80}$/;
 const WATCHED_FIELDS = [
   ["pricing.input_per_mtok", "Input price /1M", (m) => m.pricing && m.pricing.input_per_mtok],

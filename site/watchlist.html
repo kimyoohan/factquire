@@ -37,7 +37,7 @@
     </header>
     <main>
       <h1>Free model watchlist</h1>
-      <p>Pick up to 3 models. Whenever a watched model's <strong>price, token limits, status, or deprecation date</strong>
+      <p>Pick up to 10 models. Whenever a watched model's <strong>price, token limits, status, or deprecation date</strong>
       changes in our source-verified data, you get an email within a day — with the provider's own quote backing the change.</p>
       <p>Optionally add your monthly volume (millions of tokens) and the alert includes your estimated monthly cost impact.</p>
       <datalist id="model-keys">
@@ -205,6 +205,41 @@
         <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 3 monthly input million tokens">
         <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 3 monthly output million tokens">
       </div>
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-4" placeholder="optional" aria-label="Model 4">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 4 monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 4 monthly output million tokens">
+      </div>
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-5" placeholder="optional" aria-label="Model 5">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 5 monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 5 monthly output million tokens">
+      </div>
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-6" placeholder="optional" aria-label="Model 6">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 6 monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 6 monthly output million tokens">
+      </div>
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-7" placeholder="optional" aria-label="Model 7">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 7 monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 7 monthly output million tokens">
+      </div>
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-8" placeholder="optional" aria-label="Model 8">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 8 monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 8 monthly output million tokens">
+      </div>
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-9" placeholder="optional" aria-label="Model 9">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 9 monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 9 monthly output million tokens">
+      </div>
+      <div class="watch-row">
+        <input list="model-keys" class="watch-model" id="watch-model-10" placeholder="optional" aria-label="Model 10">
+        <input type="number" class="watch-vol-in" min="0" step="0.1" placeholder="input Mtok/mo" aria-label="Model 10 monthly input million tokens">
+        <input type="number" class="watch-vol-out" min="0" step="0.1" placeholder="output Mtok/mo" aria-label="Model 10 monthly output million tokens">
+      </div>
         <div class="watch-row">
           <input type="email" id="watch-email" required placeholder="you@company.com" aria-label="Email address">
           <input type="text" id="watch-hp" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -212,7 +247,7 @@
         </div>
         <p id="watchlist-status" role="status"></p>
       </form>
-      <p class="watch-note">Free tier: 3 models, daily checks, unsubscribe anytime. Data source: the same
+      <p class="watch-note">Free — 3 models per email, checked daily, unsubscribe anytime. Data source: the same
       <a href="/audit.html">audited</a> facts feed that powers this site.</p>
       <script>
       (function () {
